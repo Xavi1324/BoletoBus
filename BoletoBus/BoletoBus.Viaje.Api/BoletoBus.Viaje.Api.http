@@ -1,0 +1,6 @@
+@BoletoBus.Viaje.Api_HostAddress = http://localhost:5161
+
+GET {{BoletoBus.Viaje.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
