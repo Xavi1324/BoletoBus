@@ -1,0 +1,12 @@
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.ReservaDetalle.Domain\bin\Debug\net8.0\BoletoBus.ReservaDetalle.Domain.deps.json
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.ReservaDetalle.Domain\bin\Debug\net8.0\BoletoBus.ReservaDetalle.Domain.dll
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.ReservaDetalle.Domain\bin\Debug\net8.0\BoletoBus.ReservaDetalle.Domain.pdb
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.ReservaDetalle.Domain\obj\Debug\net8.0\BoletoBus.ReservaDetalle.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.ReservaDetalle.Domain\obj\Debug\net8.0\BoletoBus.ReservaDetalle.Domain.AssemblyInfoInputs.cache
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.ReservaDetalle.Domain\obj\Debug\net8.0\BoletoBus.ReservaDetalle.Domain.AssemblyInfo.cs
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.ReservaDetalle.Domain\obj\Debug\net8.0\BoletoBus.ReservaDetalle.Domain.csproj.CoreCompileInputs.cache
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.ReservaDetalle.Domain\obj\Debug\net8.0\BoletoBus.ReservaDetalle.Domain.sourcelink.json
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.ReservaDetalle.Domain\obj\Debug\net8.0\BoletoBus.ReservaDetalle.Domain.dll
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.ReservaDetalle.Domain\obj\Debug\net8.0\refint\BoletoBus.ReservaDetalle.Domain.dll
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.ReservaDetalle.Domain\obj\Debug\net8.0\BoletoBus.ReservaDetalle.Domain.pdb
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.ReservaDetalle.Domain\obj\Debug\net8.0\ref\BoletoBus.ReservaDetalle.Domain.dll

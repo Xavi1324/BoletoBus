@@ -1,0 +1,5 @@
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Reserva.Application\obj\Debug\net8.0\BoletoBus.Reserva.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Reserva.Application\obj\Debug\net8.0\BoletoBus.Reserva.Application.AssemblyInfoInputs.cache
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Reserva.Application\obj\Debug\net8.0\BoletoBus.Reserva.Application.AssemblyInfo.cs
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Reserva.Application\obj\Debug\net8.0\BoletoBus.Reserva.Application.csproj.CoreCompileInputs.cache
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Reserva.Application\obj\Debug\net8.0\BoletoBus.Reserva.Application.sourcelink.json

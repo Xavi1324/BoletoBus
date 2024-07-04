@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BoletoBus.Ruta.Api.props" />
+</Project>

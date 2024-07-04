@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BoletoBus.Vieaje.Persistence")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e7ac45046246d51d341cd919859a64cc7add98e2")]
 [assembly: System.Reflection.AssemblyProductAttribute("BoletoBus.Vieaje.Persistence")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BoletoBus.Vieaje.Persistence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

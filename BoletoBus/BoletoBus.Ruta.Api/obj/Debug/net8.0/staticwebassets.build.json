@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "OTCsVy8tHbvdASNAF9/YZjGXQDRmuiC01jVpdNlD8Yw=",
+  "Source": "BoletoBus.Ruta.Api",
+  "BasePath": "_content/BoletoBus.Ruta.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,12 @@
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Ruta.Application\bin\Debug\net8.0\BoletoBus.Ruta.Application.deps.json
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Ruta.Application\bin\Debug\net8.0\BoletoBus.Ruta.Application.dll
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Ruta.Application\bin\Debug\net8.0\BoletoBus.Ruta.Application.pdb
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Ruta.Application\obj\Debug\net8.0\BoletoBus.Ruta.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Ruta.Application\obj\Debug\net8.0\BoletoBus.Ruta.Application.AssemblyInfoInputs.cache
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Ruta.Application\obj\Debug\net8.0\BoletoBus.Ruta.Application.AssemblyInfo.cs
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Ruta.Application\obj\Debug\net8.0\BoletoBus.Ruta.Application.csproj.CoreCompileInputs.cache
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Ruta.Application\obj\Debug\net8.0\BoletoBus.Ruta.Application.sourcelink.json
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Ruta.Application\obj\Debug\net8.0\BoletoBus.Ruta.Application.dll
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Ruta.Application\obj\Debug\net8.0\refint\BoletoBus.Ruta.Application.dll
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Ruta.Application\obj\Debug\net8.0\BoletoBus.Ruta.Application.pdb
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Ruta.Application\obj\Debug\net8.0\ref\BoletoBus.Ruta.Application.dll

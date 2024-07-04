@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\BoletoBus.Ruta.Api.props" />
+</Project>

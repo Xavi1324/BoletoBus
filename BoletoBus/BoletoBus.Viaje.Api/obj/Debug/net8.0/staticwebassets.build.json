@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Yff+TKJAgvzgaDpSZH4WVNmP7MuViZ/8E9Xnaoy49Fk=",
+  "Source": "BoletoBus.Viaje.Api",
+  "BasePath": "_content/BoletoBus.Viaje.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

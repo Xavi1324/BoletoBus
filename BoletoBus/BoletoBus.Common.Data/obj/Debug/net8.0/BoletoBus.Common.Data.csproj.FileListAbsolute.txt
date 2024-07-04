@@ -9,3 +9,15 @@ C:\Users\xavie\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\ITLA\Cu
 C:\Users\xavie\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\ITLA\Cuarto cuatri\Programacion 2\BoletoBus\BoletoBus\BoletoBus.Common.Data\obj\Debug\net8.0\refint\BoletoBus.Common.Data.dll
 C:\Users\xavie\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\ITLA\Cuarto cuatri\Programacion 2\BoletoBus\BoletoBus\BoletoBus.Common.Data\obj\Debug\net8.0\BoletoBus.Common.Data.pdb
 C:\Users\xavie\OneDrive - Instituto Tecnológico de Las Américas (ITLA)\ITLA\Cuarto cuatri\Programacion 2\BoletoBus\BoletoBus\BoletoBus.Common.Data\obj\Debug\net8.0\ref\BoletoBus.Common.Data.dll
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Common.Data\bin\Debug\net8.0\BoletoBus.Common.Data.deps.json
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Common.Data\bin\Debug\net8.0\BoletoBus.Common.Data.dll
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Common.Data\bin\Debug\net8.0\BoletoBus.Common.Data.pdb
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Common.Data\obj\Debug\net8.0\BoletoBus.Common.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Common.Data\obj\Debug\net8.0\BoletoBus.Common.Data.AssemblyInfoInputs.cache
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Common.Data\obj\Debug\net8.0\BoletoBus.Common.Data.AssemblyInfo.cs
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Common.Data\obj\Debug\net8.0\BoletoBus.Common.Data.csproj.CoreCompileInputs.cache
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Common.Data\obj\Debug\net8.0\BoletoBus.Common.Data.sourcelink.json
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Common.Data\obj\Debug\net8.0\BoletoBus.Common.Data.dll
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Common.Data\obj\Debug\net8.0\refint\BoletoBus.Common.Data.dll
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Common.Data\obj\Debug\net8.0\BoletoBus.Common.Data.pdb
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Common.Data\obj\Debug\net8.0\ref\BoletoBus.Common.Data.dll

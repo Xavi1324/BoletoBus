@@ -1,0 +1,12 @@
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Ruta.Persistence\bin\Debug\net8.0\BoletoBus.Ruta.Persistence.deps.json
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Ruta.Persistence\bin\Debug\net8.0\BoletoBus.Ruta.Persistence.dll
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Ruta.Persistence\bin\Debug\net8.0\BoletoBus.Ruta.Persistence.pdb
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Ruta.Persistence\obj\Debug\net8.0\BoletoBus.Ruta.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Ruta.Persistence\obj\Debug\net8.0\BoletoBus.Ruta.Persistence.AssemblyInfoInputs.cache
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Ruta.Persistence\obj\Debug\net8.0\BoletoBus.Ruta.Persistence.AssemblyInfo.cs
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Ruta.Persistence\obj\Debug\net8.0\BoletoBus.Ruta.Persistence.csproj.CoreCompileInputs.cache
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Ruta.Persistence\obj\Debug\net8.0\BoletoBus.Ruta.Persistence.sourcelink.json
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Ruta.Persistence\obj\Debug\net8.0\BoletoBus.Ruta.Persistence.dll
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Ruta.Persistence\obj\Debug\net8.0\refint\BoletoBus.Ruta.Persistence.dll
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Ruta.Persistence\obj\Debug\net8.0\BoletoBus.Ruta.Persistence.pdb
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Ruta.Persistence\obj\Debug\net8.0\ref\BoletoBus.Ruta.Persistence.dll

@@ -1,82 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\xavie\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA\\Cuarto cuatri\\Programacion 2\\BoletoBus\\BoletoBus\\",
+  "WorkspaceRootPath": "C:\\Proyectos\\BoletoBus\\BoletoBus\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{143F65FC-51C9-4056-BF48-34257923D9A6}|BoletoBus.Reserva.Application\\BoletoBus.Reserva.Application.csproj|c:\\users\\xavie\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\itla\\cuarto cuatri\\programacion 2\\boletobus\\boletobus\\boletobus.reserva.application\\boletobus.reserva.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{143F65FC-51C9-4056-BF48-34257923D9A6}|BoletoBus.Reserva.Application\\BoletoBus.Reserva.Application.csproj|solutionrelative:boletobus.reserva.application\\boletobus.reserva.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F722D33-9B46-4274-9C1A-D299AA24AE71}|Boletobus.Infraestructure\\Boletobus.Infraestructure.csproj|c:\\users\\xavie\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\itla\\cuarto cuatri\\programacion 2\\boletobus\\boletobus\\boletobus.infraestructure\\boletobus.infraestructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{5F722D33-9B46-4274-9C1A-D299AA24AE71}|Boletobus.Infraestructure\\Boletobus.Infraestructure.csproj|solutionrelative:boletobus.infraestructure\\boletobus.infraestructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99E7ACDC-58C3-4008-A7CB-19110E485D7C}|BoletoBus.Common.Data\\BoletoBus.Common.Data.csproj|c:\\users\\xavie\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\itla\\cuarto cuatri\\programacion 2\\boletobus\\boletobus\\boletobus.common.data\\boletobus.common.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{99E7ACDC-58C3-4008-A7CB-19110E485D7C}|BoletoBus.Common.Data\\BoletoBus.Common.Data.csproj|solutionrelative:boletobus.common.data\\boletobus.common.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{143F65FC-51C9-4056-BF48-34257923D9A6}|BoletoBus.Reserva.Application\\BoletoBus.Reserva.Application.csproj|c:\\users\\xavie\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\itla\\cuarto cuatri\\programacion 2\\boletobus\\boletobus\\boletobus.reserva.application\\services\\reservaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{143F65FC-51C9-4056-BF48-34257923D9A6}|BoletoBus.Reserva.Application\\BoletoBus.Reserva.Application.csproj|solutionrelative:boletobus.reserva.application\\services\\reservaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{143F65FC-51C9-4056-BF48-34257923D9A6}|BoletoBus.Reserva.Application\\BoletoBus.Reserva.Application.csproj|c:\\users\\xavie\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\itla\\cuarto cuatri\\programacion 2\\boletobus\\boletobus\\boletobus.reserva.application\\interfaces\\ireservaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{143F65FC-51C9-4056-BF48-34257923D9A6}|BoletoBus.Reserva.Application\\BoletoBus.Reserva.Application.csproj|c:\\proyectos\\boletobus\\boletobus\\boletobus.reserva.application\\interfaces\\ireservaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{143F65FC-51C9-4056-BF48-34257923D9A6}|BoletoBus.Reserva.Application\\BoletoBus.Reserva.Application.csproj|solutionrelative:boletobus.reserva.application\\interfaces\\ireservaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{143F65FC-51C9-4056-BF48-34257923D9A6}|BoletoBus.Reserva.Application\\BoletoBus.Reserva.Application.csproj|c:\\users\\xavie\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\itla\\cuarto cuatri\\programacion 2\\boletobus\\boletobus\\boletobus.reserva.application\\base\\serviceresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{143F65FC-51C9-4056-BF48-34257923D9A6}|BoletoBus.Reserva.Application\\BoletoBus.Reserva.Application.csproj|solutionrelative:boletobus.reserva.application\\base\\serviceresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E4064E0-B9CD-4302-817A-F4D02AD716C8}|BoletoBus.Reserva.Persistence\\BoletoBus.Reserva.Persistence.csproj|c:\\proyectos\\boletobus\\boletobus\\boletobus.reserva.persistence\\repositories\\reservarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E4064E0-B9CD-4302-817A-F4D02AD716C8}|BoletoBus.Reserva.Persistence\\BoletoBus.Reserva.Persistence.csproj|solutionrelative:boletobus.reserva.persistence\\repositories\\reservarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{143F65FC-51C9-4056-BF48-34257923D9A6}|BoletoBus.Reserva.Application\\BoletoBus.Reserva.Application.csproj|c:\\users\\xavie\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\itla\\cuarto cuatri\\programacion 2\\boletobus\\boletobus\\boletobus.reserva.application\\dtos\\reservadtoadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{143F65FC-51C9-4056-BF48-34257923D9A6}|BoletoBus.Reserva.Application\\BoletoBus.Reserva.Application.csproj|solutionrelative:boletobus.reserva.application\\dtos\\reservadtoadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E4064E0-B9CD-4302-817A-F4D02AD716C8}|BoletoBus.Reserva.Persistence\\BoletoBus.Reserva.Persistence.csproj|c:\\proyectos\\boletobus\\boletobus\\boletobus.reserva.persistence\\models\\reserva\\reservabasemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E4064E0-B9CD-4302-817A-F4D02AD716C8}|BoletoBus.Reserva.Persistence\\BoletoBus.Reserva.Persistence.csproj|solutionrelative:boletobus.reserva.persistence\\models\\reserva\\reservabasemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{143F65FC-51C9-4056-BF48-34257923D9A6}|BoletoBus.Reserva.Application\\BoletoBus.Reserva.Application.csproj|c:\\users\\xavie\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\itla\\cuarto cuatri\\programacion 2\\boletobus\\boletobus\\boletobus.reserva.application\\exceptions\\reservaserviceexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{143F65FC-51C9-4056-BF48-34257923D9A6}|BoletoBus.Reserva.Application\\BoletoBus.Reserva.Application.csproj|solutionrelative:boletobus.reserva.application\\exceptions\\reservaserviceexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E4064E0-B9CD-4302-817A-F4D02AD716C8}|BoletoBus.Reserva.Persistence\\BoletoBus.Reserva.Persistence.csproj|c:\\proyectos\\boletobus\\boletobus\\boletobus.reserva.persistence\\models\\reserva\\reservadeletemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E4064E0-B9CD-4302-817A-F4D02AD716C8}|BoletoBus.Reserva.Persistence\\BoletoBus.Reserva.Persistence.csproj|solutionrelative:boletobus.reserva.persistence\\models\\reserva\\reservadeletemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{99E7ACDC-58C3-4008-A7CB-19110E485D7C}|BoletoBus.Common.Data\\BoletoBus.Common.Data.csproj|c:\\users\\xavie\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\itla\\cuarto cuatri\\programacion 2\\boletobus\\boletobus\\boletobus.common.data\\repository\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99E7ACDC-58C3-4008-A7CB-19110E485D7C}|BoletoBus.Common.Data\\BoletoBus.Common.Data.csproj|solutionrelative:boletobus.common.data\\repository\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E4064E0-B9CD-4302-817A-F4D02AD716C8}|BoletoBus.Reserva.Persistence\\BoletoBus.Reserva.Persistence.csproj|c:\\proyectos\\boletobus\\boletobus\\boletobus.reserva.persistence\\models\\reserva\\reservamodelaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E4064E0-B9CD-4302-817A-F4D02AD716C8}|BoletoBus.Reserva.Persistence\\BoletoBus.Reserva.Persistence.csproj|solutionrelative:boletobus.reserva.persistence\\models\\reserva\\reservamodelaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F722D33-9B46-4274-9C1A-D299AA24AE71}|Boletobus.Infraestructure\\Boletobus.Infraestructure.csproj|c:\\users\\xavie\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\itla\\cuarto cuatri\\programacion 2\\boletobus\\boletobus\\boletobus.infraestructure\\notification\\interfaces\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F722D33-9B46-4274-9C1A-D299AA24AE71}|Boletobus.Infraestructure\\Boletobus.Infraestructure.csproj|solutionrelative:boletobus.infraestructure\\notification\\interfaces\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E4064E0-B9CD-4302-817A-F4D02AD716C8}|BoletoBus.Reserva.Persistence\\BoletoBus.Reserva.Persistence.csproj|c:\\proyectos\\boletobus\\boletobus\\boletobus.reserva.persistence\\models\\reserva\\reservasavemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E4064E0-B9CD-4302-817A-F4D02AD716C8}|BoletoBus.Reserva.Persistence\\BoletoBus.Reserva.Persistence.csproj|solutionrelative:boletobus.reserva.persistence\\models\\reserva\\reservasavemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F722D33-9B46-4274-9C1A-D299AA24AE71}|Boletobus.Infraestructure\\Boletobus.Infraestructure.csproj|c:\\users\\xavie\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\itla\\cuarto cuatri\\programacion 2\\boletobus\\boletobus\\boletobus.infraestructure\\notification\\models\\whatsappmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F722D33-9B46-4274-9C1A-D299AA24AE71}|Boletobus.Infraestructure\\Boletobus.Infraestructure.csproj|solutionrelative:boletobus.infraestructure\\notification\\models\\whatsappmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E4064E0-B9CD-4302-817A-F4D02AD716C8}|BoletoBus.Reserva.Persistence\\BoletoBus.Reserva.Persistence.csproj|c:\\proyectos\\boletobus\\boletobus\\boletobus.reserva.persistence\\models\\reserva\\reservaupdatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E4064E0-B9CD-4302-817A-F4D02AD716C8}|BoletoBus.Reserva.Persistence\\BoletoBus.Reserva.Persistence.csproj|solutionrelative:boletobus.reserva.persistence\\models\\reserva\\reservaupdatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F722D33-9B46-4274-9C1A-D299AA24AE71}|Boletobus.Infraestructure\\Boletobus.Infraestructure.csproj|c:\\users\\xavie\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\itla\\cuarto cuatri\\programacion 2\\boletobus\\boletobus\\boletobus.infraestructure\\notification\\models\\emailmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F722D33-9B46-4274-9C1A-D299AA24AE71}|Boletobus.Infraestructure\\Boletobus.Infraestructure.csproj|solutionrelative:boletobus.infraestructure\\notification\\models\\emailmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7D52E167-62D7-41DE-9FAA-AC12FA5B5DA7}|BoletoBus.Vieaje.Application\\BoletoBus.Vieaje.Application.csproj|c:\\proyectos\\boletobus\\boletobus\\boletobus.vieaje.application\\interfaces\\iviajeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D52E167-62D7-41DE-9FAA-AC12FA5B5DA7}|BoletoBus.Vieaje.Application\\BoletoBus.Vieaje.Application.csproj|solutionrelative:boletobus.vieaje.application\\interfaces\\iviajeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F722D33-9B46-4274-9C1A-D299AA24AE71}|Boletobus.Infraestructure\\Boletobus.Infraestructure.csproj|c:\\users\\xavie\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\itla\\cuarto cuatri\\programacion 2\\boletobus\\boletobus\\boletobus.infraestructure\\notification\\services\\whatsappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F722D33-9B46-4274-9C1A-D299AA24AE71}|Boletobus.Infraestructure\\Boletobus.Infraestructure.csproj|solutionrelative:boletobus.infraestructure\\notification\\services\\whatsappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18950B33-A14F-43BE-A206-1C3ECFBA6EB5}|BoletoBus.ReservaDetalle.Application\\BoletoBus.ReservaDetalle.Application.csproj|c:\\proyectos\\boletobus\\boletobus\\boletobus.reservadetalle.application\\interfaces\\ireservadetalleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18950B33-A14F-43BE-A206-1C3ECFBA6EB5}|BoletoBus.ReservaDetalle.Application\\BoletoBus.ReservaDetalle.Application.csproj|solutionrelative:boletobus.reservadetalle.application\\interfaces\\ireservadetalleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F722D33-9B46-4274-9C1A-D299AA24AE71}|Boletobus.Infraestructure\\Boletobus.Infraestructure.csproj|c:\\users\\xavie\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\itla\\cuarto cuatri\\programacion 2\\boletobus\\boletobus\\boletobus.infraestructure\\notification\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F722D33-9B46-4274-9C1A-D299AA24AE71}|Boletobus.Infraestructure\\Boletobus.Infraestructure.csproj|solutionrelative:boletobus.infraestructure\\notification\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E4064E0-B9CD-4302-817A-F4D02AD716C8}|BoletoBus.Reserva.Persistence\\BoletoBus.Reserva.Persistence.csproj|c:\\proyectos\\boletobus\\boletobus\\boletobus.reserva.persistence\\context\\boletosbuscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E4064E0-B9CD-4302-817A-F4D02AD716C8}|BoletoBus.Reserva.Persistence\\BoletoBus.Reserva.Persistence.csproj|solutionrelative:boletobus.reserva.persistence\\context\\boletosbuscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F722D33-9B46-4274-9C1A-D299AA24AE71}|Boletobus.Infraestructure\\Boletobus.Infraestructure.csproj|c:\\users\\xavie\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\itla\\cuarto cuatri\\programacion 2\\boletobus\\boletobus\\boletobus.infraestructure\\logger\\interfaces\\iloggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F722D33-9B46-4274-9C1A-D299AA24AE71}|Boletobus.Infraestructure\\Boletobus.Infraestructure.csproj|solutionrelative:boletobus.infraestructure\\logger\\interfaces\\iloggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E4064E0-B9CD-4302-817A-F4D02AD716C8}|BoletoBus.Reserva.Persistence\\BoletoBus.Reserva.Persistence.csproj|c:\\proyectos\\boletobus\\boletobus\\boletobus.reserva.persistence\\boletobus.reserva.persistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6E4064E0-B9CD-4302-817A-F4D02AD716C8}|BoletoBus.Reserva.Persistence\\BoletoBus.Reserva.Persistence.csproj|solutionrelative:boletobus.reserva.persistence\\boletobus.reserva.persistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F722D33-9B46-4274-9C1A-D299AA24AE71}|Boletobus.Infraestructure\\Boletobus.Infraestructure.csproj|c:\\users\\xavie\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\itla\\cuarto cuatri\\programacion 2\\boletobus\\boletobus\\boletobus.infraestructure\\logger\\services\\loggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F722D33-9B46-4274-9C1A-D299AA24AE71}|Boletobus.Infraestructure\\Boletobus.Infraestructure.csproj|solutionrelative:boletobus.infraestructure\\logger\\services\\loggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99E7ACDC-58C3-4008-A7CB-19110E485D7C}|BoletoBus.Common.Data\\BoletoBus.Common.Data.csproj|c:\\users\\xavie\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\itla\\cuarto cuatri\\programacion 2\\boletobus\\boletobus\\boletobus.common.data\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99E7ACDC-58C3-4008-A7CB-19110E485D7C}|BoletoBus.Common.Data\\BoletoBus.Common.Data.csproj|solutionrelative:boletobus.common.data\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F722D33-9B46-4274-9C1A-D299AA24AE71}|Boletobus.Infraestructure\\Boletobus.Infraestructure.csproj|c:\\users\\xavie\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\itla\\cuarto cuatri\\programacion 2\\boletobus\\boletobus\\boletobus.infraestructure\\base\\notificationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F722D33-9B46-4274-9C1A-D299AA24AE71}|Boletobus.Infraestructure\\Boletobus.Infraestructure.csproj|solutionrelative:boletobus.infraestructure\\base\\notificationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99E7ACDC-58C3-4008-A7CB-19110E485D7C}|BoletoBus.Common.Data\\BoletoBus.Common.Data.csproj|c:\\users\\xavie\\onedrive - instituto tecnol\u00F3gico de las am\u00E9ricas (itla)\\itla\\cuarto cuatri\\programacion 2\\boletobus\\boletobus\\boletobus.common.data\\base\\auditentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99E7ACDC-58C3-4008-A7CB-19110E485D7C}|BoletoBus.Common.Data\\BoletoBus.Common.Data.csproj|solutionrelative:boletobus.common.data\\base\\auditentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19185353-9EB7-4F91-AD84-B7FFB46CFD39}|BoletoBus.Reserva.Domain\\BoletoBus.Reserva.Domain.csproj|c:\\proyectos\\boletobus\\boletobus\\boletobus.reserva.domain\\interfaces\\ireservadetallerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19185353-9EB7-4F91-AD84-B7FFB46CFD39}|BoletoBus.Reserva.Domain\\BoletoBus.Reserva.Domain.csproj|solutionrelative:boletobus.reserva.domain\\interfaces\\ireservadetallerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,252 +58,163 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BoletoBus.Common.Data.csproj",
-              "DocumentMoniker": "C:\\Users\\xavie\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA\\Cuarto cuatri\\Programacion 2\\BoletoBus\\BoletoBus\\BoletoBus.Common.Data\\BoletoBus.Common.Data.csproj",
-              "RelativeDocumentMoniker": "BoletoBus.Common.Data\\BoletoBus.Common.Data.csproj",
-              "ToolTip": "C:\\Users\\xavie\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA\\Cuarto cuatri\\Programacion 2\\BoletoBus\\BoletoBus\\BoletoBus.Common.Data\\BoletoBus.Common.Data.csproj",
-              "RelativeToolTip": "BoletoBus.Common.Data\\BoletoBus.Common.Data.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-29T01:43:26.896Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BoletoBus.Reserva.Application",
-              "DocumentMoniker": "C:\\Users\\xavie\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA\\Cuarto cuatri\\Programacion 2\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Application\\BoletoBus.Reserva.Application.csproj",
-              "RelativeDocumentMoniker": "BoletoBus.Reserva.Application\\BoletoBus.Reserva.Application.csproj",
-              "ToolTip": "C:\\Users\\xavie\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA\\Cuarto cuatri\\Programacion 2\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Application\\BoletoBus.Reserva.Application.csproj",
-              "RelativeToolTip": "BoletoBus.Reserva.Application\\BoletoBus.Reserva.Application.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-03T02:07:03.031Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ReservaService.cs",
-              "DocumentMoniker": "C:\\Users\\xavie\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA\\Cuarto cuatri\\Programacion 2\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Application\\Services\\ReservaService.cs",
-              "RelativeDocumentMoniker": "BoletoBus.Reserva.Application\\Services\\ReservaService.cs",
-              "ToolTip": "C:\\Users\\xavie\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA\\Cuarto cuatri\\Programacion 2\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Application\\Services\\ReservaService.cs",
-              "RelativeToolTip": "BoletoBus.Reserva.Application\\Services\\ReservaService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T02:26:20.319Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Boletobus.Infraestructure.csproj",
-              "DocumentMoniker": "C:\\Users\\xavie\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA\\Cuarto cuatri\\Programacion 2\\BoletoBus\\BoletoBus\\Boletobus.Infraestructure\\Boletobus.Infraestructure.csproj",
-              "RelativeDocumentMoniker": "Boletobus.Infraestructure\\Boletobus.Infraestructure.csproj",
-              "ToolTip": "C:\\Users\\xavie\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA\\Cuarto cuatri\\Programacion 2\\BoletoBus\\BoletoBus\\Boletobus.Infraestructure\\Boletobus.Infraestructure.csproj",
-              "RelativeToolTip": "Boletobus.Infraestructure\\Boletobus.Infraestructure.csproj",
+              "DocumentIndex": 6,
+              "Title": "ReservaUpdateModel.cs",
+              "DocumentMoniker": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Persistence\\Models\\Reserva\\ReservaUpdateModel.cs",
+              "RelativeDocumentMoniker": "BoletoBus.Reserva.Persistence\\Models\\Reserva\\ReservaUpdateModel.cs",
+              "ToolTip": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Persistence\\Models\\Reserva\\ReservaUpdateModel.cs",
+              "RelativeToolTip": "BoletoBus.Reserva.Persistence\\Models\\Reserva\\ReservaUpdateModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-29T14:09:23.997Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IReservaService.cs",
-              "DocumentMoniker": "C:\\Users\\xavie\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA\\Cuarto cuatri\\Programacion 2\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Application\\Interfaces\\IReservaService.cs",
-              "RelativeDocumentMoniker": "BoletoBus.Reserva.Application\\Interfaces\\IReservaService.cs",
-              "ToolTip": "C:\\Users\\xavie\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA\\Cuarto cuatri\\Programacion 2\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Application\\Interfaces\\IReservaService.cs",
-              "RelativeToolTip": "BoletoBus.Reserva.Application\\Interfaces\\IReservaService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T02:23:29.157Z",
+              "WhenOpened": "2024-07-04T01:50:18.605Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ServiceResult.cs",
-              "DocumentMoniker": "C:\\Users\\xavie\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA\\Cuarto cuatri\\Programacion 2\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Application\\Base\\ServiceResult.cs",
-              "RelativeDocumentMoniker": "BoletoBus.Reserva.Application\\Base\\ServiceResult.cs",
-              "ToolTip": "C:\\Users\\xavie\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA\\Cuarto cuatri\\Programacion 2\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Application\\Base\\ServiceResult.cs",
-              "RelativeToolTip": "BoletoBus.Reserva.Application\\Base\\ServiceResult.cs",
+              "Title": "ReservaSaveModel.cs",
+              "DocumentMoniker": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Persistence\\Models\\Reserva\\ReservaSaveModel.cs",
+              "RelativeDocumentMoniker": "BoletoBus.Reserva.Persistence\\Models\\Reserva\\ReservaSaveModel.cs",
+              "ToolTip": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Persistence\\Models\\Reserva\\ReservaSaveModel.cs",
+              "RelativeToolTip": "BoletoBus.Reserva.Persistence\\Models\\Reserva\\ReservaSaveModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T02:08:15.655Z",
+              "WhenOpened": "2024-07-04T01:50:14.872Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ReservaDtoAdd.cs",
-              "DocumentMoniker": "C:\\Users\\xavie\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA\\Cuarto cuatri\\Programacion 2\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Application\\Dtos\\ReservaDtoAdd.cs",
-              "RelativeDocumentMoniker": "BoletoBus.Reserva.Application\\Dtos\\ReservaDtoAdd.cs",
-              "ToolTip": "C:\\Users\\xavie\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA\\Cuarto cuatri\\Programacion 2\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Application\\Dtos\\ReservaDtoAdd.cs",
-              "RelativeToolTip": "BoletoBus.Reserva.Application\\Dtos\\ReservaDtoAdd.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAfAAAA",
+              "DocumentIndex": 4,
+              "Title": "ReservaModelAccess.cs",
+              "DocumentMoniker": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Persistence\\Models\\Reserva\\ReservaModelAccess.cs",
+              "RelativeDocumentMoniker": "BoletoBus.Reserva.Persistence\\Models\\Reserva\\ReservaModelAccess.cs",
+              "ToolTip": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Persistence\\Models\\Reserva\\ReservaModelAccess.cs",
+              "RelativeToolTip": "BoletoBus.Reserva.Persistence\\Models\\Reserva\\ReservaModelAccess.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T02:16:41.621Z",
+              "WhenOpened": "2024-07-04T01:50:11.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReservaDeleteModel.cs",
+              "DocumentMoniker": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Persistence\\Models\\Reserva\\ReservaDeleteModel.cs",
+              "RelativeDocumentMoniker": "BoletoBus.Reserva.Persistence\\Models\\Reserva\\ReservaDeleteModel.cs",
+              "ToolTip": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Persistence\\Models\\Reserva\\ReservaDeleteModel.cs",
+              "RelativeToolTip": "BoletoBus.Reserva.Persistence\\Models\\Reserva\\ReservaDeleteModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T01:50:06.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReservaBaseModel.cs",
+              "DocumentMoniker": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Persistence\\Models\\Reserva\\ReservaBaseModel.cs",
+              "RelativeDocumentMoniker": "BoletoBus.Reserva.Persistence\\Models\\Reserva\\ReservaBaseModel.cs",
+              "ToolTip": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Persistence\\Models\\Reserva\\ReservaBaseModel.cs",
+              "RelativeToolTip": "BoletoBus.Reserva.Persistence\\Models\\Reserva\\ReservaBaseModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T01:49:58.464Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "ReservaServiceException.cs",
-              "DocumentMoniker": "C:\\Users\\xavie\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA\\Cuarto cuatri\\Programacion 2\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Application\\Exceptions\\ReservaServiceException.cs",
-              "RelativeDocumentMoniker": "BoletoBus.Reserva.Application\\Exceptions\\ReservaServiceException.cs",
-              "ToolTip": "C:\\Users\\xavie\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA\\Cuarto cuatri\\Programacion 2\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Application\\Exceptions\\ReservaServiceException.cs",
-              "RelativeToolTip": "BoletoBus.Reserva.Application\\Exceptions\\ReservaServiceException.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA0AAAA",
+              "Title": "IViajeService.cs",
+              "DocumentMoniker": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Vieaje.Application\\Interfaces\\IViajeService.cs",
+              "RelativeDocumentMoniker": "BoletoBus.Vieaje.Application\\Interfaces\\IViajeService.cs",
+              "ToolTip": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Vieaje.Application\\Interfaces\\IViajeService.cs",
+              "RelativeToolTip": "BoletoBus.Vieaje.Application\\Interfaces\\IViajeService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T02:18:42.032Z",
+              "WhenOpened": "2024-07-04T01:46:18.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IReservaService.cs",
+              "DocumentMoniker": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Application\\Interfaces\\IReservaService.cs",
+              "RelativeDocumentMoniker": "BoletoBus.Reserva.Application\\Interfaces\\IReservaService.cs",
+              "ToolTip": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Application\\Interfaces\\IReservaService.cs",
+              "RelativeToolTip": "BoletoBus.Reserva.Application\\Interfaces\\IReservaService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T01:46:14.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReservaRepository.cs",
+              "DocumentMoniker": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Persistence\\Repositories\\ReservaRepository.cs",
+              "RelativeDocumentMoniker": "BoletoBus.Reserva.Persistence\\Repositories\\ReservaRepository.cs",
+              "ToolTip": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Persistence\\Repositories\\ReservaRepository.cs",
+              "RelativeToolTip": "BoletoBus.Reserva.Persistence\\Repositories\\ReservaRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T01:09:16.046Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "IBaseRepository.cs",
-              "DocumentMoniker": "C:\\Users\\xavie\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA\\Cuarto cuatri\\Programacion 2\\BoletoBus\\BoletoBus\\BoletoBus.Common.Data\\Repository\\IBaseRepository.cs",
-              "RelativeDocumentMoniker": "BoletoBus.Common.Data\\Repository\\IBaseRepository.cs",
-              "ToolTip": "C:\\Users\\xavie\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA\\Cuarto cuatri\\Programacion 2\\BoletoBus\\BoletoBus\\BoletoBus.Common.Data\\Repository\\IBaseRepository.cs",
-              "RelativeToolTip": "BoletoBus.Common.Data\\Repository\\IBaseRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAvAAAA",
+              "Title": "IReservaDetalleService.cs",
+              "DocumentMoniker": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.ReservaDetalle.Application\\Interfaces\\IReservaDetalleService.cs",
+              "RelativeDocumentMoniker": "BoletoBus.ReservaDetalle.Application\\Interfaces\\IReservaDetalleService.cs",
+              "ToolTip": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.ReservaDetalle.Application\\Interfaces\\IReservaDetalleService.cs",
+              "RelativeToolTip": "BoletoBus.ReservaDetalle.Application\\Interfaces\\IReservaDetalleService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T13:48:25.494Z",
+              "WhenOpened": "2024-07-04T01:46:16.013Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "INotificationService.cs",
-              "DocumentMoniker": "C:\\Users\\xavie\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA\\Cuarto cuatri\\Programacion 2\\BoletoBus\\BoletoBus\\Boletobus.Infraestructure\\Notification\\Interfaces\\INotificationService.cs",
-              "RelativeDocumentMoniker": "Boletobus.Infraestructure\\Notification\\Interfaces\\INotificationService.cs",
-              "ToolTip": "C:\\Users\\xavie\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA\\Cuarto cuatri\\Programacion 2\\BoletoBus\\BoletoBus\\Boletobus.Infraestructure\\Notification\\Interfaces\\INotificationService.cs",
-              "RelativeToolTip": "Boletobus.Infraestructure\\Notification\\Interfaces\\INotificationService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Title": "BoletosBusContext.cs",
+              "DocumentMoniker": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Persistence\\Context\\BoletosBusContext.cs",
+              "RelativeDocumentMoniker": "BoletoBus.Reserva.Persistence\\Context\\BoletosBusContext.cs",
+              "ToolTip": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Persistence\\Context\\BoletosBusContext.cs",
+              "RelativeToolTip": "BoletoBus.Reserva.Persistence\\Context\\BoletosBusContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T14:25:52.562Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "EmailModel.cs",
-              "DocumentMoniker": "C:\\Users\\xavie\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA\\Cuarto cuatri\\Programacion 2\\BoletoBus\\BoletoBus\\Boletobus.Infraestructure\\Notification\\Models\\EmailModel.cs",
-              "RelativeDocumentMoniker": "Boletobus.Infraestructure\\Notification\\Models\\EmailModel.cs",
-              "ToolTip": "C:\\Users\\xavie\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA\\Cuarto cuatri\\Programacion 2\\BoletoBus\\BoletoBus\\Boletobus.Infraestructure\\Notification\\Models\\EmailModel.cs",
-              "RelativeToolTip": "Boletobus.Infraestructure\\Notification\\Models\\EmailModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T01:05:32.541Z",
+              "WhenOpened": "2024-07-04T01:07:37.978Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "WhatsAppModel.cs",
-              "DocumentMoniker": "C:\\Users\\xavie\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA\\Cuarto cuatri\\Programacion 2\\BoletoBus\\BoletoBus\\Boletobus.Infraestructure\\Notification\\Models\\WhatsAppModel.cs",
-              "RelativeDocumentMoniker": "Boletobus.Infraestructure\\Notification\\Models\\WhatsAppModel.cs",
-              "ToolTip": "C:\\Users\\xavie\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA\\Cuarto cuatri\\Programacion 2\\BoletoBus\\BoletoBus\\Boletobus.Infraestructure\\Notification\\Models\\WhatsAppModel.cs",
-              "RelativeToolTip": "Boletobus.Infraestructure\\Notification\\Models\\WhatsAppModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T14:32:32.226Z",
+              "Title": "BoletoBus.Reserva.Persistence",
+              "DocumentMoniker": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Persistence\\BoletoBus.Reserva.Persistence.csproj",
+              "RelativeDocumentMoniker": "BoletoBus.Reserva.Persistence\\BoletoBus.Reserva.Persistence.csproj",
+              "ToolTip": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Persistence\\BoletoBus.Reserva.Persistence.csproj",
+              "RelativeToolTip": "BoletoBus.Reserva.Persistence\\BoletoBus.Reserva.Persistence.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-04T01:04:04.107Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "WhatsAppService.cs",
-              "DocumentMoniker": "C:\\Users\\xavie\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA\\Cuarto cuatri\\Programacion 2\\BoletoBus\\BoletoBus\\Boletobus.Infraestructure\\Notification\\Services\\WhatsAppService.cs",
-              "RelativeDocumentMoniker": "Boletobus.Infraestructure\\Notification\\Services\\WhatsAppService.cs",
-              "ToolTip": "C:\\Users\\xavie\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA\\Cuarto cuatri\\Programacion 2\\BoletoBus\\BoletoBus\\Boletobus.Infraestructure\\Notification\\Services\\WhatsAppService.cs",
-              "RelativeToolTip": "Boletobus.Infraestructure\\Notification\\Services\\WhatsAppService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T14:32:44.373Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "BaseEntity.cs",
-              "DocumentMoniker": "C:\\Users\\xavie\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA\\Cuarto cuatri\\Programacion 2\\BoletoBus\\BoletoBus\\BoletoBus.Common.Data\\Base\\BaseEntity.cs",
-              "RelativeDocumentMoniker": "BoletoBus.Common.Data\\Base\\BaseEntity.cs",
-              "ToolTip": "C:\\Users\\xavie\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA\\Cuarto cuatri\\Programacion 2\\BoletoBus\\BoletoBus\\BoletoBus.Common.Data\\Base\\BaseEntity.cs",
-              "RelativeToolTip": "BoletoBus.Common.Data\\Base\\BaseEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T01:44:25.855Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ILoggerService.cs",
-              "DocumentMoniker": "C:\\Users\\xavie\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA\\Cuarto cuatri\\Programacion 2\\BoletoBus\\BoletoBus\\Boletobus.Infraestructure\\Logger\\Interfaces\\ILoggerService.cs",
-              "RelativeDocumentMoniker": "Boletobus.Infraestructure\\Logger\\Interfaces\\ILoggerService.cs",
-              "ToolTip": "C:\\Users\\xavie\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA\\Cuarto cuatri\\Programacion 2\\BoletoBus\\BoletoBus\\Boletobus.Infraestructure\\Logger\\Interfaces\\ILoggerService.cs",
-              "RelativeToolTip": "Boletobus.Infraestructure\\Logger\\Interfaces\\ILoggerService.cs",
+              "DocumentIndex": 11,
+              "Title": "IReservaDetalleRepository.cs",
+              "DocumentMoniker": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Domain\\Interfaces\\IReservaDetalleRepository.cs",
+              "RelativeDocumentMoniker": "BoletoBus.Reserva.Domain\\Interfaces\\IReservaDetalleRepository.cs",
+              "ToolTip": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Domain\\Interfaces\\IReservaDetalleRepository.cs",
+              "RelativeToolTip": "BoletoBus.Reserva.Domain\\Interfaces\\IReservaDetalleRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T14:16:32.456Z",
+              "WhenOpened": "2024-07-04T00:54:33.816Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "LoggerService.cs",
-              "DocumentMoniker": "C:\\Users\\xavie\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA\\Cuarto cuatri\\Programacion 2\\BoletoBus\\BoletoBus\\Boletobus.Infraestructure\\Logger\\Services\\LoggerService.cs",
-              "RelativeDocumentMoniker": "Boletobus.Infraestructure\\Logger\\Services\\LoggerService.cs",
-              "ToolTip": "C:\\Users\\xavie\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA\\Cuarto cuatri\\Programacion 2\\BoletoBus\\BoletoBus\\Boletobus.Infraestructure\\Logger\\Services\\LoggerService.cs",
-              "RelativeToolTip": "Boletobus.Infraestructure\\Logger\\Services\\LoggerService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T14:24:09.787Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "AuditEntity.cs",
-              "DocumentMoniker": "C:\\Users\\xavie\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA\\Cuarto cuatri\\Programacion 2\\BoletoBus\\BoletoBus\\BoletoBus.Common.Data\\Base\\AuditEntity.cs",
-              "RelativeDocumentMoniker": "BoletoBus.Common.Data\\Base\\AuditEntity.cs",
-              "ToolTip": "C:\\Users\\xavie\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA\\Cuarto cuatri\\Programacion 2\\BoletoBus\\BoletoBus\\BoletoBus.Common.Data\\Base\\AuditEntity.cs",
-              "RelativeToolTip": "BoletoBus.Common.Data\\Base\\AuditEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T13:16:49.492Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "EmailService.cs",
-              "DocumentMoniker": "C:\\Users\\xavie\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA\\Cuarto cuatri\\Programacion 2\\BoletoBus\\BoletoBus\\Boletobus.Infraestructure\\Notification\\Services\\EmailService.cs",
-              "RelativeDocumentMoniker": "Boletobus.Infraestructure\\Notification\\Services\\EmailService.cs",
-              "ToolTip": "C:\\Users\\xavie\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA\\Cuarto cuatri\\Programacion 2\\BoletoBus\\BoletoBus\\Boletobus.Infraestructure\\Notification\\Services\\EmailService.cs",
-              "RelativeToolTip": "Boletobus.Infraestructure\\Notification\\Services\\EmailService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T01:05:33.914Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "NotificationResult.cs",
-              "DocumentMoniker": "C:\\Users\\xavie\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA\\Cuarto cuatri\\Programacion 2\\BoletoBus\\BoletoBus\\Boletobus.Infraestructure\\Base\\NotificationResult.cs",
-              "RelativeDocumentMoniker": "Boletobus.Infraestructure\\Base\\NotificationResult.cs",
-              "ToolTip": "C:\\Users\\xavie\\OneDrive - Instituto Tecnol\u00F3gico de Las Am\u00E9ricas (ITLA)\\ITLA\\Cuarto cuatri\\Programacion 2\\BoletoBus\\BoletoBus\\Boletobus.Infraestructure\\Base\\NotificationResult.cs",
-              "RelativeToolTip": "Boletobus.Infraestructure\\Base\\NotificationResult.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T14:12:47.839Z"
             }
           ]
         }

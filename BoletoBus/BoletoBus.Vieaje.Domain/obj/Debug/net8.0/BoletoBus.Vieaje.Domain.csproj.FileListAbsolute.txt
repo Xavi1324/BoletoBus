@@ -1,0 +1,12 @@
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Vieaje.Domain\bin\Debug\net8.0\BoletoBus.Vieaje.Domain.deps.json
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Vieaje.Domain\bin\Debug\net8.0\BoletoBus.Vieaje.Domain.dll
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Vieaje.Domain\bin\Debug\net8.0\BoletoBus.Vieaje.Domain.pdb
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Vieaje.Domain\obj\Debug\net8.0\BoletoBus.Vieaje.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Vieaje.Domain\obj\Debug\net8.0\BoletoBus.Vieaje.Domain.AssemblyInfoInputs.cache
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Vieaje.Domain\obj\Debug\net8.0\BoletoBus.Vieaje.Domain.AssemblyInfo.cs
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Vieaje.Domain\obj\Debug\net8.0\BoletoBus.Vieaje.Domain.csproj.CoreCompileInputs.cache
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Vieaje.Domain\obj\Debug\net8.0\BoletoBus.Vieaje.Domain.sourcelink.json
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Vieaje.Domain\obj\Debug\net8.0\BoletoBus.Vieaje.Domain.dll
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Vieaje.Domain\obj\Debug\net8.0\refint\BoletoBus.Vieaje.Domain.dll
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Vieaje.Domain\obj\Debug\net8.0\BoletoBus.Vieaje.Domain.pdb
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Vieaje.Domain\obj\Debug\net8.0\ref\BoletoBus.Vieaje.Domain.dll

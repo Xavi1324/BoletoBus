@@ -1,0 +1,12 @@
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.ReservaDetalle.Persistence\bin\Debug\net8.0\BoletoBus.ReservaDetalle.Persistence.deps.json
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.ReservaDetalle.Persistence\bin\Debug\net8.0\BoletoBus.ReservaDetalle.Persistence.dll
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.ReservaDetalle.Persistence\bin\Debug\net8.0\BoletoBus.ReservaDetalle.Persistence.pdb
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.ReservaDetalle.Persistence\obj\Debug\net8.0\BoletoBus.ReservaDetalle.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.ReservaDetalle.Persistence\obj\Debug\net8.0\BoletoBus.ReservaDetalle.Persistence.AssemblyInfoInputs.cache
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.ReservaDetalle.Persistence\obj\Debug\net8.0\BoletoBus.ReservaDetalle.Persistence.AssemblyInfo.cs
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.ReservaDetalle.Persistence\obj\Debug\net8.0\BoletoBus.ReservaDetalle.Persistence.csproj.CoreCompileInputs.cache
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.ReservaDetalle.Persistence\obj\Debug\net8.0\BoletoBus.ReservaDetalle.Persistence.sourcelink.json
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.ReservaDetalle.Persistence\obj\Debug\net8.0\BoletoBus.ReservaDetalle.Persistence.dll
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.ReservaDetalle.Persistence\obj\Debug\net8.0\refint\BoletoBus.ReservaDetalle.Persistence.dll
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.ReservaDetalle.Persistence\obj\Debug\net8.0\BoletoBus.ReservaDetalle.Persistence.pdb
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.ReservaDetalle.Persistence\obj\Debug\net8.0\ref\BoletoBus.ReservaDetalle.Persistence.dll

@@ -1,0 +1,12 @@
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Vieaje.Persistence\bin\Debug\net8.0\BoletoBus.Vieaje.Persistence.deps.json
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Vieaje.Persistence\bin\Debug\net8.0\BoletoBus.Vieaje.Persistence.dll
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Vieaje.Persistence\bin\Debug\net8.0\BoletoBus.Vieaje.Persistence.pdb
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Vieaje.Persistence\obj\Debug\net8.0\BoletoBus.Vieaje.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Vieaje.Persistence\obj\Debug\net8.0\BoletoBus.Vieaje.Persistence.AssemblyInfoInputs.cache
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Vieaje.Persistence\obj\Debug\net8.0\BoletoBus.Vieaje.Persistence.AssemblyInfo.cs
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Vieaje.Persistence\obj\Debug\net8.0\BoletoBus.Vieaje.Persistence.csproj.CoreCompileInputs.cache
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Vieaje.Persistence\obj\Debug\net8.0\BoletoBus.Vieaje.Persistence.sourcelink.json
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Vieaje.Persistence\obj\Debug\net8.0\BoletoBus.Vieaje.Persistence.dll
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Vieaje.Persistence\obj\Debug\net8.0\refint\BoletoBus.Vieaje.Persistence.dll
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Vieaje.Persistence\obj\Debug\net8.0\BoletoBus.Vieaje.Persistence.pdb
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Vieaje.Persistence\obj\Debug\net8.0\ref\BoletoBus.Vieaje.Persistence.dll

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "BoletoBus.ReservaDetalle.Application/1.0.0": {
+        "runtime": {
+          "BoletoBus.ReservaDetalle.Application.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BoletoBus.ReservaDetalle.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
