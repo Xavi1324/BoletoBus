@@ -10,3 +10,9 @@ C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.ReservaDetalle.Persistence\obj\Debug\
 C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.ReservaDetalle.Persistence\obj\Debug\net8.0\refint\BoletoBus.ReservaDetalle.Persistence.dll
 C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.ReservaDetalle.Persistence\obj\Debug\net8.0\BoletoBus.ReservaDetalle.Persistence.pdb
 C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.ReservaDetalle.Persistence\obj\Debug\net8.0\ref\BoletoBus.ReservaDetalle.Persistence.dll
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.ReservaDetalle.Persistence\obj\Debug\net8.0\BoletoBus.ReservaDetalle.Persistence.csproj.AssemblyReference.cache
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.ReservaDetalle.Persistence\bin\Debug\net8.0\BoletoBus.Common.Data.dll
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.ReservaDetalle.Persistence\bin\Debug\net8.0\BoletoBus.ReservaDetalle.Domain.dll
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.ReservaDetalle.Persistence\bin\Debug\net8.0\BoletoBus.ReservaDetalle.Domain.pdb
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.ReservaDetalle.Persistence\bin\Debug\net8.0\BoletoBus.Common.Data.pdb
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.ReservaDetalle.Persistence\obj\Debug\net8.0\BoletoBu.FA2160C6.Up2Date

@@ -1,4 +1,5 @@
 ﻿using BoletoBus.Ruta.Application.Base;
+using BoletoBus.Ruta.Persistence.Models;
 
 
 namespace BoletoBus.Ruta.Application.Interfaces

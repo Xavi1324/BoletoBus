@@ -15,9 +15,7 @@ namespace BoletoBus.Reserva.Persistence.Context
         
         #region  "Db Sets"
         public DbSet<Domain.Entities.Reserva> Reserva { get; set; }
-        public DbSet<Domain.Entities.ReservaDetalle> ReservaDetalle {get; set;}
-        public DbSet<Domain.Entities.Ruta> Ruta {get; set;}
-        public DbSet<Domain.Entities.Viaje> Viaje {get; set;}
+        
         #endregion
     }
 }

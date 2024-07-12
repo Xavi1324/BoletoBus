@@ -10,3 +10,9 @@ C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Vieaje.Persistence\obj\Debug\net8.0\B
 C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Vieaje.Persistence\obj\Debug\net8.0\refint\BoletoBus.Vieaje.Persistence.dll
 C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Vieaje.Persistence\obj\Debug\net8.0\BoletoBus.Vieaje.Persistence.pdb
 C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Vieaje.Persistence\obj\Debug\net8.0\ref\BoletoBus.Vieaje.Persistence.dll
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Vieaje.Persistence\obj\Debug\net8.0\BoletoBus.Vieaje.Persistence.csproj.AssemblyReference.cache
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Vieaje.Persistence\bin\Debug\net8.0\BoletoBus.Common.Data.dll
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Vieaje.Persistence\bin\Debug\net8.0\BoletoBus.Vieaje.Domain.dll
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Vieaje.Persistence\bin\Debug\net8.0\BoletoBus.Vieaje.Domain.pdb
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Vieaje.Persistence\bin\Debug\net8.0\BoletoBus.Common.Data.pdb
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Vieaje.Persistence\obj\Debug\net8.0\BoletoBu.D70655D4.Up2Date

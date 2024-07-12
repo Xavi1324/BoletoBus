@@ -3,3 +3,11 @@ C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Reserva.Application\obj\Debug\net8.0\
 C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Reserva.Application\obj\Debug\net8.0\BoletoBus.Reserva.Application.AssemblyInfo.cs
 C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Reserva.Application\obj\Debug\net8.0\BoletoBus.Reserva.Application.csproj.CoreCompileInputs.cache
 C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Reserva.Application\obj\Debug\net8.0\BoletoBus.Reserva.Application.sourcelink.json
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Reserva.Application\bin\Debug\net8.0\BoletoBus.Reserva.Application.deps.json
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Reserva.Application\bin\Debug\net8.0\BoletoBus.Reserva.Application.dll
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Reserva.Application\bin\Debug\net8.0\BoletoBus.Reserva.Application.pdb
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Reserva.Application\obj\Debug\net8.0\BoletoBus.Reserva.Application.dll
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Reserva.Application\obj\Debug\net8.0\refint\BoletoBus.Reserva.Application.dll
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Reserva.Application\obj\Debug\net8.0\BoletoBus.Reserva.Application.pdb
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Reserva.Application\obj\Debug\net8.0\ref\BoletoBus.Reserva.Application.dll
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Reserva.Application\obj\Debug\net8.0\BoletoBus.Reserva.Application.csproj.AssemblyReference.cache

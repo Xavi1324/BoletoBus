@@ -1,4 +1,4 @@
-﻿namespace BusMonoliticApp.Web.Data.Exceptions
+﻿namespace BoletoBus.Reserva.Persistence.Exceptions
 {
     public class ReservaDbException : Exception
     {

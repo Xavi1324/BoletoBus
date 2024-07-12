@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "BoletoBus.Vieaje.Domain/1.0.0": {
+        "dependencies": {
+          "BoletoBus.Common.Data": "1.0.0"
+        },
         "runtime": {
           "BoletoBus.Vieaje.Domain.dll": {}
+        }
+      },
+      "BoletoBus.Common.Data/1.0.0": {
+        "runtime": {
+          "BoletoBus.Common.Data.dll": {}
         }
       }
     }
   },
   "libraries": {
     "BoletoBus.Vieaje.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BoletoBus.Common.Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,4 +1,5 @@
 ﻿using BoletoBus.Vieaje.Application.Base;
+using BoletoBus.Vieaje.Persistence.Models;
 
 namespace BoletoBus.Viaje.Application.Interfaces
 {

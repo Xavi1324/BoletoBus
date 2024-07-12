@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "BoletoBus.ReservaDetalle.Domain/1.0.0": {
+        "dependencies": {
+          "BoletoBus.Common.Data": "1.0.0"
+        },
         "runtime": {
           "BoletoBus.ReservaDetalle.Domain.dll": {}
+        }
+      },
+      "BoletoBus.Common.Data/1.0.0": {
+        "runtime": {
+          "BoletoBus.Common.Data.dll": {}
         }
       }
     }
   },
   "libraries": {
     "BoletoBus.ReservaDetalle.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BoletoBus.Common.Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

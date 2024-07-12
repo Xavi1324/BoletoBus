@@ -59,37 +59,39 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{598F84
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence", "{E5A7ACD0-FE9E-4A6C-BD1F-03E52BE9ECAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoletoBus.Reserva.Api", "BoletoBus.Reserva.Api\BoletoBus.Reserva.Api.csproj", "{189682AA-20BF-46E5-85EC-F02E59AE548A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoletoBus.Reserva.Api", "BoletoBus.Reserva.Api\BoletoBus.Reserva.Api.csproj", "{189682AA-20BF-46E5-85EC-F02E59AE548A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoletoBus.ReservaDetalle.Api", "BoletoBus.ReservaDetalle.Api\BoletoBus.ReservaDetalle.Api.csproj", "{68E9BDB8-8617-46D6-8E7B-2840E27DBEDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoletoBus.ReservaDetalle.Api", "BoletoBus.ReservaDetalle.Api\BoletoBus.ReservaDetalle.Api.csproj", "{68E9BDB8-8617-46D6-8E7B-2840E27DBEDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoletoBus.Ruta.Api", "BoletoBus.Ruta.Api\BoletoBus.Ruta.Api.csproj", "{EB2940EB-AD0A-4828-BEC6-3D8F48BCED4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoletoBus.Ruta.Api", "BoletoBus.Ruta.Api\BoletoBus.Ruta.Api.csproj", "{EB2940EB-AD0A-4828-BEC6-3D8F48BCED4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoletoBus.Viaje.Api", "BoletoBus.Viaje.Api\BoletoBus.Viaje.Api.csproj", "{A4D55049-8E01-45CD-B57C-B7E96965E75B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoletoBus.Viaje.Api", "BoletoBus.Viaje.Api\BoletoBus.Viaje.Api.csproj", "{A4D55049-8E01-45CD-B57C-B7E96965E75B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoletoBus.Reserva.Application", "BoletoBus.Reserva.Application\BoletoBus.Reserva.Application.csproj", "{143F65FC-51C9-4056-BF48-34257923D9A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoletoBus.Reserva.Application", "BoletoBus.Reserva.Application\BoletoBus.Reserva.Application.csproj", "{143F65FC-51C9-4056-BF48-34257923D9A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoletoBus.Reserva.Domain", "BoletoBus.Reserva.Domain\BoletoBus.Reserva.Domain.csproj", "{19185353-9EB7-4F91-AD84-B7FFB46CFD39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoletoBus.Reserva.Domain", "BoletoBus.Reserva.Domain\BoletoBus.Reserva.Domain.csproj", "{19185353-9EB7-4F91-AD84-B7FFB46CFD39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoletoBus.Reserva.Persistence", "BoletoBus.Reserva.Persistence\BoletoBus.Reserva.Persistence.csproj", "{6E4064E0-B9CD-4302-817A-F4D02AD716C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoletoBus.Reserva.Persistence", "BoletoBus.Reserva.Persistence\BoletoBus.Reserva.Persistence.csproj", "{6E4064E0-B9CD-4302-817A-F4D02AD716C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoletoBus.ReservaDetalle.Application", "BoletoBus.ReservaDetalle.Application\BoletoBus.ReservaDetalle.Application.csproj", "{18950B33-A14F-43BE-A206-1C3ECFBA6EB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoletoBus.ReservaDetalle.Application", "BoletoBus.ReservaDetalle.Application\BoletoBus.ReservaDetalle.Application.csproj", "{18950B33-A14F-43BE-A206-1C3ECFBA6EB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoletoBus.ReservaDetalle.Domain", "BoletoBus.ReservaDetalle.Domain\BoletoBus.ReservaDetalle.Domain.csproj", "{D2F1DB17-F81D-47B7-996E-629EA5D61D2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoletoBus.ReservaDetalle.Domain", "BoletoBus.ReservaDetalle.Domain\BoletoBus.ReservaDetalle.Domain.csproj", "{D2F1DB17-F81D-47B7-996E-629EA5D61D2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoletoBus.ReservaDetalle.Persistence", "BoletoBus.ReservaDetalle.Persistence\BoletoBus.ReservaDetalle.Persistence.csproj", "{6B2C81D4-5D07-4C22-B08E-4D15513CCD4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoletoBus.ReservaDetalle.Persistence", "BoletoBus.ReservaDetalle.Persistence\BoletoBus.ReservaDetalle.Persistence.csproj", "{6B2C81D4-5D07-4C22-B08E-4D15513CCD4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoletoBus.Ruta.Application", "BoletoBus.Ruta.Application\BoletoBus.Ruta.Application.csproj", "{7EFC158D-4B72-4F59-A607-A2E8BC7FF1CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoletoBus.Ruta.Application", "BoletoBus.Ruta.Application\BoletoBus.Ruta.Application.csproj", "{7EFC158D-4B72-4F59-A607-A2E8BC7FF1CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoletoBus.Ruta.Domain", "BoletoBus.Ruta.Domain\BoletoBus.Ruta.Domain.csproj", "{020F0F93-DA98-4E75-B38C-3110FC3ECA33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoletoBus.Ruta.Domain", "BoletoBus.Ruta.Domain\BoletoBus.Ruta.Domain.csproj", "{020F0F93-DA98-4E75-B38C-3110FC3ECA33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoletoBus.Ruta.Persistence", "BoletoBus.Ruta.Persistence\BoletoBus.Ruta.Persistence.csproj", "{4BB68034-6BE5-4D62-9649-E1A702405F67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoletoBus.Ruta.Persistence", "BoletoBus.Ruta.Persistence\BoletoBus.Ruta.Persistence.csproj", "{4BB68034-6BE5-4D62-9649-E1A702405F67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoletoBus.Vieaje.Application", "BoletoBus.Vieaje.Application\BoletoBus.Vieaje.Application.csproj", "{7D52E167-62D7-41DE-9FAA-AC12FA5B5DA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoletoBus.Vieaje.Application", "BoletoBus.Vieaje.Application\BoletoBus.Vieaje.Application.csproj", "{7D52E167-62D7-41DE-9FAA-AC12FA5B5DA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoletoBus.Vieaje.Domain", "BoletoBus.Vieaje.Domain\BoletoBus.Vieaje.Domain.csproj", "{522BF083-4728-403C-9975-6C06792B4DC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoletoBus.Vieaje.Domain", "BoletoBus.Vieaje.Domain\BoletoBus.Vieaje.Domain.csproj", "{522BF083-4728-403C-9975-6C06792B4DC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoletoBus.Vieaje.Persistence", "BoletoBus.Vieaje.Persistence\BoletoBus.Vieaje.Persistence.csproj", "{D30EC341-427C-4132-B162-E7F6338BF34B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoletoBus.Vieaje.Persistence", "BoletoBus.Vieaje.Persistence\BoletoBus.Vieaje.Persistence.csproj", "{D30EC341-427C-4132-B162-E7F6338BF34B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IOC", "IOC", "{EA8E8891-827F-4BFE-A175-7F27C29BE632}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -217,6 +219,7 @@ Global
 		{7D52E167-62D7-41DE-9FAA-AC12FA5B5DA7} = {C3901008-EECC-446F-9B08-49EFD24B7D4A}
 		{522BF083-4728-403C-9975-6C06792B4DC9} = {598F84CB-B9E4-4415-9E61-73EBF3AE7F36}
 		{D30EC341-427C-4132-B162-E7F6338BF34B} = {E5A7ACD0-FE9E-4A6C-BD1F-03E52BE9ECAE}
+		{EA8E8891-827F-4BFE-A175-7F27C29BE632} = {9AFE1866-AB58-44EC-B5B3-9DD0AC280EEA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7CFB66C4-8ADA-41A5-9251-34B833900D40}

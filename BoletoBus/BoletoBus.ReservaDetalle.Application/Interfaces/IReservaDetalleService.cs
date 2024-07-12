@@ -1,4 +1,5 @@
 ﻿using BoletoBus.ReservaDetalle.Application.Base;
+using BoletoBus.ReservaDetalle.Persistence.Models;
 
 namespace BoletoBus.ReservaDetalle.Application.Interfaces
 {

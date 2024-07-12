@@ -13,4 +13,8 @@
     <Folder Include="Services\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BoletoBus.Vieaje.Persistence\BoletoBus.Vieaje.Persistence.csproj" />
+  </ItemGroup>
+
 </Project>

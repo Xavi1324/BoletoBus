@@ -7,7 +7,7 @@ using System.Linq.Expressions;
 
 namespace BoletoBus.Reserva.Persistence.Repositories
 {
-    internal class ReservaRepository : IReservaRepository
+    public class ReservaRepository : IReservaRepository
     {
         public void Delete(Domain.Entities.Reserva entity)
         {

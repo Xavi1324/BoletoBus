@@ -1,4 +1,5 @@
 ﻿using BoletoBus.Reserva.Application.Base;
+using BoletoBus.Reserva.Application.Dtos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,6 +14,6 @@ namespace BoletoBus.Reserva.Application.Interfaces
         ServiceResult GetReservas(int id);
         ServiceResult UpdateReservas(ReservaUpdateModel reservaUpdateModel);
         ServiceResult DeleteReservas(ReservaDeleteModel reservaDeleteModel);
-        ServiceResult SaveReserva(ReservaSaveModel reservaSaveModel);
+        ServiceResult SaveReserva( ReservaSaveModel reservaSaveModel);
     }
-}
+}                                   
