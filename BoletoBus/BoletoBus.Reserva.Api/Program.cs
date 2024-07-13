@@ -1,8 +1,17 @@
+
+using BoletoBus.Reserva.Persistence.Context;
+using Microsoft.EntityFrameworkCore;
+using BoletoBus.Reserva.IOC.Dependencies;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
 builder.Services.AddControllers();
+builder.Services.AddDbContext<BoletosBusContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("BoletoBusContext")));
+
+
+
+builder.Services.addResevaDependecy();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

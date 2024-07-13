@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BoletoBus.Reserva.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+05800327d2a58adad63167dc18bf72fa1e17433e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cda7839f2ccd85f689b515e897149d2bc79056d6")]
 [assembly: System.Reflection.AssemblyProductAttribute("BoletoBus.Reserva.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BoletoBus.Reserva.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

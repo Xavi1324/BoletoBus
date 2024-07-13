@@ -11,3 +11,8 @@ C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Reserva.Application\obj\Debug\net8.0\
 C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Reserva.Application\obj\Debug\net8.0\BoletoBus.Reserva.Application.pdb
 C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Reserva.Application\obj\Debug\net8.0\ref\BoletoBus.Reserva.Application.dll
 C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Reserva.Application\obj\Debug\net8.0\BoletoBus.Reserva.Application.csproj.AssemblyReference.cache
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Reserva.Application\bin\Debug\net8.0\BoletoBus.Common.Data.dll
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Reserva.Application\bin\Debug\net8.0\BoletoBus.Reserva.Domain.dll
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Reserva.Application\bin\Debug\net8.0\BoletoBus.Reserva.Domain.pdb
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Reserva.Application\bin\Debug\net8.0\BoletoBus.Common.Data.pdb
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Reserva.Application\obj\Debug\net8.0\BoletoBu.A4879A16.Up2Date

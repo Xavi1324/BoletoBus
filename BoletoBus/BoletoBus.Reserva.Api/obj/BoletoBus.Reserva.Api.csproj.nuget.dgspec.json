@@ -4,14 +4,14 @@
     "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Api\\BoletoBus.Reserva.Api.csproj": {}
   },
   "projects": {
-    "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Api\\BoletoBus.Reserva.Api.csproj": {
+    "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Common.Data\\BoletoBus.Common.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Api\\BoletoBus.Reserva.Api.csproj",
-        "projectName": "BoletoBus.Reserva.Api",
-        "projectPath": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Api\\BoletoBus.Reserva.Api.csproj",
+        "projectUniqueName": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Common.Data\\BoletoBus.Common.Data.csproj",
+        "projectName": "BoletoBus.Common.Data",
+        "projectPath": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Common.Data\\BoletoBus.Common.Data.csproj",
         "packagesPath": "C:\\Users\\xavie\\.nuget\\packages\\",
-        "outputPath": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Api\\obj\\",
+        "outputPath": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Common.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,75 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Api\\BoletoBus.Reserva.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Api\\BoletoBus.Reserva.Api.csproj",
+        "projectName": "BoletoBus.Reserva.Api",
+        "projectPath": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Api\\BoletoBus.Reserva.Api.csproj",
+        "packagesPath": "C:\\Users\\xavie\\.nuget\\packages\\",
+        "outputPath": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\xavie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.IOC\\BoletoBus.Reserva.IOC.csproj": {
+                "projectPath": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.IOC\\BoletoBus.Reserva.IOC.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -70,6 +139,307 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Application\\BoletoBus.Reserva.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Application\\BoletoBus.Reserva.Application.csproj",
+        "projectName": "BoletoBus.Reserva.Application",
+        "projectPath": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Application\\BoletoBus.Reserva.Application.csproj",
+        "packagesPath": "C:\\Users\\xavie\\.nuget\\packages\\",
+        "outputPath": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\xavie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Domain\\BoletoBus.Reserva.Domain.csproj": {
+                "projectPath": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Domain\\BoletoBus.Reserva.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Domain\\BoletoBus.Reserva.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Domain\\BoletoBus.Reserva.Domain.csproj",
+        "projectName": "BoletoBus.Reserva.Domain",
+        "projectPath": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Domain\\BoletoBus.Reserva.Domain.csproj",
+        "packagesPath": "C:\\Users\\xavie\\.nuget\\packages\\",
+        "outputPath": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\xavie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Common.Data\\BoletoBus.Common.Data.csproj": {
+                "projectPath": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Common.Data\\BoletoBus.Common.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.IOC\\BoletoBus.Reserva.IOC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.IOC\\BoletoBus.Reserva.IOC.csproj",
+        "projectName": "BoletoBus.Reserva.IOC",
+        "projectPath": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.IOC\\BoletoBus.Reserva.IOC.csproj",
+        "packagesPath": "C:\\Users\\xavie\\.nuget\\packages\\",
+        "outputPath": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.IOC\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\xavie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Application\\BoletoBus.Reserva.Application.csproj": {
+                "projectPath": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Application\\BoletoBus.Reserva.Application.csproj"
+              },
+              "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Persistence\\BoletoBus.Reserva.Persistence.csproj": {
+                "projectPath": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Persistence\\BoletoBus.Reserva.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Persistence\\BoletoBus.Reserva.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Persistence\\BoletoBus.Reserva.Persistence.csproj",
+        "projectName": "BoletoBus.Reserva.Persistence",
+        "projectPath": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Persistence\\BoletoBus.Reserva.Persistence.csproj",
+        "packagesPath": "C:\\Users\\xavie\\.nuget\\packages\\",
+        "outputPath": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\xavie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Domain\\BoletoBus.Reserva.Domain.csproj": {
+                "projectPath": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Domain\\BoletoBus.Reserva.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
