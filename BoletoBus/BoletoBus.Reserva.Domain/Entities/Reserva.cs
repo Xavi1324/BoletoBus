@@ -9,7 +9,7 @@ namespace BoletoBus.Reserva.Domain.Entities
     {
         [Column("IdReserva")]
         public override int id { get ; set ; }
-        [Key]
+       
         public int IdReserva { get; set; }
         
         public int? IdViaje { get; set; }

@@ -9,7 +9,7 @@ using Microsoft.Extensions.Logging;
 
 namespace BoletoBus.Reserva.Application.Services
 {
-    public class ReservaService :  IReservaService
+    public class ReservaService : IReservaService
     {
         private readonly IReservaRepository reservaRepository;
         private readonly ILogger<ReservaService> Logger;
@@ -58,7 +58,6 @@ namespace BoletoBus.Reserva.Application.Services
             ServiceResult result = new ServiceResult();
             try
             {
-
                 Domain.Entities.Reserva reserva = new Domain.Entities.Reserva();
                 this.reservaRepository.Save(reserva);
             }

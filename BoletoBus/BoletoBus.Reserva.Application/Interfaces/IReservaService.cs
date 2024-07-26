@@ -1,10 +1,5 @@
 ﻿using BoletoBus.Reserva.Application.Base;
 using BoletoBus.Reserva.Application.Dtos;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BoletoBus.Reserva.Application.Interfaces
 {
