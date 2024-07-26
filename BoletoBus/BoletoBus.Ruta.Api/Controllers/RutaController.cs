@@ -17,7 +17,7 @@ namespace BoletoBus.Ruta.Api.Controllers
             this.rutaService = rutaService;
         }
         // GET: api/<RutaController>
-        [HttpGet]
+        [HttpGet("GetRuta")]
         public IActionResult Get()
         {
             var result = this.rutaService.GetRutas();
@@ -32,7 +32,7 @@ namespace BoletoBus.Ruta.Api.Controllers
         }
 
         // GET api/<RutaController>/5
-        [HttpGet("{id}")]
+        [HttpGet("GetRutaById")]
         public IActionResult Get(int id)
         {
             var result = this.rutaService.GetRutas(id);
@@ -47,7 +47,7 @@ namespace BoletoBus.Ruta.Api.Controllers
         }
 
         // POST api/<RutaController>
-        [HttpPost]
+        [HttpPost("SaveRuta")]
         public IActionResult Post([FromBody] RutaSaveModel rutaSaveModel)
         {
             var result = this.rutaService.SaveRuta(rutaSaveModel);
@@ -77,7 +77,7 @@ namespace BoletoBus.Ruta.Api.Controllers
         }
 
         // DELETE api/<RutaController>/5
-        [HttpDelete("DeleteRuta")]
+        [HttpPost("DeleteRuta")]
         public IActionResult Delete(RutaDeleteModel rutaDeleteModel)
         {
             var result = this.rutaService.DeleteRuta(rutaDeleteModel);

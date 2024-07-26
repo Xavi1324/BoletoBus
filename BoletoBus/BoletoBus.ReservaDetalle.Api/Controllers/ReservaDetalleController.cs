@@ -17,7 +17,7 @@ namespace BoletoBus.ReservaDetalle.Api.Controllers
             this.reservaDetalleService = reservaDetalleService;
         }
         // GET: api/<ReservaDetalleController>
-        [HttpGet]
+        [HttpGet("GetReservaDetalle")]
         public IActionResult Get()
         {
             var result = this.reservaDetalleService.GetReservaDetalles();
@@ -32,7 +32,7 @@ namespace BoletoBus.ReservaDetalle.Api.Controllers
         }
 
         // GET api/<ReservaDetalleController>/5
-        [HttpGet("{id}")]
+        [HttpGet("GetReservaDetalleById")]
         public IActionResult Get(int id)
         {
             var result = this.reservaDetalleService.GetReservaDetalles(id);
@@ -47,7 +47,7 @@ namespace BoletoBus.ReservaDetalle.Api.Controllers
         }
 
         // POST api/<ReservaDetalleController>
-        [HttpPost]
+        [HttpPost("SaverReservaDetalle")]
         public IActionResult Post([FromBody] ReservaDetalleSave reservaDetalleSave)
         {
             var result = this.reservaDetalleService.SaveReservaDetalles(reservaDetalleSave);
@@ -77,7 +77,7 @@ namespace BoletoBus.ReservaDetalle.Api.Controllers
         }
 
         // DELETE api/<ReservaDetalleController>/5
-        [HttpDelete("DeleteReservaDetalle")]
+        [HttpPost("DeleteReservaDetalle")]
         public IActionResult Delete(ReservaDetalleDelete reservaDetalleDelete)
         {
             var result = this.reservaDetalleService.DeleteReservaDetalles(reservaDetalleDelete);

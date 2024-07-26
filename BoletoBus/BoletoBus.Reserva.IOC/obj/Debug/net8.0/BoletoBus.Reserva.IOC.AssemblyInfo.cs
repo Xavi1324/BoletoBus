@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BoletoBus.Reserva.IOC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b27e417569bb1c319d664ec73442697045810cb8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3fa07057c9fd13aba6fe2500bd092b33d75d520")]
 [assembly: System.Reflection.AssemblyProductAttribute("BoletoBus.Reserva.IOC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BoletoBus.Reserva.IOC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

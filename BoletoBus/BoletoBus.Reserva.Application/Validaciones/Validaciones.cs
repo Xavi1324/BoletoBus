@@ -15,7 +15,7 @@ namespace BoletoBus.Reserva.Application.Validaciones
                 
             }
         }
-        public void ValidacionMayor0<T>(T model, ServiceResult result) where T : ReservaBaseModel
+        public void ValidacionMayor0<T>(T model, ServiceResult result) where T : ReservaSaveModel
         {
             if (model.MontoTotal <= 0)
             {

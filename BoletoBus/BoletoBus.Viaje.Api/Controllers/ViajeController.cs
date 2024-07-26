@@ -17,7 +17,7 @@ namespace BoletoBus.Viaje.Api.Controllers
             this.viajeService = viajeService;
         }
         // GET: api/<ViajeController>
-        [HttpGet]
+        [HttpGet("GetViaje")]
         public IActionResult Get()
         {
             var result = this.viajeService.GetViaje();
@@ -32,7 +32,7 @@ namespace BoletoBus.Viaje.Api.Controllers
         }
 
         // GET api/<ViajeController>/5
-        [HttpGet("{id}")]
+        [HttpGet("GetViajeById")]
         public IActionResult Get(int id)
         {
             var result = this.viajeService.GetViaje(id);
@@ -47,7 +47,7 @@ namespace BoletoBus.Viaje.Api.Controllers
         }
 
         // POST api/<ViajeController>
-        [HttpPost]
+        [HttpPost("SaveViaje")]
         public IActionResult Post([FromBody] ViajeSaveModel viajeSaveModel)
         {
             var result = this.viajeService.SaveViaje(viajeSaveModel);
@@ -77,7 +77,7 @@ namespace BoletoBus.Viaje.Api.Controllers
         }
 
         // DELETE api/<ViajeController>/5
-        [HttpDelete("DeleteViaje")]
+        [HttpPost("DeleteViaje")]
         public IActionResult Delete(ViajeDeleteModel viajeDeleteModel)
         {
             var result = this.viajeService.DeleteViaje(viajeDeleteModel);
