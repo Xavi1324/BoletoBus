@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace BoletoBus.Entities.Persistence.Repositories
 {
-    internal class ViajeRepository : IViajeRepository
+    public class ViajeRepository : IViajeRepository
     {
         public void Delete(Viaje.Domain.Entities.Viaje entity)
         {

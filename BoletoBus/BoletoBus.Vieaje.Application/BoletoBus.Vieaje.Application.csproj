@@ -14,7 +14,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BoletoBus.Vieaje.Persistence\BoletoBus.Vieaje.Persistence.csproj" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BoletoBus.Vieaje.Domain\BoletoBus.Vieaje.Domain.csproj" />
   </ItemGroup>
 
 </Project>

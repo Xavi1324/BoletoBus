@@ -13,7 +13,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BoletoBus.Ruta.Persistence\BoletoBus.Ruta.Persistence.csproj" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BoletoBus.Ruta.Domain\BoletoBus.Ruta.Domain.csproj" />
   </ItemGroup>
 
 </Project>

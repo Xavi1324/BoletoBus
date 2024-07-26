@@ -13,8 +13,6 @@ C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.ReservaDetalle.Application\obj\Debug\
 C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.ReservaDetalle.Application\obj\Debug\net8.0\BoletoBus.ReservaDetalle.Application.csproj.AssemblyReference.cache
 C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.ReservaDetalle.Application\bin\Debug\net8.0\BoletoBus.Common.Data.dll
 C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.ReservaDetalle.Application\bin\Debug\net8.0\BoletoBus.ReservaDetalle.Domain.dll
-C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.ReservaDetalle.Application\bin\Debug\net8.0\BoletoBus.ReservaDetalle.Persistence.dll
-C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.ReservaDetalle.Application\bin\Debug\net8.0\BoletoBus.ReservaDetalle.Persistence.pdb
 C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.ReservaDetalle.Application\bin\Debug\net8.0\BoletoBus.Common.Data.pdb
 C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.ReservaDetalle.Application\bin\Debug\net8.0\BoletoBus.ReservaDetalle.Domain.pdb
 C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.ReservaDetalle.Application\obj\Debug\net8.0\BoletoBu.FF970D5F.Up2Date

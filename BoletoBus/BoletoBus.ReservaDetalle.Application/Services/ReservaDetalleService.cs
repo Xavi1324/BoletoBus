@@ -1,14 +1,14 @@
 
 
 using BoletoBus.ReservaDetalle.Application.Base;
+using BoletoBus.ReservaDetalle.Application.Dtos;
 using BoletoBus.ReservaDetalle.Application.Interfaces;
-using BoletoBus.ReservaDetalle.Persistence.Models;
 
 namespace BoletoBus.ReservaDetalle.Application.Services
 {
     public class ReservaDetalleService : IReservaDetalleService
     {
-        public ServiceResult DeleteReservaDetalles(ReservaDetalleDeleteModel reservaDetalleDeleteModel)
+        public ServiceResult DeleteReservaDetalles(ReservaDetalleDelete reservaDetalleDeleteModel)
         {
             throw new NotImplementedException();
         }
@@ -23,12 +23,12 @@ namespace BoletoBus.ReservaDetalle.Application.Services
             throw new NotImplementedException();
         }
 
-        public ServiceResult SaveReservaDetalles(ReservaDetalleSaveModel reservaDetalleSaveModel)
+        public ServiceResult SaveReservaDetalles(ReservaDetalleSave reservaDetalleSaveModel)
         {
             throw new NotImplementedException();
         }
 
-        public ServiceResult UpdateReservaDetalles(ReservaDetalleUpdateModel reservaDetalleUpdateModel)
+        public ServiceResult UpdateReservaDetalles(ReservaDetalleUpdate reservaDetalleUpdateModel)
         {
             throw new NotImplementedException();
         }

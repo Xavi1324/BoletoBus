@@ -13,7 +13,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BoletoBus.ReservaDetalle.Persistence\BoletoBus.ReservaDetalle.Persistence.csproj" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BoletoBus.ReservaDetalle.Domain\BoletoBus.ReservaDetalle.Domain.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,5 +1,8 @@
-﻿using BoletoBus.Reserva.Application.Interfaces;
+﻿
+using BoletoBus.Reserva.Application.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using BoletoBus.Reserva.Application.Dtos;
+
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -18,40 +21,75 @@ namespace BoletoBus.Reserva.Api.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            var resul = this.reservaService.GetReservas();
-            if (!resul.Success)
+            var result = this.reservaService.GetReservas();
+            if (!result.Success)
             {
-                return BadRequest(resul);
+                return BadRequest(result);
             }
             else
             {
-                return Ok(resul);
+                return Ok(result);
             }
         }
 
         // GET api/<ReservaController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public IActionResult Get(int id)
         {
-            return "value";
+            var result = this.reservaService.GetReservas(id);
+            if (!result.Success)
+            {
+                return BadRequest(result);
+            }
+            else
+            {
+                return Ok(result);
+            }
         }
 
         // POST api/<ReservaController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public IActionResult Post([FromBody] ReservaSaveModel reservaSaveModel)
         {
+            var result = this.reservaService.SaveReserva(reservaSaveModel);
+            if (!result.Success)
+            {
+                return BadRequest(result);
+            }
+            else
+            {
+                return Ok(result);
+            }
         }
 
         // PUT api/<ReservaController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        [HttpPut("UpdateReserva")]
+        public IActionResult Put(ReservaUpdateModel reservaUpdateModel)
         {
+            var result = this.reservaService.UpdateReservas(reservaUpdateModel);
+            if (!result.Success)
+            {
+                return BadRequest(result);
+            }
+            else
+            {
+                return Ok(result);
+            }
         }
 
         // DELETE api/<ReservaController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
+        [HttpDelete("DeleteReserva")]
+        public IActionResult Delete(ReservaDeleteModel reservaDeleteModel)
         {
+            var result = this.reservaService.DeleteReservas(reservaDeleteModel);
+            if(!result.Success)
+            {
+                return BadRequest(result);
+            }
+                
+            {
+                return Ok(result);
+            }
         }
     }
 }

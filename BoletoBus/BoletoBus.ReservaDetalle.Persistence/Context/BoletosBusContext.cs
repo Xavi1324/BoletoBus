@@ -2,7 +2,7 @@
 
 using Microsoft.EntityFrameworkCore;
 
-namespace BoletoBus.Reserva.Persistence.Context
+namespace BoletoBus.ReservaDetalle.Persistence.Context
 {
     public class BoletosBusContext : DbContext
     {

@@ -13,8 +13,6 @@ C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Ruta.Application\obj\Debug\net8.0\ref
 C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Ruta.Application\obj\Debug\net8.0\BoletoBus.Ruta.Application.csproj.AssemblyReference.cache
 C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Ruta.Application\bin\Debug\net8.0\BoletoBus.Common.Data.dll
 C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Ruta.Application\bin\Debug\net8.0\BoletoBus.Ruta.Domain.dll
-C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Ruta.Application\bin\Debug\net8.0\BoletoBus.Ruta.Persistence.dll
-C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Ruta.Application\bin\Debug\net8.0\BoletoBus.Ruta.Persistence.pdb
 C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Ruta.Application\bin\Debug\net8.0\BoletoBus.Common.Data.pdb
 C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Ruta.Application\bin\Debug\net8.0\BoletoBus.Ruta.Domain.pdb
 C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Ruta.Application\obj\Debug\net8.0\BoletoBu.E41D526E.Up2Date

@@ -1,8 +1,8 @@
 
 
 using BoletoBus.Ruta.Application.Base;
+using BoletoBus.Ruta.Application.Dtos;
 using BoletoBus.Ruta.Application.Interfaces;
-using BoletoBus.Ruta.Persistence.Models;
 
 namespace BoletoBus.Ruta.Application.Services
 {

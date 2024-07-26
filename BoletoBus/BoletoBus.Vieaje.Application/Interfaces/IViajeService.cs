@@ -1,5 +1,5 @@
-﻿using BoletoBus.Vieaje.Application.Base;
-using BoletoBus.Vieaje.Persistence.Models;
+﻿using BoletoBus.Viaje.Application.Dtos;
+using BoletoBus.Vieaje.Application.Base;
 
 namespace BoletoBus.Viaje.Application.Interfaces
 {
@@ -8,7 +8,7 @@ namespace BoletoBus.Viaje.Application.Interfaces
         ServiceResult GetViaje();
         ServiceResult GetViaje(int id);
         ServiceResult UpDateViaje(ViajeUpdateModel viajeUpdateModel);
-        ServiceResult DeleteReservas(ViajeDeleteModel viajeDeleteModel);
+        ServiceResult DeleteViaje(ViajeDeleteModel viajeDeleteModel);
         ServiceResult SaveViaje(ViajeSaveModel viajeSaveModel);
     }
 }

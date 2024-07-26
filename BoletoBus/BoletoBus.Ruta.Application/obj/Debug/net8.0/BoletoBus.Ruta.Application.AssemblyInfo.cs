@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BoletoBus.Ruta.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cda7839f2ccd85f689b515e897149d2bc79056d6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b27e417569bb1c319d664ec73442697045810cb8")]
 [assembly: System.Reflection.AssemblyProductAttribute("BoletoBus.Ruta.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BoletoBus.Ruta.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

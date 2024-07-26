@@ -1,5 +1,5 @@
 ﻿using BoletoBus.ReservaDetalle.Application.Base;
-using BoletoBus.ReservaDetalle.Persistence.Models;
+using BoletoBus.ReservaDetalle.Application.Dtos;
 
 namespace BoletoBus.ReservaDetalle.Application.Interfaces
 {
@@ -7,8 +7,8 @@ namespace BoletoBus.ReservaDetalle.Application.Interfaces
     {
         ServiceResult GetReservaDetalles();
         ServiceResult GetReservaDetalles(int id);
-        ServiceResult UpdateReservaDetalles(ReservaDetalleUpdateModel reservaDetalleUpdateModel);
-        ServiceResult DeleteReservaDetalles(ReservaDetalleDeleteModel reservaDetalleDeleteModel);
-        ServiceResult SaveReservaDetalles(ReservaDetalleSaveModel reservaDetalleSaveModel);
+        ServiceResult UpdateReservaDetalles(ReservaDetalleUpdate reservaDetalleUpdateModel);
+        ServiceResult DeleteReservaDetalles(ReservaDetalleDelete reservaDetalleDeleteModel);
+        ServiceResult SaveReservaDetalles(ReservaDetalleSave reservaDetalleSaveModel);
     }
 }
