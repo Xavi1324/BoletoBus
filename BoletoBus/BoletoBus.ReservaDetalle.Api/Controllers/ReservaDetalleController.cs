@@ -62,7 +62,7 @@ namespace BoletoBus.ReservaDetalle.Api.Controllers
         }
 
         // PUT api/<ReservaDetalleController>/5
-        [HttpPut("UpdateReservaDetalle")]
+        [HttpPost("UpdateReservaDetalle")]
         public IActionResult Put(ReservaDetalleUpdate reservaDetalleUpdate)
         {
             var result = this.reservaDetalleService.UpdateReservaDetalles(reservaDetalleUpdate);

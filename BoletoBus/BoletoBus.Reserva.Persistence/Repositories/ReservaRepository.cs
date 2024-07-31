@@ -84,14 +84,14 @@ namespace BoletoBus.Reserva.Persistence.Repositories
 
         public void Updater(Domain.Entities.Reserva entity)
         {
-            var reserva = this.context.Reserva.Find(entity.IdReserva);
-            reserva.IdViaje = entity.IdViaje;
-            reserva.IdPasajero = entity.IdPasajero;
-            reserva.MontoTotal = entity.MontoTotal;
-            reserva.AsientosReservados = entity.AsientosReservados;
-            reserva.FechaCreacion = entity.FechaCreacion ?? reserva.FechaCreacion;
+            Domain.Entities.Reserva Updatereserva = this.context.Reserva.Find(entity.IdReserva);
+            Updatereserva.IdViaje = entity.IdViaje;
+            Updatereserva.IdPasajero = entity.IdPasajero;
+            Updatereserva.MontoTotal = entity.MontoTotal;
+            Updatereserva.AsientosReservados = entity.AsientosReservados;
+            Updatereserva.FechaCreacion = entity.FechaCreacion ?? entity.FechaCreacion;
 
-            this.context.Reserva.Update(reserva);
+            this.context.Reserva.Update(Updatereserva);
             this.context.SaveChanges();
         }
         public void Delete(Domain.Entities.Reserva entity)

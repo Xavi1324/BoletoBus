@@ -13,10 +13,12 @@ namespace BoletoBus.Reserva.Api.Controllers
     public class ReservaController : ControllerBase
     {
         private readonly IReservaService reservaService;
+
         public ReservaController(IReservaService reservaService)
         {
             this.reservaService = reservaService;
         }
+
         // GET: api/<ReservaController>
         [HttpGet("GetReserva")]
         public IActionResult Get()
@@ -63,7 +65,7 @@ namespace BoletoBus.Reserva.Api.Controllers
         }
 
         // PUT api/<ReservaController>/5
-        [HttpPut("UpdateReserva")]
+        [HttpPost("UpdateReserva")]
         public IActionResult Put(ReservaUpdateModel reservaUpdateModel)
         {
             var result = this.reservaService.UpdateReservas(reservaUpdateModel);

@@ -3,34 +3,108 @@
 using BoletoBus.Ruta.Application.Base;
 using BoletoBus.Ruta.Application.Dtos;
 using BoletoBus.Ruta.Application.Interfaces;
+using BoletoBus.Ruta.Domain.Entities;
+using BoletoBus.Ruta.Domain.Interfaces;
+using Microsoft.Extensions.Logging;
 
 namespace BoletoBus.Ruta.Application.Services
 {
     public class RutaService : IRutaService
     {
-        public ServiceResult DeleteRuta(RutaDeleteModel rutaDeleteModel)
+        private readonly IRutaRepository rutaRepository;
+        private readonly ILogger<RutaService> logger;
+        public RutaService(IRutaRepository rutaRepository, ILogger<RutaService> logger)
         {
-            throw new NotImplementedException();
+            this.rutaRepository = rutaRepository;
+            this.logger = logger;
         }
 
         public ServiceResult GetRutas()
         {
-            throw new NotImplementedException();
+            ServiceResult result = new ServiceResult();
+            try
+            {
+                result.Data = rutaRepository.GetAll();
+            }
+            catch (Exception ex)
+            {
+
+                result.Success = false;
+                result.Message = "Ocurrio un error obteniendo las rutas.";
+                this.logger.LogError(result.Message, ex.ToString());
+            }
+            return result;
         }
 
         public ServiceResult GetRutas(int id)
         {
-            throw new NotImplementedException();
+            ServiceResult result = new ServiceResult();
+            try
+            {
+                result.Data = rutaRepository.GetEntityBy(id);
+            }
+            catch (Exception ex)
+            {
+
+                result.Success = false;
+                result.Message = "Ocurrio un error obteniendo las rutas.";
+                this.logger.LogError(result.Message, ex.ToString());
+            }
+            return result;
         }
 
         public ServiceResult SaveRuta(RutaSaveModel rutaSaveModel)
         {
-            throw new NotImplementedException();
+            ServiceResult result = new ServiceResult();
+            try
+            {
+                Domain.Entities.Ruta ruta = new Domain.Entities.Ruta();
+                this.rutaRepository.Save(ruta);
+            }
+            catch (Exception ex)
+            {
+
+                result.Success = false;
+                result.Message = "Ocurrio un error guardando los datos.";
+                this.logger.LogError(result.Message, ex.ToString());
+            }
+            return result;
         }
 
         public ServiceResult UpDateRutas(RutaUpdateModel rutaUpdateModel)
         {
-            throw new NotImplementedException();
+            ServiceResult result = new ServiceResult();
+            try
+            {
+                Domain.Entities.Ruta Updateruta = new Domain.Entities.Ruta();
+                this.rutaRepository.Updater(Updateruta);
+            }
+            catch (Exception ex)
+            {
+
+                result.Success = false;
+                result.Message = "Ocurrio un error atualizando los datos.";
+                this.logger.LogError(result.Message, ex.ToString());
+            }
+            return result;
+        }
+
+        public ServiceResult DeleteRuta(RutaDeleteModel rutaDeleteModel)
+        {
+            ServiceResult result = new ServiceResult();
+            try
+            {
+                Domain.Entities.Ruta Deleteruta = new Domain.Entities.Ruta();
+                this.rutaRepository.Delete(Deleteruta);
+            }
+            catch (Exception ex)
+            {
+
+                result.Success = false;
+                result.Message = "Ocurrio un error eliminando los datos.";
+                this.logger.LogError(result.Message, ex.ToString());
+            }
+            return result;
         }
     }
 }

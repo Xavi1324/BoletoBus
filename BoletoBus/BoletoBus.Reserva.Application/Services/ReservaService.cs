@@ -73,11 +73,37 @@ namespace BoletoBus.Reserva.Application.Services
 
         public ServiceResult UpdateReservas(ReservaUpdateModel reservaUpdateModel)
         {
-            throw new NotImplementedException();
+            ServiceResult result = new ServiceResult();
+            try
+            {
+                Domain.Entities.Reserva Updatereserva = new Domain.Entities.Reserva();
+                this.reservaRepository.Updater(Updatereserva);
+            }
+            catch (Exception ex)
+            {
+
+                result.Success = false;
+                result.Message = "Ocurrio un error atualizando los datos.";
+                this.Logger.LogError(result.Message, ex.ToString());
+            }
+            return result;
         }
         public ServiceResult DeleteReservas(ReservaDeleteModel reservaDeleteModel)
         {
-            throw new NotImplementedException();
+            ServiceResult result = new ServiceResult();
+            try
+            {
+                Domain.Entities.Reserva Delertereserva = new Domain.Entities.Reserva();
+                this.reservaRepository.Delete(Delertereserva);
+            }
+            catch (Exception ex)
+            {
+
+                result.Success = false;
+                result.Message = "Ocurrio un error eliminando los detalles de esta reserva.";
+                this.Logger.LogError(result.Message, ex.ToString());
+            }
+            return result;
         }
     }
 }

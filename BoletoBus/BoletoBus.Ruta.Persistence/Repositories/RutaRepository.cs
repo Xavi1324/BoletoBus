@@ -1,5 +1,7 @@
 ﻿
+using BoletoBus.Ruta.Domain.Entities;
 using BoletoBus.Ruta.Domain.Interfaces;
+using BoletoBus.Ruta.Persistence.Context;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,39 +13,74 @@ namespace BoletoBus.Entities.Persistence.Repositories
 {
     public class RutaRepository : IRutaRepository
     {
-        public void Delete(Ruta.Domain.Entities.Ruta entity)
+        private readonly BoletosBusContext context;
+        public RutaRepository(BoletosBusContext context)
         {
-            throw new NotImplementedException();
+            this.context = context;
         }
 
         public bool Exists(Expression<Func<Ruta.Domain.Entities.Ruta, bool>> filter)
         {
-            throw new NotImplementedException();
+            return this.context.Ruta.Any(filter);
         }
 
         public List<Ruta.Domain.Entities.Ruta> GetAll()
         {
-            throw new NotImplementedException();
+            return this.context.Ruta.Select(ru => new Ruta.Domain.Entities.Ruta()
+            {
+                IdRuta = ru.IdRuta,
+                Origen = ru.Origen,
+                Destino = ru.Destino,
+                FechaCreacion = ru.FechaCreacion,
+            }).ToList();
         }
 
         public Ruta.Domain.Entities.Ruta GetEntityBy(int Id)
         {
-            throw new NotImplementedException();
+            var Ruta = this.context.Ruta.Find(Id);
+            Ruta.Domain.Entities.Ruta ruta = new Ruta.Domain.Entities.Ruta()
+            {
+                IdRuta = Ruta.IdRuta,
+                Origen = Ruta.Origen,
+                Destino = Ruta.Destino,
+                FechaCreacion = Ruta.FechaCreacion,
+            };
+            return ruta;
         }
 
         public List<Ruta.Domain.Entities.Ruta> GetRutasByIdRuta(int IdRuta)
         {
-            throw new NotImplementedException();
+            return this.context.Ruta.Where(r => r.IdRuta == IdRuta).ToList();
         }
 
         public void Save(Ruta.Domain.Entities.Ruta entity)
         {
-            throw new NotImplementedException();
+            Ruta.Domain.Entities.Ruta ruta = new Ruta.Domain.Entities.Ruta()
+            {
+                Origen = entity.Origen,
+                Destino = entity.Destino,
+                FechaCreacion = entity.FechaCreacion,
+            };
+            this.context.Ruta.Add(ruta);
+            this.context.SaveChanges();
         }
 
         public void Updater(Ruta.Domain.Entities.Ruta entity)
         {
-            throw new NotImplementedException();
+            Ruta.Domain.Entities.Ruta rutaUpdate = this.context.Ruta.Find(entity.IdRuta);
+            rutaUpdate.IdRuta = entity.IdRuta;
+            rutaUpdate.Origen = entity.Origen;
+            rutaUpdate.Destino = entity.Destino;
+            rutaUpdate.FechaCreacion = entity.FechaCreacion;
+            this.context.Ruta.Update(rutaUpdate);
+            this.context.SaveChanges();
+        }
+
+        public void Delete(Ruta.Domain.Entities.Ruta entity)
+        {
+            context.Ruta.Remove(entity);
+            context.SaveChanges();
         }
     }
+    
 }
