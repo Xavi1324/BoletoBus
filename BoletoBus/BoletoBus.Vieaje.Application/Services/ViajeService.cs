@@ -20,90 +20,134 @@ namespace BoletoBus.Viaje.Application.Services
         }
         public ServiceResult GetViaje()
         {
-            ServiceResult result = new ServiceResult();
-            try
+            var Viajes = viajeRepository.GetAll();
+            var ViajeDtos = Viajes.Select(v => new ViajeDto
             {
-                result.Data = viajeRepository.GetAll();
-            }
-            catch (Exception ex)
+                IdViaje = v.id,
+                IdBus = v.IdBus,
+                IdRuta = v.IdRuta,
+                FechaSalida = v.FechaSalida,
+                HoraSalida = v.HoraSalida,
+                FechaLlegada = v.FechaLlegada,
+                HoraLlegada = v.HoraLlegada,
+                Precio = v.Precio,
+                TotalAsientos = v.TotalAsientos,
+                AsientosReservados = v.AsientosReservados,
+                FechaCreacion = v.FechaCreacion,
+                
+            }).ToList();
+            return new ServiceResult
             {
-
-                result.Success = false;
-                result.Message = "Ocurrio un error obteniendo los viajes";
-                this.logger.LogError(result.Message, ex.ToString());
-            }
-            return result;
+                Success = true,
+                Message = "Viajes obtenidos exitosamente",
+                Data = ViajeDtos
+            };
         }
 
         public ServiceResult GetViaje(int id)
         {
-            ServiceResult result = new ServiceResult();
-            try
+            var Viaje = viajeRepository.GetEntityBy(id);
+            if (Viaje == null)
             {
-                result.Data = viajeRepository.GetEntityBy(id);
+                return new ServiceResult
+                {
+                    Success = false,
+                    Message = "Viaje no encontrado",
+                };
             }
-            catch (Exception ex)
+            var ViajeDto = new ViajeDto
             {
+                IdViaje = Viaje.id,
+                IdBus = Viaje.IdBus,
+                IdRuta = Viaje.IdRuta,
+                FechaSalida = Viaje.FechaSalida,
+                HoraSalida = Viaje.HoraSalida,
+                FechaLlegada = Viaje.FechaLlegada,
+                HoraLlegada = Viaje.HoraLlegada,
+                Precio = Viaje.Precio,
+                TotalAsientos = Viaje.TotalAsientos,
+                AsientosReservados = Viaje.AsientosReservados,
+                FechaCreacion = Viaje.FechaCreacion,
+            };
 
-                result.Success = false;
-                result.Message = "Ocurrio un error obteniendo los viajes";
-                this.logger.LogError(result.Message, ex.ToString());
-            }
-            return result;
+            return new ServiceResult
+            {
+                Success = true,
+                Message = "Viaje obtenido exitosamente",
+                Data = ViajeDto
+            };
         }
 
         public ServiceResult SaveViaje(ViajeSaveModel viajeSaveModel)
         {
-            ServiceResult result = new ServiceResult();
-            try
-            {
-                Domain.Entities.Viaje saveViaje = new Domain.Entities.Viaje();
-                this.viajeRepository.Save(saveViaje);
-            }
-            catch (Exception ex)
+            var saveviaje = new Domain.Entities.Viaje
             {
 
-                result.Success = false;
-                result.Message = "Ocurrio un error guardando los datos.";
-                this.logger.LogError(result.Message, ex.ToString());
-            }
-            return result;
+                
+                IdBus = viajeSaveModel.IdBus,
+                IdRuta = viajeSaveModel.IdRuta,
+                FechaSalida = viajeSaveModel.FechaSalida,
+                HoraSalida = viajeSaveModel.HoraSalida,
+                FechaLlegada = viajeSaveModel.FechaLlegada,
+                HoraLlegada = viajeSaveModel.HoraLlegada,
+                Precio = viajeSaveModel.Precio,
+                TotalAsientos = viajeSaveModel.TotalAsientos,
+                AsientosReservados = viajeSaveModel.AsientosReservados,
+                FechaCreacion = viajeSaveModel.FechaCreacion,
+            };
+            viajeRepository.Save(saveviaje);
+            return new ServiceResult
+            {
+                Success = true,
+                Message = "Viaje guardado exitosamente"
+            };
         }
 
         public ServiceResult UpDateViaje(ViajeUpdateModel viajeUpdateModel)
         {
-            ServiceResult result = new ServiceResult();
-            try
+            var updateViaje = viajeRepository.GetEntityBy(viajeUpdateModel.IdViaje);
+            if (updateViaje == null)
             {
-                Domain.Entities.Viaje UpdarteViaje = new Domain.Entities.Viaje();
-                this.viajeRepository.Updater(UpdarteViaje);
+                return new ServiceResult
+                {
+                    Success = false,
+                    Message = "Viaje no encontrado"
+                };
             }
-            catch (Exception ex)
+            updateViaje.IdBus = viajeUpdateModel.IdBus ?? updateViaje.IdBus;
+            updateViaje.IdRuta = viajeUpdateModel.IdRuta ?? updateViaje.IdRuta;
+            updateViaje.FechaSalida = viajeUpdateModel.FechaSalida ?? updateViaje.FechaSalida;
+            updateViaje.HoraSalida = viajeUpdateModel.HoraSalida ?? updateViaje.HoraSalida;
+            updateViaje.FechaLlegada = viajeUpdateModel.FechaLlegada ?? updateViaje.FechaLlegada;
+            updateViaje.HoraLlegada = viajeUpdateModel.HoraLlegada ?? updateViaje.HoraLlegada;
+            updateViaje.Precio = viajeUpdateModel.Precio ?? updateViaje.Precio;
+            updateViaje.TotalAsientos = viajeUpdateModel.TotalAsientos ?? updateViaje.TotalAsientos;
+            updateViaje.AsientosReservados = viajeUpdateModel.AsientosReservados ?? updateViaje.AsientosReservados;
+            updateViaje.FechaCreacion = viajeUpdateModel.FechaCreacion ?? updateViaje.FechaCreacion;
+            return new ServiceResult
             {
-
-                result.Success = false;
-                result.Message = "Ocurrio un error guardando los datos.";
-                this.logger.LogError(result.Message, ex.ToString());
-            }
-            return result;
+                Success = true,
+                Message = "Viaje actualizado exitosamente"
+            };
         }
 
         public ServiceResult DeleteViaje(ViajeDeleteModel viajeDeleteModel)
         {
-            ServiceResult result = new ServiceResult();
-            try
+            var deleteVieaje = viajeRepository.GetEntityBy(viajeDeleteModel.IdViaje);
+            if (deleteVieaje == null)
             {
-                Domain.Entities.Viaje DeleteViaje = new Domain.Entities.Viaje();
-                this.viajeRepository.Updater(DeleteViaje);
+                return new ServiceResult
+                {
+                    Success = false,
+                    Message = "Viaje no encontrada"
+                };
             }
-            catch (Exception ex)
+            viajeRepository.Delete(deleteVieaje);
+            return new ServiceResult
             {
-
-                result.Success = false;
-                result.Message = "Ocurrio un error guardando los datos.";
-                this.logger.LogError(result.Message, ex.ToString());
-            }
-            return result;
+                Success = true,
+                Message = "Viaje eliminido exitosamente"
+            };
         }
     }
 }

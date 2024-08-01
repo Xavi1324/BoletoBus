@@ -21,3 +21,15 @@ C:\Proyectos\BoletoBus\BoletoBus\Boletobus.Infraestructure\obj\Debug\net8.0\Bole
 C:\Proyectos\BoletoBus\BoletoBus\Boletobus.Infraestructure\obj\Debug\net8.0\refint\Boletobus.Infraestructure.dll
 C:\Proyectos\BoletoBus\BoletoBus\Boletobus.Infraestructure\obj\Debug\net8.0\Boletobus.Infraestructure.pdb
 C:\Proyectos\BoletoBus\BoletoBus\Boletobus.Infraestructure\obj\Debug\net8.0\ref\Boletobus.Infraestructure.dll
+C:\Proyecto\BoletoBus\Boletobus.Infraestructure\bin\Debug\net8.0\Boletobus.Infraestructure.deps.json
+C:\Proyecto\BoletoBus\Boletobus.Infraestructure\bin\Debug\net8.0\Boletobus.Infraestructure.dll
+C:\Proyecto\BoletoBus\Boletobus.Infraestructure\bin\Debug\net8.0\Boletobus.Infraestructure.pdb
+C:\Proyecto\BoletoBus\Boletobus.Infraestructure\obj\Debug\net8.0\Boletobus.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyecto\BoletoBus\Boletobus.Infraestructure\obj\Debug\net8.0\Boletobus.Infraestructure.AssemblyInfoInputs.cache
+C:\Proyecto\BoletoBus\Boletobus.Infraestructure\obj\Debug\net8.0\Boletobus.Infraestructure.AssemblyInfo.cs
+C:\Proyecto\BoletoBus\Boletobus.Infraestructure\obj\Debug\net8.0\Boletobus.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Proyecto\BoletoBus\Boletobus.Infraestructure\obj\Debug\net8.0\Boletobus.Infraestructure.sourcelink.json
+C:\Proyecto\BoletoBus\Boletobus.Infraestructure\obj\Debug\net8.0\Boletobus.Infraestructure.dll
+C:\Proyecto\BoletoBus\Boletobus.Infraestructure\obj\Debug\net8.0\refint\Boletobus.Infraestructure.dll
+C:\Proyecto\BoletoBus\Boletobus.Infraestructure\obj\Debug\net8.0\Boletobus.Infraestructure.pdb
+C:\Proyecto\BoletoBus\Boletobus.Infraestructure\obj\Debug\net8.0\ref\Boletobus.Infraestructure.dll

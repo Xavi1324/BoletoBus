@@ -21,90 +21,105 @@ namespace BoletoBus.Ruta.Application.Services
 
         public ServiceResult GetRutas()
         {
-            ServiceResult result = new ServiceResult();
-            try
+            var rutas = rutaRepository.GetAll();
+            var rutaDtos = rutas.Select(r => new RutaDto
             {
-                result.Data = rutaRepository.GetAll();
-            }
-            catch (Exception ex)
+                IdRuta = r.id,
+                Origen = r.Origen,
+                Destino = r.Destino,
+                FechaCreacion = r.FechaCreacion,
+            }).ToList();
+            return new ServiceResult
             {
-
-                result.Success = false;
-                result.Message = "Ocurrio un error obteniendo las rutas.";
-                this.logger.LogError(result.Message, ex.ToString());
-            }
-            return result;
+                Success = true,
+                Message = "Rutas obtenidas exitosamente",
+                Data = rutaDtos
+            };
         }
 
         public ServiceResult GetRutas(int id)
         {
-            ServiceResult result = new ServiceResult();
-            try
+            var rutas=rutaRepository.GetEntityBy(id);
+            if (rutas == null)
             {
-                result.Data = rutaRepository.GetEntityBy(id);
+                return new ServiceResult
+                {
+                    Success = false,
+                    Message = "Ruta no encontrada",
+                };
             }
-            catch (Exception ex)
+            var rutaDto = new RutaDto
             {
+                IdRuta = rutas.id,
+                Origen = rutas.Origen,
+                Destino = rutas.Destino,
+                FechaCreacion = rutas.FechaCreacion
+            };
 
-                result.Success = false;
-                result.Message = "Ocurrio un error obteniendo las rutas.";
-                this.logger.LogError(result.Message, ex.ToString());
-            }
-            return result;
+            return new ServiceResult
+            {
+                Success = true,
+                Message = "Ruta obtenidas exitosamente",
+                Data= rutaDto
+            };
         }
 
         public ServiceResult SaveRuta(RutaSaveModel rutaSaveModel)
         {
-            ServiceResult result = new ServiceResult();
-            try
-            {
-                Domain.Entities.Ruta ruta = new Domain.Entities.Ruta();
-                this.rutaRepository.Save(ruta);
-            }
-            catch (Exception ex)
+            var saveRuta = new Domain.Entities.Ruta
             {
 
-                result.Success = false;
-                result.Message = "Ocurrio un error guardando los datos.";
-                this.logger.LogError(result.Message, ex.ToString());
-            }
-            return result;
+                Origen = rutaSaveModel.Origen,
+                Destino = rutaSaveModel.Destino,
+                FechaCreacion = rutaSaveModel.FechaCreacion
+            };
+            rutaRepository.Save(saveRuta);
+            return new ServiceResult
+            {
+                Success = true,
+                Message = "Ruta guardada exitosamente"
+            };
         }
 
         public ServiceResult UpDateRutas(RutaUpdateModel rutaUpdateModel)
         {
-            ServiceResult result = new ServiceResult();
-            try
+            var updarteRuta = rutaRepository.GetEntityBy(rutaUpdateModel.IdRuta);
+            if (updarteRuta == null)
             {
-                Domain.Entities.Ruta Updateruta = new Domain.Entities.Ruta();
-                this.rutaRepository.Updater(Updateruta);
+                return new ServiceResult
+                {
+                    Success = false,
+                    Message = "Ruta no encontrada"
+                };
             }
-            catch (Exception ex)
+            updarteRuta.Origen = rutaUpdateModel.Origen ?? updarteRuta.Origen;
+            updarteRuta.Destino = rutaUpdateModel.Destino ?? updarteRuta.Destino;
+            updarteRuta.FechaCreacion = rutaUpdateModel.FechaCreacion ?? updarteRuta.FechaCreacion;
+            rutaRepository.Updater(updarteRuta);
+            return new ServiceResult
             {
-
-                result.Success = false;
-                result.Message = "Ocurrio un error atualizando los datos.";
-                this.logger.LogError(result.Message, ex.ToString());
-            }
-            return result;
+                Success = true,
+                Message = "Ruta actualizada exitosamente"
+            };
         }
 
         public ServiceResult DeleteRuta(RutaDeleteModel rutaDeleteModel)
         {
-            ServiceResult result = new ServiceResult();
-            try
+            var deleteRuta = rutaRepository.GetEntityBy(rutaDeleteModel.IdRuta);
+            if (deleteRuta == null)
             {
-                Domain.Entities.Ruta Deleteruta = new Domain.Entities.Ruta();
-                this.rutaRepository.Delete(Deleteruta);
+                return new ServiceResult
+                {
+                    Success = false,
+                    Message = "Ruta no encontrada"
+                };
             }
-            catch (Exception ex)
+            rutaRepository.Delete(deleteRuta);
+            return new ServiceResult
             {
-
-                result.Success = false;
-                result.Message = "Ocurrio un error eliminando los datos.";
-                this.logger.LogError(result.Message, ex.ToString());
-            }
-            return result;
+                Success = true,
+                Message = "Ruta eliminida exitosamente"
+            };
         }
     }
 }

@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Domain\\BoletoBus.Reserva.Domain.csproj": {}
+    "C:\\Proyecto\\BoletoBus\\BoletoBus.Reserva.Domain\\BoletoBus.Reserva.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Common.Data\\BoletoBus.Common.Data.csproj": {
+    "C:\\Proyecto\\BoletoBus\\BoletoBus.Common.Data\\BoletoBus.Common.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Common.Data\\BoletoBus.Common.Data.csproj",
+        "projectUniqueName": "C:\\Proyecto\\BoletoBus\\BoletoBus.Common.Data\\BoletoBus.Common.Data.csproj",
         "projectName": "BoletoBus.Common.Data",
-        "projectPath": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Common.Data\\BoletoBus.Common.Data.csproj",
+        "projectPath": "C:\\Proyecto\\BoletoBus\\BoletoBus.Common.Data\\BoletoBus.Common.Data.csproj",
         "packagesPath": "C:\\Users\\xavie\\.nuget\\packages\\",
-        "outputPath": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Common.Data\\obj\\",
+        "outputPath": "C:\\Proyecto\\BoletoBus\\BoletoBus.Common.Data\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\xavie\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -65,25 +61,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Domain\\BoletoBus.Reserva.Domain.csproj": {
+    "C:\\Proyecto\\BoletoBus\\BoletoBus.Reserva.Domain\\BoletoBus.Reserva.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Domain\\BoletoBus.Reserva.Domain.csproj",
+        "projectUniqueName": "C:\\Proyecto\\BoletoBus\\BoletoBus.Reserva.Domain\\BoletoBus.Reserva.Domain.csproj",
         "projectName": "BoletoBus.Reserva.Domain",
-        "projectPath": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Domain\\BoletoBus.Reserva.Domain.csproj",
+        "projectPath": "C:\\Proyecto\\BoletoBus\\BoletoBus.Reserva.Domain\\BoletoBus.Reserva.Domain.csproj",
         "packagesPath": "C:\\Users\\xavie\\.nuget\\packages\\",
-        "outputPath": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Domain\\obj\\",
+        "outputPath": "C:\\Proyecto\\BoletoBus\\BoletoBus.Reserva.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\xavie\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -98,8 +90,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Common.Data\\BoletoBus.Common.Data.csproj": {
-                "projectPath": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Common.Data\\BoletoBus.Common.Data.csproj"
+              "C:\\Proyecto\\BoletoBus\\BoletoBus.Common.Data\\BoletoBus.Common.Data.csproj": {
+                "projectPath": "C:\\Proyecto\\BoletoBus\\BoletoBus.Common.Data\\BoletoBus.Common.Data.csproj"
               }
             }
           }
@@ -134,7 +126,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

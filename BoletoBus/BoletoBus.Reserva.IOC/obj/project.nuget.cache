@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "i7lWktfK6WU=",
+  "dgSpecHash": "Ynej9n226as=",
   "success": true,
-  "projectFilePath": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.IOC\\BoletoBus.Reserva.IOC.csproj",
+  "projectFilePath": "C:\\Proyecto\\BoletoBus\\BoletoBus.Reserva.IOC\\BoletoBus.Reserva.IOC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\xavie\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\xavie\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

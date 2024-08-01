@@ -3257,24 +3257,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\xavie\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\xavie\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Api\\BoletoBus.Reserva.Api.csproj",
+      "projectUniqueName": "C:\\Proyecto\\BoletoBus\\BoletoBus.Reserva.Api\\BoletoBus.Reserva.Api.csproj",
       "projectName": "BoletoBus.Reserva.Api",
-      "projectPath": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Api\\BoletoBus.Reserva.Api.csproj",
+      "projectPath": "C:\\Proyecto\\BoletoBus\\BoletoBus.Reserva.Api\\BoletoBus.Reserva.Api.csproj",
       "packagesPath": "C:\\Users\\xavie\\.nuget\\packages\\",
-      "outputPath": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.Api\\obj\\",
+      "outputPath": "C:\\Proyecto\\BoletoBus\\BoletoBus.Reserva.Api\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
         "C:\\Users\\xavie\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3289,8 +3284,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.IOC\\BoletoBus.Reserva.IOC.csproj": {
-              "projectPath": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Reserva.IOC\\BoletoBus.Reserva.IOC.csproj"
+            "C:\\Proyecto\\BoletoBus\\BoletoBus.Reserva.IOC\\BoletoBus.Reserva.IOC.csproj": {
+              "projectPath": "C:\\Proyecto\\BoletoBus\\BoletoBus.Reserva.IOC\\BoletoBus.Reserva.IOC.csproj"
             }
           }
         }
@@ -3334,7 +3329,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

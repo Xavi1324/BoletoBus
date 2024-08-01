@@ -21,3 +21,15 @@ C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Common.Data\obj\Debug\net8.0\BoletoBu
 C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Common.Data\obj\Debug\net8.0\refint\BoletoBus.Common.Data.dll
 C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Common.Data\obj\Debug\net8.0\BoletoBus.Common.Data.pdb
 C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Common.Data\obj\Debug\net8.0\ref\BoletoBus.Common.Data.dll
+C:\Proyecto\BoletoBus\BoletoBus.Common.Data\bin\Debug\net8.0\BoletoBus.Common.Data.deps.json
+C:\Proyecto\BoletoBus\BoletoBus.Common.Data\bin\Debug\net8.0\BoletoBus.Common.Data.dll
+C:\Proyecto\BoletoBus\BoletoBus.Common.Data\bin\Debug\net8.0\BoletoBus.Common.Data.pdb
+C:\Proyecto\BoletoBus\BoletoBus.Common.Data\obj\Debug\net8.0\BoletoBus.Common.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyecto\BoletoBus\BoletoBus.Common.Data\obj\Debug\net8.0\BoletoBus.Common.Data.AssemblyInfoInputs.cache
+C:\Proyecto\BoletoBus\BoletoBus.Common.Data\obj\Debug\net8.0\BoletoBus.Common.Data.AssemblyInfo.cs
+C:\Proyecto\BoletoBus\BoletoBus.Common.Data\obj\Debug\net8.0\BoletoBus.Common.Data.csproj.CoreCompileInputs.cache
+C:\Proyecto\BoletoBus\BoletoBus.Common.Data\obj\Debug\net8.0\BoletoBus.Common.Data.sourcelink.json
+C:\Proyecto\BoletoBus\BoletoBus.Common.Data\obj\Debug\net8.0\BoletoBus.Common.Data.dll
+C:\Proyecto\BoletoBus\BoletoBus.Common.Data\obj\Debug\net8.0\refint\BoletoBus.Common.Data.dll
+C:\Proyecto\BoletoBus\BoletoBus.Common.Data\obj\Debug\net8.0\BoletoBus.Common.Data.pdb
+C:\Proyecto\BoletoBus\BoletoBus.Common.Data\obj\Debug\net8.0\ref\BoletoBus.Common.Data.dll

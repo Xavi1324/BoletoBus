@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vuJI1/sziRk=",
+  "dgSpecHash": "nYMhNljzmxY=",
   "success": true,
-  "projectFilePath": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Vieaje.Application\\BoletoBus.Vieaje.Application.csproj",
+  "projectFilePath": "C:\\Proyecto\\BoletoBus\\BoletoBus.Vieaje.Application\\BoletoBus.Vieaje.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\xavie\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\xavie\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512"

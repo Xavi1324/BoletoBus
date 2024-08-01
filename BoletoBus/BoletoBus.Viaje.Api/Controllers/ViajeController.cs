@@ -62,7 +62,7 @@ namespace BoletoBus.Viaje.Api.Controllers
         }
 
         // PUT api/<ViajeController>/5
-        [HttpPut("UpdateViaje")]
+        [HttpPost("UpdateViaje")]
         public IActionResult Put(ViajeUpdateModel viajeUpdateModel)
         {
             var result = this.viajeService.UpDateViaje(viajeUpdateModel);

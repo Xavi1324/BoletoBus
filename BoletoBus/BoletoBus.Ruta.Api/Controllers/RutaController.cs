@@ -62,7 +62,7 @@ namespace BoletoBus.Ruta.Api.Controllers
         }
 
         // PUT api/<RutaController>/5
-        [HttpPut("UpDateRuta")]
+        [HttpPost("UpDateRuta")]
         public IActionResult Put(RutaUpdateModel rutaUpdateModel)
         {
             var result = this.rutaService.UpDateRutas(rutaUpdateModel);

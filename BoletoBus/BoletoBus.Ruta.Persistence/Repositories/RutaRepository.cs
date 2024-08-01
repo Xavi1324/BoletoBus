@@ -1,19 +1,13 @@
-﻿
-using BoletoBus.Ruta.Domain.Entities;
-using BoletoBus.Ruta.Domain.Interfaces;
+﻿using BoletoBus.Ruta.Domain.Interfaces;
 using BoletoBus.Ruta.Persistence.Context;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BoletoBus.Entities.Persistence.Repositories
 {
     public class RutaRepository : IRutaRepository
     {
         private readonly BoletosBusContext context;
+        
         public RutaRepository(BoletosBusContext context)
         {
             this.context = context;
@@ -21,59 +15,53 @@ namespace BoletoBus.Entities.Persistence.Repositories
 
         public bool Exists(Expression<Func<Ruta.Domain.Entities.Ruta, bool>> filter)
         {
-            return this.context.Ruta.Any(filter);
+            return context.Ruta.Any(filter);
         }
 
         public List<Ruta.Domain.Entities.Ruta> GetAll()
         {
-            return this.context.Ruta.Select(ru => new Ruta.Domain.Entities.Ruta()
-            {
-                IdRuta = ru.IdRuta,
-                Origen = ru.Origen,
-                Destino = ru.Destino,
-                FechaCreacion = ru.FechaCreacion,
-            }).ToList();
+            return context.Ruta.ToList();
+            
         }
 
         public Ruta.Domain.Entities.Ruta GetEntityBy(int Id)
         {
-            var Ruta = this.context.Ruta.Find(Id);
-            Ruta.Domain.Entities.Ruta ruta = new Ruta.Domain.Entities.Ruta()
-            {
-                IdRuta = Ruta.IdRuta,
-                Origen = Ruta.Origen,
-                Destino = Ruta.Destino,
-                FechaCreacion = Ruta.FechaCreacion,
-            };
-            return ruta;
+           return context.Ruta.Find(Id);
+            
         }
 
-        public List<Ruta.Domain.Entities.Ruta> GetRutasByIdRuta(int IdRuta)
+        public List<Ruta.Domain.Entities.Ruta> GetRutasByIdRuta(int Id)
         {
-            return this.context.Ruta.Where(r => r.IdRuta == IdRuta).ToList();
+            return this.context.Ruta.Where(ru => ru.id == Id).ToList();
         }
 
         public void Save(Ruta.Domain.Entities.Ruta entity)
         {
-            Ruta.Domain.Entities.Ruta ruta = new Ruta.Domain.Entities.Ruta()
+            try
             {
-                Origen = entity.Origen,
-                Destino = entity.Destino,
-                FechaCreacion = entity.FechaCreacion,
-            };
-            this.context.Ruta.Add(ruta);
-            this.context.SaveChanges();
+                this.context.Ruta.Add(entity);
+                this.context.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+
+                throw new Exception("Error saving route", ex);
+            }
         }
 
         public void Updater(Ruta.Domain.Entities.Ruta entity)
         {
-            Ruta.Domain.Entities.Ruta rutaUpdate = this.context.Ruta.Find(entity.IdRuta);
-            rutaUpdate.IdRuta = entity.IdRuta;
-            rutaUpdate.Origen = entity.Origen;
-            rutaUpdate.Destino = entity.Destino;
-            rutaUpdate.FechaCreacion = entity.FechaCreacion;
-            this.context.Ruta.Update(rutaUpdate);
-            this.context.SaveChanges();
+            try
+            {
+                this.context.Ruta.Update(entity);
+                this.context.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+
+                throw new Exception("Error updating route", ex);
+            }
+            
         }
 
         public void Delete(Ruta.Domain.Entities.Ruta entity)

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LiTyhB8HMmw=",
+  "dgSpecHash": "puCs3SWA0rQ=",
   "success": true,
-  "projectFilePath": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Viaje.Api\\BoletoBus.Viaje.Api.csproj",
+  "projectFilePath": "C:\\Proyecto\\BoletoBus\\BoletoBus.Viaje.Api\\BoletoBus.Viaje.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\xavie\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\xavie\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

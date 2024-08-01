@@ -1,8 +1,5 @@
-﻿using BoletoBus.Reserva.Domain.Entities;
-using BoletoBus.Reserva.Domain.Interfaces;
+﻿using BoletoBus.Reserva.Domain.Interfaces;
 using BoletoBus.Reserva.Persistence.Context;
-using BoletoBus.Reserva.Persistence.Exceptions;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using System.Linq.Expressions;
 
@@ -66,7 +63,6 @@ namespace BoletoBus.Reserva.Persistence.Repositories
             }
             
         }
-
         public void Delete(Domain.Entities.Reserva entity)
         {
             this.context.Reserva.Remove(entity);
