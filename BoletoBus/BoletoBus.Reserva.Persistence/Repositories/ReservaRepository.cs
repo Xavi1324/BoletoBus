@@ -3,6 +3,7 @@ using BoletoBus.Reserva.Domain.Interfaces;
 using BoletoBus.Reserva.Persistence.Context;
 using BoletoBus.Reserva.Persistence.Exceptions;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using System.Linq.Expressions;
 
 namespace BoletoBus.Reserva.Persistence.Repositories
@@ -10,69 +11,38 @@ namespace BoletoBus.Reserva.Persistence.Repositories
     public class ReservaRepository : IReservaRepository
     {
         private readonly BoletosBusContext context;
-        public ReservaRepository(BoletosBusContext context)
+        private readonly ILogger<ReservaRepository> logger;
+        public ReservaRepository(BoletosBusContext context, ILogger<ReservaRepository> logger)
         {
             this.context = context;
+            this.logger = logger;
         }
-        
+
         public bool Exists(Expression<Func<Domain.Entities.Reserva, bool>> filter)
         {
-            return this.context.Reserva.Any(filter);
+            return context.Reserva.Any(filter);
         }
 
         public List<Domain.Entities.Reserva> GetAll()
         {
-            return this.context.Reserva.Select(r => new Domain.Entities.Reserva()
-            {
-                IdReserva = r.IdReserva,
-                IdViaje = r.IdViaje,
-                IdPasajero = r.IdPasajero,
-                AsientosReservados = r.AsientosReservados,
-                MontoTotal = r.MontoTotal,
-                FechaCreacion = r.FechaCreacion
-
-            }).ToList();
+           return context.Reserva.ToList();
         }
 
         public Domain.Entities.Reserva GetEntityBy(int Id)
         {
-            var Reserva = this.context.Reserva.Find(Id);
-            if (Reserva == null)
-            {
-                throw new ReservaDbException($"No se encontro reserva");
-            }
-            Domain.Entities.Reserva reserva = new Domain.Entities.Reserva()
-            {
-                IdReserva = Reserva.IdReserva,
-                IdViaje = Reserva.IdViaje,
-                IdPasajero = Reserva.IdPasajero,
-                AsientosReservados = Reserva.AsientosReservados,
-                MontoTotal = Reserva.MontoTotal,
-                FechaCreacion = Reserva.FechaCreacion
-
-            };
-            return reserva;
+            return context.Reserva.Find(Id);
         }
 
-        public List<Domain.Entities.Reserva> GetReservasByIdReserva(int IdReserva)
+        public List<Domain.Entities.Reserva> GetReservasByIdReserva(int Id)
         {
-            return this.context.Reserva.Where(r => r.IdReserva == IdReserva).ToList();
+            return context.Reserva.Where(r => r.id == Id).ToList();
         }
 
         public void Save(Domain.Entities.Reserva entity)
         {
-            
             try
             {
-                Domain.Entities.Reserva reserva = new Domain.Entities.Reserva()
-                {
-                    IdViaje = entity.IdViaje,
-                    IdPasajero = entity.IdPasajero,
-                    AsientosReservados = entity.AsientosReservados,
-                    MontoTotal = entity.MontoTotal,
-                    FechaCreacion = entity.FechaCreacion ?? DateTime.Now
-                };
-                this.context.Reserva.Add(reserva);
+                this.context.Reserva.Add(entity);
                 this.context.SaveChanges();
             }
             catch (Exception ex)
@@ -84,16 +54,19 @@ namespace BoletoBus.Reserva.Persistence.Repositories
 
         public void Updater(Domain.Entities.Reserva entity)
         {
-            Domain.Entities.Reserva Updatereserva = this.context.Reserva.Find(entity.IdReserva);
-            Updatereserva.IdViaje = entity.IdViaje;
-            Updatereserva.IdPasajero = entity.IdPasajero;
-            Updatereserva.MontoTotal = entity.MontoTotal;
-            Updatereserva.AsientosReservados = entity.AsientosReservados;
-            Updatereserva.FechaCreacion = entity.FechaCreacion ?? entity.FechaCreacion;
+            try
+            {
+                this.context.Reserva.Update(entity);
+                this.context.SaveChanges();
+            }
+            catch (Exception ex)
+            {
 
-            this.context.Reserva.Update(Updatereserva);
-            this.context.SaveChanges();
+                throw new Exception("Error updating reservation", ex);
+            }
+            
         }
+
         public void Delete(Domain.Entities.Reserva entity)
         {
             this.context.Reserva.Remove(entity);

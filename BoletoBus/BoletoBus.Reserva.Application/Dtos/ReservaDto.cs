@@ -1,7 +1,7 @@
 ﻿
 namespace BoletoBus.Reserva.Application.Dtos
 {
-    public class ReservaUpdateModel : ReservaBaseModel
+    public class ReservaDto : ReservaBaseModel
     {
         public int IdReserva { get; set; }
         

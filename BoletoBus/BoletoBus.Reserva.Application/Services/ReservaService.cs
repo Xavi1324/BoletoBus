@@ -5,6 +5,7 @@ using BoletoBus.Reserva.Application.Dtos;
 using BoletoBus.Reserva.Application.Interfaces;
 using BoletoBus.Reserva.Domain.Interfaces;
 using Microsoft.Extensions.Logging;
+using System.Reflection;
 
 
 namespace BoletoBus.Reserva.Application.Services
@@ -13,97 +14,127 @@ namespace BoletoBus.Reserva.Application.Services
     {
         private readonly IReservaRepository reservaRepository;
         private readonly ILogger<ReservaService> Logger;
+
         public ReservaService(IReservaRepository reservaRepository , ILogger<ReservaService> Logger)
         {
             this.reservaRepository = reservaRepository;
             this.Logger = Logger;
         }
-
+        
         public ServiceResult GetReservas()
         {
-            ServiceResult result = new ServiceResult();
-            try
+            var reservas = reservaRepository.GetAll();
+            var reservaDtos = reservas.Select(r => new ReservaDto
             {
-                result.Data = reservaRepository.GetAll();
-            }
-            catch (Exception ex)
-            {
+                IdReserva = r.id,
+                IdViaje = r.IdViaje,
+                IdPasajero = r.IdPasajero,
+                AsientosReservados = r.AsientosReservados,
+                MontoTotal = r.MontoTotal,
+                FechaCreacion = r.FechaCreacion
+            }).ToList();
 
-                result.Success = false;
-                result.Message = "Ocurrio un error obteniendo las reservas.";
-                this.Logger.LogError(result.Message, ex.ToString());
-            }
-            return result;
+            return new ServiceResult
+            {
+                Success = true,
+                Message = "Reservas obtenidas exitosamente",
+                Data = reservaDtos
+            };
+
         }
 
         public ServiceResult GetReservas(int id)
         {
-            ServiceResult result = new ServiceResult();
-            try
+            var reserva = reservaRepository.GetEntityBy(id);
+            if (reserva == null)
             {
-                result.Data = reservaRepository.GetEntityBy(id);
+                return new ServiceResult
+                {
+                    Success = false,
+                    Message = "Reserva no encontrada"
+                };
             }
-            catch (Exception ex)
-            {
 
-                result.Success = false;
-                result.Message = "Ocurrio un error obteniendo las reservas.";
-                this.Logger.LogError(result.Message, ex.ToString());
-            }
-            return result;
+            var reservaDto = new ReservaDto
+            {
+                IdReserva = reserva.id,
+                IdViaje = reserva.IdViaje,
+                IdPasajero = reserva.IdPasajero,
+                AsientosReservados = reserva.AsientosReservados,
+                MontoTotal = reserva.MontoTotal,
+                FechaCreacion = reserva.FechaCreacion
+            };
+
+            return new ServiceResult
+            {
+                Success = true,
+                Message = "Reserva obtenida exitosamente",
+                Data = reservaDto
+            };
         }
 
         public ServiceResult SaveReserva(ReservaSaveModel reservaSaveModel)
         {
-            ServiceResult result = new ServiceResult();
-            try
-            {
-                Domain.Entities.Reserva reserva = new Domain.Entities.Reserva();
-                this.reservaRepository.Save(reserva);
-            }
-            catch (Exception ex)
-            {
 
-                result.Success = false;
-                result.Message = "Ocurrio un error guardando los datos.";
-                this.Logger.LogError(result.Message, ex.ToString());
-            }
-            return result;
+            var reserva = new Domain.Entities.Reserva
+            {
+                IdViaje = reservaSaveModel.IdViaje.Value,
+                IdPasajero = reservaSaveModel.IdPasajero.Value,
+                AsientosReservados = reservaSaveModel.AsientosReservados.Value,
+                MontoTotal = reservaSaveModel.MontoTotal.Value,
+                FechaCreacion = reservaSaveModel.FechaCreacion.Value
+            };
+
+            reservaRepository.Save(reserva);
+            return new ServiceResult
+            {
+                Success = true,
+                Message = "Reserva guardada exitosamente"
+            };
         }
 
         public ServiceResult UpdateReservas(ReservaUpdateModel reservaUpdateModel)
         {
-            ServiceResult result = new ServiceResult();
-            try
+            var reserva = reservaRepository.GetEntityBy(reservaUpdateModel.IdReserva);
+            if (reserva == null)
             {
-                Domain.Entities.Reserva Updatereserva = new Domain.Entities.Reserva();
-                this.reservaRepository.Updater(Updatereserva);
+                return new ServiceResult
+                {
+                    Success = false,
+                    Message = "Reserva no encontrada"
+                };
             }
-            catch (Exception ex)
-            {
+            reserva.IdViaje = reservaUpdateModel.IdViaje ?? reserva.IdViaje;
+            reserva.IdPasajero = reservaUpdateModel.IdPasajero ?? reserva.IdPasajero;
+            reserva.AsientosReservados = reservaUpdateModel.AsientosReservados ?? reserva.AsientosReservados;
+            reserva.MontoTotal = reservaUpdateModel.MontoTotal ?? reserva.MontoTotal;
+            reserva.FechaCreacion = reservaUpdateModel.FechaCreacion ?? reserva.FechaCreacion;
 
-                result.Success = false;
-                result.Message = "Ocurrio un error atualizando los datos.";
-                this.Logger.LogError(result.Message, ex.ToString());
-            }
-            return result;
+            reservaRepository.Updater(reserva);
+            return new ServiceResult
+            {
+                Success = true,
+                Message = "Reserva actualizada exitosamente"
+            };
         }
         public ServiceResult DeleteReservas(ReservaDeleteModel reservaDeleteModel)
         {
-            ServiceResult result = new ServiceResult();
-            try
+            var reserva = reservaRepository.GetEntityBy(reservaDeleteModel.IdReserva);
+            if (reserva == null)
             {
-                Domain.Entities.Reserva Delertereserva = new Domain.Entities.Reserva();
-                this.reservaRepository.Delete(Delertereserva);
+                return new ServiceResult
+                {
+                    Success = false,
+                    Message = "Reserva no encontrada"
+                };
             }
-            catch (Exception ex)
-            {
 
-                result.Success = false;
-                result.Message = "Ocurrio un error eliminando los detalles de esta reserva.";
-                this.Logger.LogError(result.Message, ex.ToString());
-            }
-            return result;
+            reservaRepository.Delete(reserva);
+            return new ServiceResult
+            {
+                Success = true,
+                Message = "Reserva eliminada exitosamente"
+            };
         }
     }
 }

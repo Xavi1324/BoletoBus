@@ -23,7 +23,7 @@ namespace BoletoBus.Entities.Persistence.Repositories
         {
             return this.context.ReservaDetalle.Select(rd => new ReservaDetalle.Domain.Entities.ReservaDetalle()
             {
-                IdReservaDetalle = rd.IdReservaDetalle,
+                id = rd.id,
                 IdReserva = rd.IdReserva,
                 IdAsiento = rd.IdAsiento,
                 FechaCreacion = rd.FechaCreacion,
@@ -35,7 +35,7 @@ namespace BoletoBus.Entities.Persistence.Repositories
             var ReservaDetalle = this.context.ReservaDetalle.Find(Id);
             ReservaDetalle.Domain.Entities.ReservaDetalle reservaDetalle = new ReservaDetalle.Domain.Entities.ReservaDetalle()
             {
-                IdReservaDetalle = ReservaDetalle.IdReservaDetalle,
+                id = ReservaDetalle.id,
                 IdReserva = ReservaDetalle.IdReserva,
                 IdAsiento = ReservaDetalle.IdAsiento,
                 FechaCreacion = ReservaDetalle.FechaCreacion
@@ -43,9 +43,9 @@ namespace BoletoBus.Entities.Persistence.Repositories
             return reservaDetalle;
         }
 
-        public List<ReservaDetalle.Domain.Entities.ReservaDetalle> GetReservaDetallesByIdReservaDetalle(int IdReservaDetalle)
+        public List<ReservaDetalle.Domain.Entities.ReservaDetalle> GetReservaDetallesByIdReservaDetalle(int Id)
         {
-            return this.context.ReservaDetalle.Where(r => r.IdReservaDetalle == IdReservaDetalle).ToList();
+            return this.context.ReservaDetalle.Where(r => r.id == Id).ToList();
         }
 
         public void Save(ReservaDetalle.Domain.Entities.ReservaDetalle entity)
@@ -65,8 +65,8 @@ namespace BoletoBus.Entities.Persistence.Repositories
 
         public void Updater(ReservaDetalle.Domain.Entities.ReservaDetalle entity)
         {
-            ReservaDetalle.Domain.Entities.ReservaDetalle reservaDetalleUpdate = this.context.ReservaDetalle.Find(entity.IdReservaDetalle);
-            reservaDetalleUpdate.IdReservaDetalle = entity.IdReservaDetalle;
+            ReservaDetalle.Domain.Entities.ReservaDetalle reservaDetalleUpdate = this.context.ReservaDetalle.Find(entity.id);
+            reservaDetalleUpdate.id = entity.id;
             reservaDetalleUpdate.IdReserva = entity.IdReserva;
             reservaDetalleUpdate.IdAsiento = entity.IdAsiento;
             reservaDetalleUpdate.FechaCreacion = entity.FechaCreacion;

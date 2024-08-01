@@ -4,9 +4,9 @@ using BoletoBus.Reserva.Application.Dtos;
 
 namespace BoletoBus.Reserva.Application.Validaciones
 {
-    public abstract class Validaciones
+    public static class Validaciones
     {
-        public void ValidacionNoNull(Object model, ServiceResult result)
+        public static void ValidacionNoNull(Object model, ServiceResult result)
         {
             if (model is null)
             {
@@ -15,7 +15,7 @@ namespace BoletoBus.Reserva.Application.Validaciones
                 
             }
         }
-        public void ValidacionMayor0<T>(T model, ServiceResult result) where T : ReservaSaveModel
+        public static void ValidacionMayor0<T>(T model, ServiceResult result) where T : ReservaSaveModel
         {
             if (model.MontoTotal <= 0)
             {
