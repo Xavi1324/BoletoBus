@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BoletoBus.Web.props" />
+</Project>

@@ -3,36 +3,28 @@
   "WorkspaceRootPath": "C:\\Proyectos\\BoletoBus\\BoletoBus\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6B2C81D4-5D07-4C22-B08E-4D15513CCD4B}|BoletoBus.ReservaDetalle.Persistence\\BoletoBus.ReservaDetalle.Persistence.csproj|c:\\proyectos\\boletobus\\boletobus\\boletobus.reservadetalle.persistence\\repositories\\reservadetallerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B2C81D4-5D07-4C22-B08E-4D15513CCD4B}|BoletoBus.ReservaDetalle.Persistence\\BoletoBus.ReservaDetalle.Persistence.csproj|solutionrelative:boletobus.reservadetalle.persistence\\repositories\\reservadetallerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A361D566-5CB4-450D-B6CA-E741CDACF4BB}|BoletoBus.Web\\BoletoBus.Web.csproj|c:\\proyectos\\boletobus\\boletobus\\boletobus.web\\models\\reserva\\reservalistgetresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A361D566-5CB4-450D-B6CA-E741CDACF4BB}|BoletoBus.Web\\BoletoBus.Web.csproj|solutionrelative:boletobus.web\\models\\reserva\\reservalistgetresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18950B33-A14F-43BE-A206-1C3ECFBA6EB5}|BoletoBus.ReservaDetalle.Application\\BoletoBus.ReservaDetalle.Application.csproj|c:\\proyectos\\boletobus\\boletobus\\boletobus.reservadetalle.application\\services\\reservadetalleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18950B33-A14F-43BE-A206-1C3ECFBA6EB5}|BoletoBus.ReservaDetalle.Application\\BoletoBus.ReservaDetalle.Application.csproj|solutionrelative:boletobus.reservadetalle.application\\services\\reservadetalleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A361D566-5CB4-450D-B6CA-E741CDACF4BB}|BoletoBus.Web\\BoletoBus.Web.csproj|c:\\proyectos\\boletobus\\boletobus\\boletobus.web\\models\\reserva\\rervagetmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A361D566-5CB4-450D-B6CA-E741CDACF4BB}|BoletoBus.Web\\BoletoBus.Web.csproj|solutionrelative:boletobus.web\\models\\reserva\\rervagetmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18950B33-A14F-43BE-A206-1C3ECFBA6EB5}|BoletoBus.ReservaDetalle.Application\\BoletoBus.ReservaDetalle.Application.csproj|c:\\proyectos\\boletobus\\boletobus\\boletobus.reservadetalle.application\\dtos\\reservadetallebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18950B33-A14F-43BE-A206-1C3ECFBA6EB5}|BoletoBus.ReservaDetalle.Application\\BoletoBus.ReservaDetalle.Application.csproj|solutionrelative:boletobus.reservadetalle.application\\dtos\\reservadetallebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A361D566-5CB4-450D-B6CA-E741CDACF4BB}|BoletoBus.Web\\BoletoBus.Web.csproj|c:\\proyectos\\boletobus\\boletobus\\boletobus.web\\controllers\\reservacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A361D566-5CB4-450D-B6CA-E741CDACF4BB}|BoletoBus.Web\\BoletoBus.Web.csproj|solutionrelative:boletobus.web\\controllers\\reservacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18950B33-A14F-43BE-A206-1C3ECFBA6EB5}|BoletoBus.ReservaDetalle.Application\\BoletoBus.ReservaDetalle.Application.csproj|c:\\proyectos\\boletobus\\boletobus\\boletobus.reservadetalle.application\\dtos\\reservadetallesave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18950B33-A14F-43BE-A206-1C3ECFBA6EB5}|BoletoBus.ReservaDetalle.Application\\BoletoBus.ReservaDetalle.Application.csproj|solutionrelative:boletobus.reservadetalle.application\\dtos\\reservadetallesave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A361D566-5CB4-450D-B6CA-E741CDACF4BB}|BoletoBus.Web\\BoletoBus.Web.csproj|c:\\proyectos\\boletobus\\boletobus\\boletobus.web\\controllers\\viajecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A361D566-5CB4-450D-B6CA-E741CDACF4BB}|BoletoBus.Web\\BoletoBus.Web.csproj|solutionrelative:boletobus.web\\controllers\\viajecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18950B33-A14F-43BE-A206-1C3ECFBA6EB5}|BoletoBus.ReservaDetalle.Application\\BoletoBus.ReservaDetalle.Application.csproj|c:\\proyectos\\boletobus\\boletobus\\boletobus.reservadetalle.application\\dtos\\reservadetalleupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18950B33-A14F-43BE-A206-1C3ECFBA6EB5}|BoletoBus.ReservaDetalle.Application\\BoletoBus.ReservaDetalle.Application.csproj|solutionrelative:boletobus.reservadetalle.application\\dtos\\reservadetalleupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A361D566-5CB4-450D-B6CA-E741CDACF4BB}|BoletoBus.Web\\BoletoBus.Web.csproj|c:\\proyectos\\boletobus\\boletobus\\boletobus.web\\controllers\\rutacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A361D566-5CB4-450D-B6CA-E741CDACF4BB}|BoletoBus.Web\\BoletoBus.Web.csproj|solutionrelative:boletobus.web\\controllers\\rutacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18950B33-A14F-43BE-A206-1C3ECFBA6EB5}|BoletoBus.ReservaDetalle.Application\\BoletoBus.ReservaDetalle.Application.csproj|c:\\proyectos\\boletobus\\boletobus\\boletobus.reservadetalle.application\\dtos\\reservadetalledelete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18950B33-A14F-43BE-A206-1C3ECFBA6EB5}|BoletoBus.ReservaDetalle.Application\\BoletoBus.ReservaDetalle.Application.csproj|solutionrelative:boletobus.reservadetalle.application\\dtos\\reservadetalledelete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18950B33-A14F-43BE-A206-1C3ECFBA6EB5}|BoletoBus.ReservaDetalle.Application\\BoletoBus.ReservaDetalle.Application.csproj|c:\\proyectos\\boletobus\\boletobus\\boletobus.reservadetalle.application\\dtos\\reservadetalledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18950B33-A14F-43BE-A206-1C3ECFBA6EB5}|BoletoBus.ReservaDetalle.Application\\BoletoBus.ReservaDetalle.Application.csproj|solutionrelative:boletobus.reservadetalle.application\\dtos\\reservadetalledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68E9BDB8-8617-46D6-8E7B-2840E27DBEDD}|BoletoBus.ReservaDetalle.Api\\BoletoBus.ReservaDetalle.Api.csproj|c:\\proyectos\\boletobus\\boletobus\\boletobus.reservadetalle.api\\controllers\\reservadetallecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68E9BDB8-8617-46D6-8E7B-2840E27DBEDD}|BoletoBus.ReservaDetalle.Api\\BoletoBus.ReservaDetalle.Api.csproj|solutionrelative:boletobus.reservadetalle.api\\controllers\\reservadetallecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A361D566-5CB4-450D-B6CA-E741CDACF4BB}|BoletoBus.Web\\BoletoBus.Web.csproj|c:\\proyectos\\boletobus\\boletobus\\boletobus.web\\controllers\\reservadetallecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A361D566-5CB4-450D-B6CA-E741CDACF4BB}|BoletoBus.Web\\BoletoBus.Web.csproj|solutionrelative:boletobus.web\\controllers\\reservadetallecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -41,111 +33,85 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 261,
+          "DockedWidth": 331,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ReservaDetalleRepository.cs",
-              "DocumentMoniker": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.ReservaDetalle.Persistence\\Repositories\\ReservaDetalleRepository.cs",
-              "RelativeDocumentMoniker": "BoletoBus.ReservaDetalle.Persistence\\Repositories\\ReservaDetalleRepository.cs",
-              "ToolTip": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.ReservaDetalle.Persistence\\Repositories\\ReservaDetalleRepository.cs",
-              "RelativeToolTip": "BoletoBus.ReservaDetalle.Persistence\\Repositories\\ReservaDetalleRepository.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAmwE8AAAAnAAAA",
+              "Title": "ReservaListGetResult.cs",
+              "DocumentMoniker": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Web\\Models\\Reserva\\ReservaListGetResult.cs",
+              "RelativeDocumentMoniker": "BoletoBus.Web\\Models\\Reserva\\ReservaListGetResult.cs",
+              "ToolTip": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Web\\Models\\Reserva\\ReservaListGetResult.cs",
+              "RelativeToolTip": "BoletoBus.Web\\Models\\Reserva\\ReservaListGetResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T15:29:23.354Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ReservaDetalleDto.cs",
-              "DocumentMoniker": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.ReservaDetalle.Application\\Dtos\\ReservaDetalleDto.cs",
-              "RelativeDocumentMoniker": "BoletoBus.ReservaDetalle.Application\\Dtos\\ReservaDetalleDto.cs",
-              "ToolTip": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.ReservaDetalle.Application\\Dtos\\ReservaDetalleDto.cs",
-              "RelativeToolTip": "BoletoBus.ReservaDetalle.Application\\Dtos\\ReservaDetalleDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T15:16:27.185Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ReservaDetalleDelete.cs",
-              "DocumentMoniker": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.ReservaDetalle.Application\\Dtos\\ReservaDetalleDelete.cs",
-              "RelativeDocumentMoniker": "BoletoBus.ReservaDetalle.Application\\Dtos\\ReservaDetalleDelete.cs",
-              "ToolTip": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.ReservaDetalle.Application\\Dtos\\ReservaDetalleDelete.cs",
-              "RelativeToolTip": "BoletoBus.ReservaDetalle.Application\\Dtos\\ReservaDetalleDelete.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T15:15:24.842Z",
+              "WhenOpened": "2024-08-02T00:55:16.99Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ReservaDetalleService.cs",
-              "DocumentMoniker": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.ReservaDetalle.Application\\Services\\ReservaDetalleService.cs",
-              "RelativeDocumentMoniker": "BoletoBus.ReservaDetalle.Application\\Services\\ReservaDetalleService.cs",
-              "ToolTip": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.ReservaDetalle.Application\\Services\\ReservaDetalleService.cs",
-              "RelativeToolTip": "BoletoBus.ReservaDetalle.Application\\Services\\ReservaDetalleService.cs",
-              "ViewState": "AQIAAG8AAAAAAAAAAAAmwBcAAAAIAAAA",
+              "Title": "RervaGetModel.cs",
+              "DocumentMoniker": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Web\\Models\\Reserva\\RervaGetModel.cs",
+              "RelativeDocumentMoniker": "BoletoBus.Web\\Models\\Reserva\\RervaGetModel.cs",
+              "ToolTip": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Web\\Models\\Reserva\\RervaGetModel.cs",
+              "RelativeToolTip": "BoletoBus.Web\\Models\\Reserva\\RervaGetModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T11:45:50.2Z",
+              "WhenOpened": "2024-08-02T00:40:39.442Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ReservaDetalleSave.cs",
-              "DocumentMoniker": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.ReservaDetalle.Application\\Dtos\\ReservaDetalleSave.cs",
-              "RelativeDocumentMoniker": "BoletoBus.ReservaDetalle.Application\\Dtos\\ReservaDetalleSave.cs",
-              "ToolTip": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.ReservaDetalle.Application\\Dtos\\ReservaDetalleSave.cs",
-              "RelativeToolTip": "BoletoBus.ReservaDetalle.Application\\Dtos\\ReservaDetalleSave.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Title": "ViajeController.cs",
+              "DocumentMoniker": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Web\\Controllers\\ViajeController.cs",
+              "RelativeDocumentMoniker": "BoletoBus.Web\\Controllers\\ViajeController.cs",
+              "ToolTip": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Web\\Controllers\\ViajeController.cs",
+              "RelativeToolTip": "BoletoBus.Web\\Controllers\\ViajeController.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAADsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T15:13:11.313Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ReservaDetalleBase.cs",
-              "DocumentMoniker": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.ReservaDetalle.Application\\Dtos\\ReservaDetalleBase.cs",
-              "RelativeDocumentMoniker": "BoletoBus.ReservaDetalle.Application\\Dtos\\ReservaDetalleBase.cs",
-              "ToolTip": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.ReservaDetalle.Application\\Dtos\\ReservaDetalleBase.cs",
-              "RelativeToolTip": "BoletoBus.ReservaDetalle.Application\\Dtos\\ReservaDetalleBase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T15:11:22.796Z",
+              "WhenOpened": "2024-08-02T00:20:11.784Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ReservaDetalleUpdate.cs",
-              "DocumentMoniker": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.ReservaDetalle.Application\\Dtos\\ReservaDetalleUpdate.cs",
-              "RelativeDocumentMoniker": "BoletoBus.ReservaDetalle.Application\\Dtos\\ReservaDetalleUpdate.cs",
-              "ToolTip": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.ReservaDetalle.Application\\Dtos\\ReservaDetalleUpdate.cs",
-              "RelativeToolTip": "BoletoBus.ReservaDetalle.Application\\Dtos\\ReservaDetalleUpdate.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Title": "RutaController.cs",
+              "DocumentMoniker": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Web\\Controllers\\RutaController.cs",
+              "RelativeDocumentMoniker": "BoletoBus.Web\\Controllers\\RutaController.cs",
+              "ToolTip": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Web\\Controllers\\RutaController.cs",
+              "RelativeToolTip": "BoletoBus.Web\\Controllers\\RutaController.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAmwD0AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T15:14:51.252Z",
+              "WhenOpened": "2024-08-02T00:19:51.528Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "ReservaDetalleController.cs",
-              "DocumentMoniker": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.ReservaDetalle.Api\\Controllers\\ReservaDetalleController.cs",
-              "RelativeDocumentMoniker": "BoletoBus.ReservaDetalle.Api\\Controllers\\ReservaDetalleController.cs",
-              "ToolTip": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.ReservaDetalle.Api\\Controllers\\ReservaDetalleController.cs",
-              "RelativeToolTip": "BoletoBus.ReservaDetalle.Api\\Controllers\\ReservaDetalleController.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAwwDMAAAAIAAAA",
+              "DocumentMoniker": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Web\\Controllers\\ReservaDetalleController.cs",
+              "RelativeDocumentMoniker": "BoletoBus.Web\\Controllers\\ReservaDetalleController.cs",
+              "ToolTip": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Web\\Controllers\\ReservaDetalleController.cs",
+              "RelativeToolTip": "BoletoBus.Web\\Controllers\\ReservaDetalleController.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAmwD0AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T11:45:50.236Z",
+              "WhenOpened": "2024-08-02T00:19:36.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReservaController.cs",
+              "DocumentMoniker": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Web\\Controllers\\ReservaController.cs",
+              "RelativeDocumentMoniker": "BoletoBus.Web\\Controllers\\ReservaController.cs",
+              "ToolTip": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Web\\Controllers\\ReservaController.cs",
+              "RelativeToolTip": "BoletoBus.Web\\Controllers\\ReservaController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T00:18:54.561Z",
               "EditorCaption": ""
             }
           ]

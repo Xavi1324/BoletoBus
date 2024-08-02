@@ -1,6 +1,6 @@
 ﻿using BoletoBus.ReservaDetalle.Domain.Interfaces;
 using BoletoBus.ReservaDetalle.Persistence.Context;
-using BusMonoliticApp.Web.Data.Exceptions;
+using Microsoft.Extensions.Logging;
 using System.Linq.Expressions;
 
 namespace BoletoBus.Entities.Persistence.Repositories
@@ -8,70 +8,61 @@ namespace BoletoBus.Entities.Persistence.Repositories
     public class ReservaDetalleRepository : IReservaDetalleRepository
     {
         private readonly BoletosBusContext context;
+        private readonly ILogger<ReservaDetalleRepository> logger;
 
-        public ReservaDetalleRepository(BoletosBusContext context)
+        public ReservaDetalleRepository(BoletosBusContext context, ILogger<ReservaDetalleRepository> logger)
         {
             this.context = context;
+            this.logger = logger;
         }
 
         public bool Exists(Expression<Func<ReservaDetalle.Domain.Entities.ReservaDetalle, bool>> filter)
         {
-            return this.context.ReservaDetalle.Any(filter);
+            return context.ReservaDetalle.Any(filter);
         }
 
         public List<ReservaDetalle.Domain.Entities.ReservaDetalle> GetAll()
         {
-            return this.context.ReservaDetalle.Select(rd => new ReservaDetalle.Domain.Entities.ReservaDetalle()
-            {
-                id = rd.id,
-                IdReserva = rd.IdReserva,
-                IdAsiento = rd.IdAsiento,
-                FechaCreacion = rd.FechaCreacion,
-            }).ToList();
+            return context.ReservaDetalle.ToList();
+            
         }
 
         public ReservaDetalle.Domain.Entities.ReservaDetalle GetEntityBy(int Id)
         {
-            var ReservaDetalle = this.context.ReservaDetalle.Find(Id);
-            ReservaDetalle.Domain.Entities.ReservaDetalle reservaDetalle = new ReservaDetalle.Domain.Entities.ReservaDetalle()
-            {
-                id = ReservaDetalle.id,
-                IdReserva = ReservaDetalle.IdReserva,
-                IdAsiento = ReservaDetalle.IdAsiento,
-                FechaCreacion = ReservaDetalle.FechaCreacion
-            };
-            return reservaDetalle;
+             return context.ReservaDetalle.Find(Id);
+            
         }
 
         public List<ReservaDetalle.Domain.Entities.ReservaDetalle> GetReservaDetallesByIdReservaDetalle(int Id)
         {
-            return this.context.ReservaDetalle.Where(r => r.id == Id).ToList();
+            return this.context.ReservaDetalle.Where(rd => rd.id == Id).ToList();
         }
 
         public void Save(ReservaDetalle.Domain.Entities.ReservaDetalle entity)
         {
-            ReservaDetalle.Domain.Entities.ReservaDetalle reservaDetalle = new ReservaDetalle.Domain.Entities.ReservaDetalle()
+            try
             {
-                IdReserva = entity.IdReserva,
-                IdAsiento = entity.IdAsiento,
-                FechaCreacion = entity.FechaCreacion,
-            };
-            this.context.ReservaDetalle.Add(reservaDetalle);
-            this.context.SaveChanges();
-            
-            
-            
+                this.context.ReservaDetalle.Add(entity);
+                this.context.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error saving details", ex);
+            }
         }
 
         public void Updater(ReservaDetalle.Domain.Entities.ReservaDetalle entity)
         {
-            ReservaDetalle.Domain.Entities.ReservaDetalle reservaDetalleUpdate = this.context.ReservaDetalle.Find(entity.id);
-            reservaDetalleUpdate.id = entity.id;
-            reservaDetalleUpdate.IdReserva = entity.IdReserva;
-            reservaDetalleUpdate.IdAsiento = entity.IdAsiento;
-            reservaDetalleUpdate.FechaCreacion = entity.FechaCreacion;
-            this.context.ReservaDetalle.Update(reservaDetalleUpdate);
-            this.context.SaveChanges();
+            try
+            {
+                this.context.ReservaDetalle.Update(entity);
+                this.context.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+
+                throw new Exception ("Error updating details", ex);
+            }
         }
 
         public void Delete(ReservaDetalle.Domain.Entities.ReservaDetalle entity)

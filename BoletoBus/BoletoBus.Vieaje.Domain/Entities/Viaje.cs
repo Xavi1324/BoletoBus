@@ -8,10 +8,7 @@ namespace BoletoBus.Viaje.Domain.Entities
     {
         [Column("IdViaje")]
         public override int id { get; set ; }
-
-        [Key]
-        public int IdViaje { get; set; }
-             public int? IdBus { get; set; }
+        public int? IdBus { get; set; }
         public int? IdRuta { get; set; }
         public DateTime? FechaSalida { get; set; }
         public TimeSpan? HoraSalida { get; set; }

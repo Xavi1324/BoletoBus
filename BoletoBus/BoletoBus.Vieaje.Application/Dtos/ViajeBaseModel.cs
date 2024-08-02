@@ -2,7 +2,7 @@
 {
     public abstract class ViajeBaseModel
     {
-        public int IdViaje { get; set; }
+        
         public int? IdBus { get; set; }
         public int? IdRuta { get; set; }
         public DateTime? FechaSalida { get; set; }

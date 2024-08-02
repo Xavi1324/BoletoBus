@@ -7,8 +7,6 @@ namespace BoletoBus.Ruta.Domain.Entities
     {
         [Column("IdRuta")]
         public override int id { get; set; }
-        [Key]
-        public int IdRuta { get; set; }
         public string? Origen { get; set; }
         public string? Destino { get; set; }
         

@@ -1,13 +1,6 @@
-﻿
-using BoletoBus.Viaje.Domain.Entities;
-using BoletoBus.Viaje.Domain.Interfaces;
+﻿using BoletoBus.Viaje.Domain.Interfaces;
 using BoletoBus.Viaje.Persistence.Context;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BoletoBus.Entities.Persistence.Repositories
 {
@@ -26,83 +19,45 @@ namespace BoletoBus.Entities.Persistence.Repositories
 
         public List<Viaje.Domain.Entities.Viaje> GetAll()
         {
-            return this.context.Viaje.Select(v => new Viaje.Domain.Entities.Viaje()
-            {
-                IdViaje = v.IdViaje,
-                IdBus = v.IdBus,
-                IdRuta = v.IdRuta,
-                FechaSalida = v.FechaSalida,
-                HoraSalida = v.HoraSalida,
-                FechaLlegada = v.FechaLlegada,
-                HoraLlegada = v.HoraLlegada,
-                Precio = v.Precio,
-                TotalAsientos = v.TotalAsientos,
-                AsientosReservados = v.AsientosReservados,
-                FechaCreacion = v.FechaCreacion,
-
-            }).ToList();
+            return context.Viaje.ToList();
         }
 
         public Viaje.Domain.Entities.Viaje GetEntityBy(int Id)
         {
-            var Viaje = this.context.Viaje.Find(Id);
-            Viaje.Domain.Entities.Viaje viaje = new Viaje.Domain.Entities.Viaje()
-            {
-                IdViaje = Viaje.IdViaje,
-                IdBus = Viaje.IdBus,
-                IdRuta = Viaje.IdRuta,
-                FechaSalida = Viaje.FechaSalida,
-                HoraSalida = Viaje.HoraSalida,
-                FechaLlegada = Viaje.FechaLlegada,
-                HoraLlegada = Viaje.HoraLlegada,
-                Precio = Viaje.Precio,
-                TotalAsientos = Viaje.TotalAsientos,
-                AsientosReservados = Viaje.AsientosReservados,
-                FechaCreacion = Viaje.FechaCreacion,
-            };
-            return viaje;
+            return context.Viaje.Find(Id);
         }
 
-        public List<Viaje.Domain.Entities.Viaje> GetViajesByIdViaje(int IdViaje)
+        public List<Viaje.Domain.Entities.Viaje> GetViajesByIdViaje(int Id)
         {
-            return this.context.Viaje.Where(r => r.IdViaje == IdViaje).ToList();
+            return this.context.Viaje.Where(V => V.id == Id).ToList();
         }
 
         public void Save(Viaje.Domain.Entities.Viaje entity)
         {
-            Viaje.Domain.Entities.Viaje viaje = new Viaje.Domain.Entities.Viaje()
+            try
             {
-                IdBus = entity.IdBus,
-                IdRuta = entity.IdRuta,
-                FechaSalida = entity.FechaSalida,
-                HoraSalida = entity.HoraSalida,
-                FechaLlegada = entity.FechaLlegada,
-                HoraLlegada = entity.HoraLlegada,
-                Precio = entity.Precio,
-                TotalAsientos = entity.TotalAsientos,
-                AsientosReservados = entity.AsientosReservados,
-                FechaCreacion = entity.FechaCreacion,
-            };
-            this.context.Viaje.Add(viaje);
-            this.context.SaveChanges();
+                this.context.Viaje.Add(entity);
+                this.context.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+
+                throw new Exception("Error guardando viaje", ex);
+            }
         }
 
         public void Updater(Viaje.Domain.Entities.Viaje entity)
         {
-            Viaje.Domain.Entities.Viaje viajeUpdate = this.context.Viaje.Find(entity.IdViaje);
-            viajeUpdate.IdViaje = entity.IdViaje;
-            viajeUpdate.IdBus = entity.IdBus;
-            viajeUpdate.IdRuta = entity.IdRuta;
-            viajeUpdate.FechaSalida = entity.FechaSalida;
-            viajeUpdate.HoraSalida = entity.HoraSalida;
-            viajeUpdate.FechaLlegada = entity.FechaSalida;
-            viajeUpdate.HoraLlegada = entity.HoraLlegada;
-            viajeUpdate.Precio = entity.Precio;
-            viajeUpdate.TotalAsientos = entity.TotalAsientos;
-            viajeUpdate.AsientosReservados = entity.AsientosReservados;
-            viajeUpdate.FechaSalida = entity.FechaSalida;
-            this.context.Viaje.Update(viajeUpdate);
-            this.context.SaveChanges();
+            try
+            {
+                this.context.Viaje.Update(entity);
+                this.context.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+
+                throw new Exception("Error actualizando viaje", ex);
+            }
         }
 
         public void Delete(Viaje.Domain.Entities.Viaje entity)
