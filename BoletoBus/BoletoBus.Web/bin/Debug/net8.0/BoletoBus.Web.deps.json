@@ -7,14 +7,138 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "BoletoBus.Web/1.0.0": {
+        "dependencies": {
+          "BoletoBus.Reserva.Application": "1.0.0",
+          "BoletoBus.ReservaDetalle.Application": "1.0.0",
+          "Microsoft.Exchange.WebServices": "2.2.0",
+          "Newtonsoft.Json": "13.0.3"
+        },
         "runtime": {
           "BoletoBus.Web.dll": {}
+        }
+      },
+      "Microsoft.Exchange.WebServices/2.2.0": {
+        "runtime": {
+          "lib/40/Microsoft.Exchange.WebServices.Auth.dll": {
+            "assemblyVersion": "15.0.0.0",
+            "fileVersion": "15.0.913.0"
+          },
+          "lib/40/Microsoft.Exchange.WebServices.dll": {
+            "assemblyVersion": "15.0.0.0",
+            "fileVersion": "15.0.913.15"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {},
+      "Microsoft.Extensions.Logging.Abstractions/8.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
+          }
+        }
+      },
+      "BoletoBus.Common.Data/1.0.0": {
+        "runtime": {
+          "BoletoBus.Common.Data.dll": {}
+        }
+      },
+      "BoletoBus.Reserva.Application/1.0.0": {
+        "dependencies": {
+          "BoletoBus.Reserva.Domain": "1.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0"
+        },
+        "runtime": {
+          "BoletoBus.Reserva.Application.dll": {}
+        }
+      },
+      "BoletoBus.Reserva.Domain/1.0.0": {
+        "dependencies": {
+          "BoletoBus.Common.Data": "1.0.0"
+        },
+        "runtime": {
+          "BoletoBus.Reserva.Domain.dll": {}
+        }
+      },
+      "BoletoBus.ReservaDetalle.Application/1.0.0": {
+        "dependencies": {
+          "BoletoBus.ReservaDetalle.Domain": "1.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0"
+        },
+        "runtime": {
+          "BoletoBus.ReservaDetalle.Application.dll": {}
+        }
+      },
+      "BoletoBus.ReservaDetalle.Domain/1.0.0": {
+        "dependencies": {
+          "BoletoBus.Common.Data": "1.0.0"
+        },
+        "runtime": {
+          "BoletoBus.ReservaDetalle.Domain.dll": {}
         }
       }
     }
   },
   "libraries": {
     "BoletoBus.Web/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Exchange.WebServices/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NlkaTD0uWtg9VbiWq0VDWMBPzHFknH3tmstrxt0acrT09LBGqATTjRpsGOODz6tUdX7/dehBinxsf75U5Uw/+A==",
+      "path": "microsoft.exchange.webservices/2.2.0",
+      "hashPath": "microsoft.exchange.webservices.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cjWrLkJXK0rs4zofsK4bSdg+jhDLTaxrkXu4gS6Y7MAlCvRyNNgwY/lJi5RDlQOnSZweHqoyvgvbdvQsRIW+hg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-arDBqTgFCyS0EvRV7O3MZturChstm50OJ0y9bDJvAcmEPJm0FFpFyjU/JLYyStNGGey081DvnQYlncNX5SJJGA==",
+      "path": "microsoft.extensions.logging.abstractions/8.0.0",
+      "hashPath": "microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
+    },
+    "BoletoBus.Common.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BoletoBus.Reserva.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BoletoBus.Reserva.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BoletoBus.ReservaDetalle.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BoletoBus.ReservaDetalle.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

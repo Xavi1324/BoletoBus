@@ -5,7 +5,6 @@ using BoletoBus.Reserva.Application.Dtos;
 using BoletoBus.Reserva.Application.Interfaces;
 using BoletoBus.Reserva.Domain.Interfaces;
 using Microsoft.Extensions.Logging;
-using System.Reflection;
 
 
 namespace BoletoBus.Reserva.Application.Services

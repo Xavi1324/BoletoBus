@@ -1,9 +1,8 @@
 ﻿namespace BoletoBus.Web.Models.Reserva
 {
-    public class ReservaListGetResult
+    public class ReservaListGetResult : BaseListGetResult<ReservaGetModelBase>
     {
-        public bool success { get; set; }
-        public string message { get; set; }
-        public List<RervaGetModel> data { get; set; }
+        
+        
     }
 }

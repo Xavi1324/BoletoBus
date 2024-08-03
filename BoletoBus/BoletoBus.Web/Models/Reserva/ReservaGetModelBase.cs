@@ -1,6 +1,6 @@
 ﻿namespace BoletoBus.Web.Models.Reserva
 {
-    public class RervaGetModel
+    public  class ReservaGetModelBase
     {
         public int idReserva { get; set; }
         public int idViaje { get; set; }

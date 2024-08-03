@@ -1,20 +1,46 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using BoletoBus.Reserva.Application.Dtos;
+using BoletoBus.ReservaDetalle.Application.Dtos;
+using BoletoBus.Web.HelpController;
+using BoletoBus.Web.Models.Reserva;
+using BoletoBus.Web.Models.ReservaDetalle;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BoletoBus.Web.Controllers
 {
     public class ReservaDetalleController : Controller
     {
-        // GET: ReservaDetalleController
-        public ActionResult Index()
+        private readonly BaseHelp baseHelp;
+        public ReservaDetalleController()
         {
-            return View();
+            this.baseHelp = baseHelp;
+        }
+        // GET: ReservaDetalleController
+        public async  Task<ActionResult> Index()
+        {
+            var url = "http://localhost:5268/api/ReservaDetalle/GetReservaDetalle";
+            var result = await baseHelp.GetApiResult<ReservaDetalleListGetResult>(url);
+            if (result == null)
+            {
+                ViewBag.ErrorMessage = "Error al obtener los detalles de las reservas.";
+                return View();
+            }
+
+            return View(result.data);
         }
 
         // GET: ReservaDetalleController/Details/5
-        public ActionResult Details(int id)
+        public async  Task<ActionResult> Details(int id)
         {
-            return View();
+            var url = $"http://localhost:5268/api/ReservaDetalle/GetReservaDetalleById?id={id}";
+            var result = await baseHelp.GetApiResult<ReservaDetalleGetResult>(url);
+            if (result == null)
+            {
+                ViewBag.ErrorMessage = "Error al obtener los detalles de la reserva.";
+                return View();
+            }
+
+            return View(result.data);
         }
 
         // GET: ReservaDetalleController/Create
@@ -26,16 +52,21 @@ namespace BoletoBus.Web.Controllers
         // POST: ReservaDetalleController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public async Task<ActionResult> Create(ReservaDetalleSave reservaDetalleSave )
         {
-            try
+            if (!ModelState.IsValid)
             {
-                return RedirectToAction(nameof(Index));
+                return View(reservaDetalleSave);
             }
-            catch
+            var url = "http://localhost:5268/api/ReservaDetalle/SaverReservaDetalle";
+            var isSuccess = await baseHelp.PostsApiResult(url, reservaDetalleSave);
+            if (!isSuccess)
             {
-                return View();
+                ViewBag.ErrorMessage = "Error al guardar detalles reserva.";
+                return View(reservaDetalleSave);
             }
+
+            return RedirectToAction(nameof(Index));
         }
 
         // GET: ReservaDetalleController/Edit/5
@@ -47,16 +78,27 @@ namespace BoletoBus.Web.Controllers
         // POST: ReservaDetalleController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public async Task<ActionResult> Edit(int id, ReservaDetalleUpdate reservaDetalleUpdate)
         {
-            try
+            if (id != reservaDetalleUpdate.IdReservaDetalle)
             {
-                return RedirectToAction(nameof(Index));
+                return BadRequest();
             }
-            catch
+
+            if (!ModelState.IsValid)
             {
-                return View();
+                return View(reservaDetalleUpdate);
             }
+
+            var url = $"http://localhost:5268/api/ReservaDetalle/UpdateReservaDetalle?id={id}";
+            var isSuccess = await baseHelp.PostsApiResult(url, reservaDetalleUpdate, isPut: true);
+            if (!isSuccess)
+            {
+                ViewBag.ErrorMessage = "Error al actualizar detalles reserva.";
+                return View(reservaDetalleUpdate);
+            }
+
+            return RedirectToAction(nameof(Index));
         }
 
         

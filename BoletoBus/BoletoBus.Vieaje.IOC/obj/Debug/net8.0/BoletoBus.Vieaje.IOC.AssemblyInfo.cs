@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BoletoBus.Vieaje.IOC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ac6131d28317846117c169daaa5739691f46e9c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ba4eb310734af865df0b6722f2fe7c3abe8538b")]
 [assembly: System.Reflection.AssemblyProductAttribute("BoletoBus.Vieaje.IOC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BoletoBus.Vieaje.IOC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

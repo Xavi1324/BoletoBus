@@ -58,7 +58,5 @@ namespace BoletoBus.Web.Controllers
                 return View();
             }
         }
-
-        
     }
 }

@@ -1,20 +1,43 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using BoletoBus.Web.Models.Reserva;
 using Microsoft.AspNetCore.Mvc;
+using BoletoBus.Web.HelpController;
+using BoletoBus.Reserva.Application.Dtos;
 
 namespace BoletoBus.Web.Controllers
 {
     public class ReservaController : Controller
     {
-        // GET: ReservaController
-        public ActionResult Index()
-        {
-            return View();
-        }
+        private readonly BaseHelp baseHelp;
 
-        // GET: ReservaController/Details/5
-        public ActionResult Details(int id)
+        public ReservaController(BaseHelp baseHelp)
         {
-            return View();
+            this.baseHelp = baseHelp;
+        }
+        // GET: ReservaController
+        public async Task<ActionResult> Index()
+        {
+            var url = "http://localhost:5089/api/Reserva/GetReserva";
+            var result = await baseHelp.GetApiResult<ReservaListGetResult>(url);
+            if (result == null)
+            {
+                ViewBag.ErrorMessage = "Error al obtener los datos de las Reservas.";
+                return View();
+            }
+
+            return View(result.data); //?? new List<ReservaGetModelBase>());
+        }
+        // GET: ReservaController/Details/5
+        public async Task<ActionResult> Details(int id)
+        {
+            var url = $"http://localhost:5089/api/Reserva/GetReservabyId?id={id}";
+            var result = await baseHelp.GetApiResult<ReservaGetResult>(url);
+            if (result == null)
+            {
+                ViewBag.ErrorMessage = "Error al obtener los datos de la reserva.";
+                return View();
+            }
+
+            return View(result.data);
         }
 
         // GET: ReservaController/Create
@@ -26,16 +49,22 @@ namespace BoletoBus.Web.Controllers
         // POST: ReservaController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public async Task<ActionResult> Create(ReservaSaveModel reservaSaveModel)
         {
-            try
+
+            if (!ModelState.IsValid)
             {
-                return RedirectToAction(nameof(Index));
+                return View(reservaSaveModel);
             }
-            catch
+            var url = "http://localhost:5089/api/Reserva/SaveReserva";
+            var isSuccess = await baseHelp.PostsApiResult(url, reservaSaveModel);
+            if (!isSuccess)
             {
-                return View();
+                ViewBag.ErrorMessage = "Error al guardar esta reserva.";
+                return View(reservaSaveModel);
             }
+
+            return RedirectToAction(nameof(Index));
         }
 
         // GET: ReservaController/Edit/5
@@ -47,17 +76,27 @@ namespace BoletoBus.Web.Controllers
         // POST: ReservaController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public async Task<ActionResult> Edit(int id, ReservaUpdateModel reservaUpdateModel)
         {
-            try
+            if (id != reservaUpdateModel.IdReserva)
             {
-                return RedirectToAction(nameof(Index));
+                return BadRequest();
             }
-            catch
-            {
-                return View();
-            }
-        }
 
+            if (!ModelState.IsValid)
+            {
+                return View(reservaUpdateModel);
+            }
+        
+            var url = $"http://localhost:5089/api/Reserva/UpdateReserva?id={id}";
+            var isSuccess = await baseHelp.PostsApiResult(url, reservaUpdateModel, isPut: true);
+            if (!isSuccess)
+            {
+                ViewBag.ErrorMessage = "Error al actualizar la reserva.";
+                return View(reservaUpdateModel);
+            }
+
+            return RedirectToAction(nameof(Index));
+        }
     }
 }

@@ -107,7 +107,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IOC", "IOC", "{F3A91A3A-6BC
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoletoBus.Vieaje.IOC", "BoletoBus.Vieaje.IOC\BoletoBus.Vieaje.IOC.csproj", "{86B03073-E56F-4258-B358-55234E7C338A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoletoBus.Web", "BoletoBus.Web\BoletoBus.Web.csproj", "{A361D566-5CB4-450D-B6CA-E741CDACF4BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoletoBus.Web", "BoletoBus.Web\BoletoBus.Web.csproj", "{A361D566-5CB4-450D-B6CA-E741CDACF4BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
