@@ -1,16 +1,21 @@
-﻿using BoletoBus.Reserva.Application.Dtos;
-using BoletoBus.ReservaDetalle.Application.Dtos;
+﻿using BoletoBus.ReservaDetalle.Application.Dtos;
 using BoletoBus.Web.HelpController;
-using BoletoBus.Web.Models.Reserva;
+using BoletoBus.Web.Links;
 using BoletoBus.Web.Models.ReservaDetalle;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Options;
 
 namespace BoletoBus.Web.Controllers
 {
     public class ReservaDetalleController : Controller
     {
         private readonly BaseHelp baseHelp;
+        private readonly ConfigUrl configUrl;
+        public ReservaDetalleController(BaseHelp apiHelp, IOptions<ConfigUrl> options)
+        {
+            baseHelp = apiHelp;
+            configUrl = options.Value;
+        }
         public ReservaDetalleController()
         {
             this.baseHelp = baseHelp;
@@ -18,29 +23,33 @@ namespace BoletoBus.Web.Controllers
         // GET: ReservaDetalleController
         public async  Task<ActionResult> Index()
         {
-            var url = "http://localhost:5268/api/ReservaDetalle/GetReservaDetalle";
-            var result = await baseHelp.GetApiResult<ReservaDetalleListGetResult>(url);
-            if (result == null)
-            {
-                ViewBag.ErrorMessage = "Error al obtener los detalles de las reservas.";
-                return View();
-            }
 
-            return View(result.data);
+
+            var Response = await baseHelp.GetAsync<List<ReservaDetalleGetModelBase>>(configUrl.GetReservaDetalle);
+            if (Response.Success)
+            {
+                return View(Response.data);
+            }
+            else
+            {
+                ModelState.AddModelError(string.Empty, Response.Message);
+                return View(new List<ReservaDetalleGetModelBase>());
+            }
         }
 
         // GET: ReservaDetalleController/Details/5
         public async  Task<ActionResult> Details(int id)
         {
-            var url = $"http://localhost:5268/api/ReservaDetalle/GetReservaDetalleById?id={id}";
-            var result = await baseHelp.GetApiResult<ReservaDetalleGetResult>(url);
-            if (result == null)
+            var Response = await baseHelp.GetAsync<ReservaDetalleGetModelBase>(configUrl.GetReservaDetallebyId(id));
+            if (Response.Success)
             {
-                ViewBag.ErrorMessage = "Error al obtener los detalles de la reserva.";
-                return View();
+                return View(Response.data);
             }
-
-            return View(result.data);
+            else
+            {
+                ModelState.AddModelError(string.Empty, Response.Message);
+                return NotFound();
+            }
         }
 
         // GET: ReservaDetalleController/Create
@@ -58,15 +67,18 @@ namespace BoletoBus.Web.Controllers
             {
                 return View(reservaDetalleSave);
             }
-            var url = "http://localhost:5268/api/ReservaDetalle/SaverReservaDetalle";
-            var isSuccess = await baseHelp.PostsApiResult(url, reservaDetalleSave);
-            if (!isSuccess)
+
+            var apiResponse = await baseHelp.PostAsync(configUrl.ReservaDetalleSave, reservaDetalleSave);
+
+            if (apiResponse.Success)
             {
-                ViewBag.ErrorMessage = "Error al guardar detalles reserva.";
+                return RedirectToAction(nameof(Index));
+            }
+            else
+            {
+                ModelState.AddModelError(string.Empty, apiResponse.Message);
                 return View(reservaDetalleSave);
             }
-
-            return RedirectToAction(nameof(Index));
         }
 
         // GET: ReservaDetalleController/Edit/5
@@ -80,25 +92,23 @@ namespace BoletoBus.Web.Controllers
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Edit(int id, ReservaDetalleUpdate reservaDetalleUpdate)
         {
-            if (id != reservaDetalleUpdate.IdReservaDetalle)
-            {
-                return BadRequest();
-            }
+
 
             if (!ModelState.IsValid)
             {
                 return View(reservaDetalleUpdate);
             }
+            var apiResponse = await baseHelp.PostAsync(configUrl.ReservaDetalleUpdate(id), reservaDetalleUpdate);
 
-            var url = $"http://localhost:5268/api/ReservaDetalle/UpdateReservaDetalle?id={id}";
-            var isSuccess = await baseHelp.PostsApiResult(url, reservaDetalleUpdate, isPut: true);
-            if (!isSuccess)
+            if (apiResponse.Success)
             {
-                ViewBag.ErrorMessage = "Error al actualizar detalles reserva.";
+                return RedirectToAction(nameof(Index));
+            }
+            else
+            {
+                ModelState.AddModelError(string.Empty, apiResponse.Message);
                 return View(reservaDetalleUpdate);
             }
-
-            return RedirectToAction(nameof(Index));
         }
 
         

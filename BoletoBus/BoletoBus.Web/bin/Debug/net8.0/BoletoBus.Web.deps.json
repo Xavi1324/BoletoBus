@@ -10,6 +10,8 @@
         "dependencies": {
           "BoletoBus.Reserva.Application": "1.0.0",
           "BoletoBus.ReservaDetalle.Application": "1.0.0",
+          "BoletoBus.Ruta.Application": "1.0.0",
+          "BoletoBus.Vieaje.Application": "1.0.0",
           "Microsoft.Exchange.WebServices": "2.2.0",
           "Newtonsoft.Json": "13.0.3"
         },
@@ -81,6 +83,40 @@
         "runtime": {
           "BoletoBus.ReservaDetalle.Domain.dll": {}
         }
+      },
+      "BoletoBus.Ruta.Application/1.0.0": {
+        "dependencies": {
+          "BoletoBus.Ruta.Domain": "1.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0"
+        },
+        "runtime": {
+          "BoletoBus.Ruta.Application.dll": {}
+        }
+      },
+      "BoletoBus.Ruta.Domain/1.0.0": {
+        "dependencies": {
+          "BoletoBus.Common.Data": "1.0.0"
+        },
+        "runtime": {
+          "BoletoBus.Ruta.Domain.dll": {}
+        }
+      },
+      "BoletoBus.Vieaje.Application/1.0.0": {
+        "dependencies": {
+          "BoletoBus.Vieaje.Domain": "1.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0"
+        },
+        "runtime": {
+          "BoletoBus.Vieaje.Application.dll": {}
+        }
+      },
+      "BoletoBus.Vieaje.Domain/1.0.0": {
+        "dependencies": {
+          "BoletoBus.Common.Data": "1.0.0"
+        },
+        "runtime": {
+          "BoletoBus.Vieaje.Domain.dll": {}
+        }
       }
     }
   },
@@ -139,6 +175,26 @@
       "sha512": ""
     },
     "BoletoBus.ReservaDetalle.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BoletoBus.Ruta.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BoletoBus.Ruta.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BoletoBus.Vieaje.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BoletoBus.Vieaje.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

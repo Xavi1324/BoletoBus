@@ -14,6 +14,8 @@
   <ItemGroup>
     <ProjectReference Include="..\BoletoBus.Reserva.Application\BoletoBus.Reserva.Application.csproj" />
     <ProjectReference Include="..\BoletoBus.ReservaDetalle.Application\BoletoBus.ReservaDetalle.Application.csproj" />
+    <ProjectReference Include="..\BoletoBus.Ruta.Application\BoletoBus.Ruta.Application.csproj" />
+    <ProjectReference Include="..\BoletoBus.Vieaje.Application\BoletoBus.Vieaje.Application.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,6 +1,6 @@
 ﻿namespace BoletoBus.Web.Models.Ruta
 {
-    public class ViajeGetModelBase
+    public class RutaGetModelBase
     {
         public int idRuta { get; set; }
         public string origen { get; set; }

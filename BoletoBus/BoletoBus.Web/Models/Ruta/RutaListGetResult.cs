@@ -1,6 +1,6 @@
 ﻿namespace BoletoBus.Web.Models.Ruta
 {
-    public class ViajeListGetResult :BaseListGetResult<ViajeGetModelBase>
+    public class RutaListGetResult : BaseListGetResult<RutaGetModelBase>
     {
     }
 }

@@ -44,3 +44,11 @@ C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Web\bin\Debug\net8.0\BoletoBus.Reserv
 C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Web\bin\Debug\net8.0\BoletoBus.Common.Data.pdb
 C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Web\bin\Debug\net8.0\BoletoBus.Reserva.Domain.pdb
 C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Web\bin\Debug\net8.0\BoletoBus.ReservaDetalle.Domain.pdb
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Web\bin\Debug\net8.0\BoletoBus.Ruta.Application.dll
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Web\bin\Debug\net8.0\BoletoBus.Ruta.Domain.dll
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Web\bin\Debug\net8.0\BoletoBus.Vieaje.Application.dll
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Web\bin\Debug\net8.0\BoletoBus.Vieaje.Domain.dll
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Web\bin\Debug\net8.0\BoletoBus.Ruta.Application.pdb
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Web\bin\Debug\net8.0\BoletoBus.Vieaje.Application.pdb
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Web\bin\Debug\net8.0\BoletoBus.Ruta.Domain.pdb
+C:\Proyectos\BoletoBus\BoletoBus\BoletoBus.Web\bin\Debug\net8.0\BoletoBus.Vieaje.Domain.pdb

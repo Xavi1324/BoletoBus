@@ -132,6 +132,60 @@
         "runtime": {
           "bin/placeholder/BoletoBus.ReservaDetalle.Domain.dll": {}
         }
+      },
+      "BoletoBus.Ruta.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "BoletoBus.Ruta.Domain": "1.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BoletoBus.Ruta.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BoletoBus.Ruta.Application.dll": {}
+        }
+      },
+      "BoletoBus.Ruta.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "BoletoBus.Common.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BoletoBus.Ruta.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BoletoBus.Ruta.Domain.dll": {}
+        }
+      },
+      "BoletoBus.Vieaje.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "BoletoBus.Vieaje.Domain": "1.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BoletoBus.Vieaje.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BoletoBus.Vieaje.Application.dll": {}
+        }
+      },
+      "BoletoBus.Vieaje.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "BoletoBus.Common.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BoletoBus.Vieaje.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BoletoBus.Vieaje.Domain.dll": {}
+        }
       }
     }
   },
@@ -315,12 +369,34 @@
       "type": "project",
       "path": "../BoletoBus.ReservaDetalle.Domain/BoletoBus.ReservaDetalle.Domain.csproj",
       "msbuildProject": "../BoletoBus.ReservaDetalle.Domain/BoletoBus.ReservaDetalle.Domain.csproj"
+    },
+    "BoletoBus.Ruta.Application/1.0.0": {
+      "type": "project",
+      "path": "../BoletoBus.Ruta.Application/BoletoBus.Ruta.Application.csproj",
+      "msbuildProject": "../BoletoBus.Ruta.Application/BoletoBus.Ruta.Application.csproj"
+    },
+    "BoletoBus.Ruta.Domain/1.0.0": {
+      "type": "project",
+      "path": "../BoletoBus.Ruta.Domain/BoletoBus.Ruta.Domain.csproj",
+      "msbuildProject": "../BoletoBus.Ruta.Domain/BoletoBus.Ruta.Domain.csproj"
+    },
+    "BoletoBus.Vieaje.Application/1.0.0": {
+      "type": "project",
+      "path": "../BoletoBus.Vieaje.Application/BoletoBus.Vieaje.Application.csproj",
+      "msbuildProject": "../BoletoBus.Vieaje.Application/BoletoBus.Vieaje.Application.csproj"
+    },
+    "BoletoBus.Vieaje.Domain/1.0.0": {
+      "type": "project",
+      "path": "../BoletoBus.Vieaje.Domain/BoletoBus.Vieaje.Domain.csproj",
+      "msbuildProject": "../BoletoBus.Vieaje.Domain/BoletoBus.Vieaje.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "BoletoBus.Reserva.Application >= 1.0.0",
       "BoletoBus.ReservaDetalle.Application >= 1.0.0",
+      "BoletoBus.Ruta.Application >= 1.0.0",
+      "BoletoBus.Vieaje.Application >= 1.0.0",
       "Microsoft.Exchange.WebServices >= 2.2.0",
       "Newtonsoft.Json >= 13.0.3"
     ]
@@ -363,6 +439,12 @@
             },
             "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.ReservaDetalle.Application\\BoletoBus.ReservaDetalle.Application.csproj": {
               "projectPath": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.ReservaDetalle.Application\\BoletoBus.ReservaDetalle.Application.csproj"
+            },
+            "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Ruta.Application\\BoletoBus.Ruta.Application.csproj": {
+              "projectPath": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Ruta.Application\\BoletoBus.Ruta.Application.csproj"
+            },
+            "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Vieaje.Application\\BoletoBus.Vieaje.Application.csproj": {
+              "projectPath": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Vieaje.Application\\BoletoBus.Vieaje.Application.csproj"
             }
           }
         }

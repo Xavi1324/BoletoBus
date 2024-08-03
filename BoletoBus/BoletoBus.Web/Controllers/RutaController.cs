@@ -1,20 +1,49 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using BoletoBus.Ruta.Application.Dtos;
+using BoletoBus.Web.HelpController;
+using BoletoBus.Web.Links;
+using BoletoBus.Web.Models.Ruta;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Options;
 
 namespace BoletoBus.Web.Controllers
 {
     public class RutaController : Controller
     {
-        // GET: RutaController
-        public ActionResult Index()
+        private readonly BaseHelp baseHelp;
+        private readonly ConfigUrl configUrl;
+        public RutaController(BaseHelp apiHelp, IOptions<ConfigUrl> options)
         {
-            return View();
+            baseHelp = apiHelp;
+            configUrl = options.Value;
+        }
+        // GET: RutaController
+        public async Task<ActionResult> Index()
+        {
+            var Response = await baseHelp.GetAsync<List<RutaGetModelBase>>(configUrl.GetRuta);
+            if (Response.Success)
+            {
+                return View(Response.data);
+            }
+            else
+            {
+                ModelState.AddModelError(string.Empty, Response.Message);
+                return View(new List<RutaGetModelBase>());
+            }
         }
 
         // GET: RutaController/Details/5
-        public ActionResult Details(int id)
+        public async  Task<ActionResult> Details(int id)
         {
-            return View();
+            var Response = await baseHelp.GetAsync<RutaGetModelBase>(configUrl.GetRutabyId(id));
+            if (Response.Success)
+            {
+                return View(Response.data);
+            }
+            else
+            {
+                ModelState.AddModelError(string.Empty, Response.Message);
+                return NotFound();
+            }
         }
 
         // GET: RutaController/Create
@@ -26,15 +55,23 @@ namespace BoletoBus.Web.Controllers
         // POST: RutaController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public async Task<ActionResult> Create(RutaSaveModel rutaSaveModel)
         {
-            try
+            if (!ModelState.IsValid)
+            {
+                return View(rutaSaveModel);
+            }
+
+            var apiResponse = await baseHelp.PostAsync(configUrl.RutaSave, rutaSaveModel);
+
+            if (apiResponse.Success)
             {
                 return RedirectToAction(nameof(Index));
             }
-            catch
+            else
             {
-                return View();
+                ModelState.AddModelError(string.Empty, apiResponse.Message);
+                return View(rutaSaveModel);
             }
         }
 
@@ -47,15 +84,23 @@ namespace BoletoBus.Web.Controllers
         // POST: RutaController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public async  Task<ActionResult> Edit(int id, RutaUpdateModel rutaUpdateModel)
         {
-            try
+            if (!ModelState.IsValid)
+            {
+                return View(rutaUpdateModel);
+            }
+
+            var apiResponse = await baseHelp.PostAsync(configUrl.RutaUpdate(id), rutaUpdateModel);
+
+            if (apiResponse.Success)
             {
                 return RedirectToAction(nameof(Index));
             }
-            catch
+            else
             {
-                return View();
+                ModelState.AddModelError(string.Empty, apiResponse.Message);
+                return View(rutaUpdateModel);
             }
         }
     }

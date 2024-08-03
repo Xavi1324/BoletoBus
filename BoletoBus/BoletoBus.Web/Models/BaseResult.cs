@@ -1,6 +1,4 @@
-﻿using BoletoBus.Web.Models.Reserva;
-
-namespace BoletoBus.Web.Models
+﻿namespace BoletoBus.Web.Models
 {
     public class BaseResult 
     {

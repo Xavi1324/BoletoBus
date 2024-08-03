@@ -1,58 +1,56 @@
-﻿using System.Net.Http;
-using System.Text.Json;
+﻿using Newtonsoft.Json;
+using System.Text;
 
 namespace BoletoBus.Web.HelpController
 {
     public class BaseHelp
     {
-        private readonly HttpClientHandler httpClientHandler;
-        private readonly string _ApiUrl;
+        private readonly HttpClient _httpClient;
+        
 
-        public BaseHelp(string ApiUrl)
+        public BaseHelp(HttpClient httpClient)
         {
-            httpClientHandler = new HttpClientHandler();
-            httpClientHandler.ServerCertificateCustomValidationCallback = (sender, cert, chain, sslPolicyError) => true;
-            _ApiUrl = ApiUrl;
+            _httpClient = httpClient;
+            
         }
-        public async Task<T> GetApiResult<T>(string endpoint) where T : class
+        public async Task<Response<T>> GetAsync<T>(string url)
         {
-            using (HttpClient httpClient = new HttpClient())
+            HttpResponseMessage response = await _httpClient.GetAsync(url);
+            if (response.IsSuccessStatusCode)
             {
-                var response = await httpClient.GetAsync($"{_ApiUrl}{endpoint}");
-                if (response.IsSuccessStatusCode)
-                {
-                    var apiResponse = await response.Content.ReadAsStringAsync();
-                    try
-                    {
-                        return JsonSerializer.Deserialize<T>(apiResponse, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
-                    }
-                    catch (JsonException)
-                    {
-
-                    }
-                }
+                string jsonResponse = await response.Content.ReadAsStringAsync();
+                return JsonConvert.DeserializeObject<Response<T>>(jsonResponse);
             }
-            return null;
-        }
-        public async Task<bool> PostsApiResult<T>(string endpoint, T model, bool isPut = false) where T : class
-        {
-            using (var httpClient = new HttpClient(httpClientHandler))
+            else
             {
-                var jsonContent = JsonSerializer.Serialize(model);
-                var content = new StringContent(jsonContent, System.Text.Encoding.UTF8, "application/json");
-                HttpResponseMessage response;
-
-                if (isPut)
+                return new Response<T>
                 {
-                    response = await httpClient.PutAsync($"{_ApiUrl}{endpoint}", content);
-                }
-                else
-                {
-                    response = await httpClient.PostAsync($"{_ApiUrl}{endpoint}", content);
-                }
-
-                return response.IsSuccessStatusCode;
+                    Success = false,
+                    Message = $"Error al obtener datos de la API: {response.ReasonPhrase}"
+                };
             }
         }
+
+        public async Task<Response<T>> PostAsync<T>(string url, T data)
+        {
+            var jsonContent = JsonConvert.SerializeObject(data);
+            var contentString = new StringContent(jsonContent, Encoding.UTF8, "application/json");
+
+            HttpResponseMessage response = await _httpClient.PostAsync(url, contentString);
+            if (response.IsSuccessStatusCode)
+            {
+                string jsonResponse = await response.Content.ReadAsStringAsync();
+                return JsonConvert.DeserializeObject<Response<T>>(jsonResponse);
+            }
+            else
+            {
+                return new Response<T>
+                {
+                    Success = false,
+                    Message = $"Error al enviar datos a la API: {response.ReasonPhrase}"
+                };
+            }
+        }
+
     }
 }
