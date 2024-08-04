@@ -1,12 +1,139 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Proyectos\\BoletoBus\\BoletoBus\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A361D566-5CB4-450D-B6CA-E741CDACF4BB}|BoletoBus.Web\\BoletoBus.Web.csproj|c:\\proyectos\\boletobus\\boletobus\\boletobus.web\\models\\viaje\\viajegetmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A361D566-5CB4-450D-B6CA-E741CDACF4BB}|BoletoBus.Web\\BoletoBus.Web.csproj|solutionrelative:boletobus.web\\models\\viaje\\viajegetmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A361D566-5CB4-450D-B6CA-E741CDACF4BB}|BoletoBus.Web\\BoletoBus.Web.csproj|c:\\proyectos\\boletobus\\boletobus\\boletobus.web\\views\\viaje\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A361D566-5CB4-450D-B6CA-E741CDACF4BB}|BoletoBus.Web\\BoletoBus.Web.csproj|solutionrelative:boletobus.web\\views\\viaje\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A361D566-5CB4-450D-B6CA-E741CDACF4BB}|BoletoBus.Web\\BoletoBus.Web.csproj|c:\\proyectos\\boletobus\\boletobus\\boletobus.web\\controllers\\viajecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A361D566-5CB4-450D-B6CA-E741CDACF4BB}|BoletoBus.Web\\BoletoBus.Web.csproj|solutionrelative:boletobus.web\\controllers\\viajecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A361D566-5CB4-450D-B6CA-E741CDACF4BB}|BoletoBus.Web\\BoletoBus.Web.csproj|c:\\proyectos\\boletobus\\boletobus\\boletobus.web\\views\\viaje\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A361D566-5CB4-450D-B6CA-E741CDACF4BB}|BoletoBus.Web\\BoletoBus.Web.csproj|solutionrelative:boletobus.web\\views\\viaje\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A361D566-5CB4-450D-B6CA-E741CDACF4BB}|BoletoBus.Web\\BoletoBus.Web.csproj|c:\\proyectos\\boletobus\\boletobus\\boletobus.web\\views\\viaje\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A361D566-5CB4-450D-B6CA-E741CDACF4BB}|BoletoBus.Web\\BoletoBus.Web.csproj|solutionrelative:boletobus.web\\views\\viaje\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A361D566-5CB4-450D-B6CA-E741CDACF4BB}|BoletoBus.Web\\BoletoBus.Web.csproj|c:\\proyectos\\boletobus\\boletobus\\boletobus.web\\views\\viaje\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A361D566-5CB4-450D-B6CA-E741CDACF4BB}|BoletoBus.Web\\BoletoBus.Web.csproj|solutionrelative:boletobus.web\\views\\viaje\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A361D566-5CB4-450D-B6CA-E741CDACF4BB}|BoletoBus.Web\\BoletoBus.Web.csproj|c:\\proyectos\\boletobus\\boletobus\\boletobus.web\\helpcontroller\\basehelp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A361D566-5CB4-450D-B6CA-E741CDACF4BB}|BoletoBus.Web\\BoletoBus.Web.csproj|solutionrelative:boletobus.web\\helpcontroller\\basehelp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 391,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ViajeGetModelBase.cs",
+              "DocumentMoniker": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Web\\Models\\Viaje\\ViajeGetModelBase.cs",
+              "RelativeDocumentMoniker": "BoletoBus.Web\\Models\\Viaje\\ViajeGetModelBase.cs",
+              "ToolTip": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Web\\Models\\Viaje\\ViajeGetModelBase.cs",
+              "RelativeToolTip": "BoletoBus.Web\\Models\\Viaje\\ViajeGetModelBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T02:12:22.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Web\\Views\\Viaje\\Edit.cshtml",
+              "RelativeDocumentMoniker": "BoletoBus.Web\\Views\\Viaje\\Edit.cshtml",
+              "ToolTip": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Web\\Views\\Viaje\\Edit.cshtml",
+              "RelativeToolTip": "BoletoBus.Web\\Views\\Viaje\\Edit.cshtml",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAF0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-04T02:10:48.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Web\\Views\\Viaje\\Create.cshtml",
+              "RelativeDocumentMoniker": "BoletoBus.Web\\Views\\Viaje\\Create.cshtml",
+              "ToolTip": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Web\\Views\\Viaje\\Create.cshtml",
+              "RelativeToolTip": "BoletoBus.Web\\Views\\Viaje\\Create.cshtml",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAAYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-04T02:10:09.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Web\\Views\\Viaje\\Details.cshtml",
+              "RelativeDocumentMoniker": "BoletoBus.Web\\Views\\Viaje\\Details.cshtml",
+              "ToolTip": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Web\\Views\\Viaje\\Details.cshtml",
+              "RelativeToolTip": "BoletoBus.Web\\Views\\Viaje\\Details.cshtml",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAFwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-04T02:09:00.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Web\\Views\\Viaje\\Index.cshtml",
+              "RelativeDocumentMoniker": "BoletoBus.Web\\Views\\Viaje\\Index.cshtml",
+              "ToolTip": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Web\\Views\\Viaje\\Index.cshtml",
+              "RelativeToolTip": "BoletoBus.Web\\Views\\Viaje\\Index.cshtml",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAGUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-04T02:07:40.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ViajeController.cs",
+              "DocumentMoniker": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Web\\Controllers\\ViajeController.cs",
+              "RelativeDocumentMoniker": "BoletoBus.Web\\Controllers\\ViajeController.cs",
+              "ToolTip": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Web\\Controllers\\ViajeController.cs",
+              "RelativeToolTip": "BoletoBus.Web\\Controllers\\ViajeController.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAA4wFYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T02:06:59.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BaseHelp.cs",
+              "DocumentMoniker": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Web\\HelpController\\BaseHelp.cs",
+              "RelativeDocumentMoniker": "BoletoBus.Web\\HelpController\\BaseHelp.cs",
+              "ToolTip": "C:\\Proyectos\\BoletoBus\\BoletoBus\\BoletoBus.Web\\HelpController\\BaseHelp.cs",
+              "RelativeToolTip": "BoletoBus.Web\\HelpController\\BaseHelp.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T02:04:29.929Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

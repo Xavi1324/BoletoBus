@@ -9,7 +9,7 @@
         public string horaSalida { get; set; }
         public DateTime fechaLlegada { get; set; }
         public string horaLlegada { get; set; }
-        public int precio { get; set; }
+        public decimal precio { get; set; }
         public int totalAsientos { get; set; }
         public int asientosReservados { get; set; }
         public int asientoDisponibles { get; set; }

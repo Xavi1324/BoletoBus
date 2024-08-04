@@ -1,0 +1,43 @@
+﻿@model BoletoBus.ReservaDetalle.Application.Dtos.ReservaDetalleSave
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>New Reserva Detalle</h1>
+
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="IdReserva" class="control-label"></label>
+                <input asp-for="IdReserva" class="form-control" />
+                <span asp-validation-for="IdReserva" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdAsiento" class="control-label"></label>
+                <input asp-for="IdAsiento" class="form-control" />
+                <span asp-validation-for="IdAsiento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FechaCreacion" class="control-label"></label>
+                <input asp-for="FechaCreacion" class="form-control" />
+                <span asp-validation-for="FechaCreacion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

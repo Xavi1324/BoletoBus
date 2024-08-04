@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BoletoBus.Common.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ebbdc47f905b989e4ee83508c2f8192ef799e92")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1eb1e7fcc0159967d9d790978054111230ec4f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("BoletoBus.Common.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BoletoBus.Common.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

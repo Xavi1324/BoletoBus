@@ -1,0 +1,53 @@
+﻿@model IEnumerable<BoletoBus.Web.Models.Ruta.RutaGetModelBase>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Ruta list</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.idRuta)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.origen)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.destino)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.fechaCreacion)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.idRuta)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.origen)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.destino)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.fechaCreacion)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.idRuta }) |
+                @Html.ActionLink("Details", "Details", new { id = item.idRuta }) |
+                
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

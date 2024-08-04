@@ -1,7 +1,14 @@
+using BoletoBus.Web.HelpController;
+using BoletoBus.Web.Links;
+using Microsoft.Exchange.WebServices.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddHttpClient<BaseHelp>();
+
+builder.Services.Configure<ConfigUrl>(builder.Configuration.GetSection("Links"));
 
 var app = builder.Build();
 

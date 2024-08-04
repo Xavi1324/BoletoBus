@@ -6,7 +6,7 @@
         public int idViaje { get; set; }
         public int idPasajero { get; set; }
         public int asientosReservados { get; set; }
-        public int montoTotal { get; set; }
+        public decimal montoTotal { get; set; }
         public DateTime fechaCreacion { get; set; }
     }
 }

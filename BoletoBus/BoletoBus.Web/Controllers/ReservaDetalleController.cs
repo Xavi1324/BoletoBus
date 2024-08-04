@@ -16,10 +16,7 @@ namespace BoletoBus.Web.Controllers
             baseHelp = apiHelp;
             configUrl = options.Value;
         }
-        public ReservaDetalleController()
-        {
-            this.baseHelp = baseHelp;
-        }
+        
         // GET: ReservaDetalleController
         public async  Task<ActionResult> Index()
         {

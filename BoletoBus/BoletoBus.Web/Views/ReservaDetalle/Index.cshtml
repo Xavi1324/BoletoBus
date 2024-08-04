@@ -1,0 +1,52 @@
+﻿@model IEnumerable<BoletoBus.Web.Models.ReservaDetalle.ReservaDetalleGetModelBase>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Reserva Detalle List</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.idReservaDetalle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.idReserva)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.idAsiento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.fechaCreacion)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.idReservaDetalle)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.idReserva)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.idAsiento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.fechaCreacion)
+            </td>
+            <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.idReservaDetalle }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.idReservaDetalle }) |
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
